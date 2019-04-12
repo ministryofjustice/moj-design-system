@@ -83,9 +83,9 @@ Create a folder called `Projects` in your `Documents` folder.
 
 #### Unzip the design system and move it
 
-Unzip the design system you downloaded - you should end up with a folder called `moj-design-system-master`.
+Unzip the design system you downloaded - you should end up with a folder called `mojdt-design-system-master`.
 
-Rename the folder to something descriptive for your local version. For this guide, we’ll use `moj-design-system`.
+Rename the folder to something descriptive for your local version. For this guide, we’ll use `mojdt-design-system`.
 
 Move the folder into your `Projects` folder.
 
@@ -100,18 +100,18 @@ Learning a few basic terminal commands can make using the kit much easier.
 
 #### Navigating to your local instance
 
-You need to navigate to your local instance in the terminal. Most commands for the kit need to be run in the moj-design-system folder.
+You need to navigate to your local instance in the terminal. Most commands for the kit need to be run in the mojdt-design-system folder.
 
 **Mac users:**
 
 ```
-cd ~/Projects/moj-design-system
+cd ~/Projects/mojdt-design-system
 ```
 
 **Windows users:**
 
 ```
-cd ~/Documents/Projects/moj-design-system
+cd ~/Documents/Projects/mojdt-design-system
 ```
 
 ### Install the kit
