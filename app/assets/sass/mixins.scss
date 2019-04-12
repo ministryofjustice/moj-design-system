@@ -1,0 +1,23 @@
+@mixin ds-link-style-default {
+
+  &:link {
+    color: govuk-colour("blue");
+  }
+
+  &:visited {
+    color: govuk-colour("blue");
+  }
+
+  &:hover {
+    color: govuk-colour("light-blue");
+  }
+
+  &:active {
+    color: govuk-colour("black");
+  }
+
+  &:focus {
+    color: govuk-colour("black");
+  }
+
+}

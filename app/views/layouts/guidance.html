@@ -1,0 +1,39 @@
+{% extends "./base.html" %}
+
+{% block body %}
+
+  <div class="app-pane app-pane--enabled">
+
+    {% include "./partials/header.html" %}
+
+    {% include "./partials/navigation.html" %}
+
+    <div class="app-pane__body">
+
+      <div class="app-pane__subnav">
+        {% block subNav %}{% endblock %}
+      </div>
+
+      <div class="app-pane__content">
+
+        <main class="app-content" role="main">
+          {% block pageContent %}{% endblock %}
+        </main>
+
+        {% include "./partials/footer.html" %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
+
+{% block pageScripts %}
+  <script>
+    $('.app-tabs').each(function(e, el) {
+      new Tabs($(el));
+    });
+  </script>
+{% endblock %}

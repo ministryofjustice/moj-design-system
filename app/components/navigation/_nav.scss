@@ -1,0 +1,64 @@
+/* ==========================================================================
+   #NAV
+   ========================================================================== */
+
+.app-nav {
+  @include govuk-font(19);
+  border-bottom: 1px solid $govuk-border-colour;
+
+  @include govuk-media-query($from: tablet) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+.app-nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0 0 -1px;
+  padding: 0;
+  white-space: nowrap;
+
+  @include govuk-media-query($until: tablet) {
+    overflow-y: scroll;
+  }
+
+}
+
+.app-nav__list-item {
+  display: flex;
+
+  a,
+  a:link,
+  a:visited {
+    border-bottom: 4px solid transparent;
+    color: govuk-colour("blue");
+    display: block;
+    font-weight: bold;
+    padding: govuk-spacing(3);
+    padding-bottom: govuk-spacing(3) - 4px; // Compensate for 4px border
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom-color: govuk-colour("light-blue");
+  }
+
+  a:focus {
+    background-color: govuk-colour("white");
+    position: relative;
+  }
+
+}
+
+.app-nav__list-item--selected {
+
+  a,
+  a:link,
+  a:visited {
+    border-bottom-color: govuk-colour("blue");
+    color: govuk-colour("blue");
+  }
+
+}

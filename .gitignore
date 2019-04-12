@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.port.tmp
+.tmp
+.vscode/
+node_modules
+npm-debug.log
+public/
+sass-cache
+settings.json

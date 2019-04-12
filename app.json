@@ -1,0 +1,54 @@
+{
+  "name": "mojdt-design-system",
+  "description": "The MOJ Design System is one place for service teams to find styles, components and patterns for designing Ministry of Justice services.",
+  "keywords": [
+    "ministry-of-justice",
+    "design-system",
+    "design-patterns",
+    "design",
+    "patterns"
+  ],
+  "website": "https://mojdt-design-system.herokuapp.com/",
+  "repository": "https://github.com/ministryofjustice/mojdt-design-system",
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "zeke/npm"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "NPM_AUTH_TOKEN":  {
+      "required": true
+    },
+    "PASSWORD": {
+      "required": true
+    },
+    "USE_AUTH": {
+      "required": true
+    },
+    "USE_HTTPS": {
+      "required": true
+    },
+    "USERNAME": {
+      "required": true
+    }
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

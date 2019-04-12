@@ -1,0 +1,39 @@
+<div class="app-pane__nav">
+
+  {{ appNavigation({
+    items: [
+      {
+        text: 'Get started',
+        href: '/get-started',
+        selected: sectionId == 'get-started'
+      },
+      {
+        text: 'Principles',
+        href: '/principles',
+        selected: sectionId == 'principles'
+      },
+      {
+        text: 'Styles',
+        href: '/styles',
+        selected: sectionId == 'styles'
+      },
+      {
+        text: 'Components',
+        href: '/components',
+        selected: sectionId == 'components'
+      },
+      {
+        text: 'Patterns',
+        href: '/patterns',
+        selected: sectionId == 'patterns'
+      },
+
+      {
+        text: 'Content',
+        href: '/content',
+        selected: sectionId == 'content'
+      }
+    ]
+  }) }}
+
+</div>

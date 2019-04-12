@@ -1,0 +1,38 @@
+{{ appSubNavigation({
+  sections: [{
+    heading: {
+      text: 'Section 1'
+    },
+    items: [{
+      text: 'Content 1',
+      href: '/content/content-1',
+      selected: pageId == 'content-1'
+    },
+    {
+      text: 'Content 2',
+      href: '/content/content-2',
+      selected: pageId == 'content-2'
+    },
+    {
+      text: 'Content 3',
+      href: '/content/content-3',
+      selected: pageId == 'content-3'
+    }]
+  },
+  {
+    heading: {
+      text: 'Section 2'
+    },
+    items: [{
+      text: 'Content 4',
+      href: '/content/content-4',
+      selected: pageId == 'content-4'
+    },
+    {
+      text: 'Content 5',
+      href: '/content/content-5',
+      selected: pageId == 'content-5'
+    }]
+  }
+  ]
+}) }}

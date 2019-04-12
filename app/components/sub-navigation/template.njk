@@ -1,0 +1,24 @@
+<nav class="app-subnav{%- if params.classes %} {{ params.classes }}{% endif %}"{% for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
+
+  {%- if params.sections %}
+    {% for section in params.sections %}
+      <h{{ section.heading.headingLevel | default(4) }} class="app-subnav__title{%- if section.heading.classes %} {{ section.heading.classes }}{% endif %}"{% for attribute, value in section.heading.attributes %} {{attribute}}="{{value}}"{% endfor %}>{{ section.heading.html | safe if section.heading.html else section.heading.text }}</h{{ section.heading.headingLevel | default(4) }}>
+      <ul class="app-subnav__list">
+        {%- for item in section.items %}
+          <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}">
+            <a href="{{ item.href }}"{% if item.selected %} aria-current="location"{% endif %}>{{ item.html | safe if item.html else item.text }}</a>
+          </li>
+        {% endfor -%}
+      </ul>
+    {% endfor %}
+  {% else %}
+    <ul class="app-subnav__list">
+      {%- for item in params.items %}
+        <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}">
+          <a href="{{ item.href }}"{% if item.selected %} aria-current="location"{% endif %}>{{ item.html | safe if item.html else item.text }}</a>
+        </li>
+      {% endfor -%}
+    </ul>
+  {% endif -%}
+
+</nav>

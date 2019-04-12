@@ -1,0 +1,23 @@
+{% extends "./base.html" %}
+
+{% block body %}
+
+  <div class="app-pane">
+
+    {% include "./partials/header.html" %}
+
+    {% include "./partials/navigation.html" %}
+
+    <div class="app-pane__content">
+
+      <main id="content" role="main">
+      {% block pageContent %}{% endblock %}
+      </main>
+
+      {% include "./partials/footer.html" %}
+
+    </div>
+
+  </div>
+
+{% endblock %}
