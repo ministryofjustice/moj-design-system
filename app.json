@@ -15,9 +15,6 @@
   ],
   "buildpacks": [
     {
-      "url": "zeke/npm"
-    },
-    {
       "url": "heroku/nodejs"
     }
   ],
