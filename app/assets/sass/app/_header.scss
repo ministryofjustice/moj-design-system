@@ -5,15 +5,9 @@
 .app-header {
   background-color: govuk-colour("black");
   color: govuk-colour("white");
-  padding: govuk-spacing(3);
-
-  @include govuk-media-query($from: tablet) {
-    padding-left: govuk-spacing(6);
-    padding-right: govuk-spacing(6);
-  }
-
+  padding: govuk-spacing(2) 0;
+  border-bottom: govuk-spacing(2) solid govuk-colour("blue");
 }
-
 
 .app-header__link {
   color: govuk-colour("white");
@@ -31,7 +25,6 @@
 
 }
 
-
 .app-header__logotype-crest {
   fill: currentColor;
   height: 45px;
@@ -40,12 +33,10 @@
   width: 50px;
 }
 
-
 .app-header__logotype-text {
   @include govuk-font($size: 24, $weight: bold);
   vertical-align: middle;
 }
-
 
 .app-header__title {
   @include govuk-font($size: 24);

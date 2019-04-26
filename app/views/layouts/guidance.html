@@ -2,9 +2,11 @@
 
 {% block body %}
 
-  <div class="app-pane app-pane--enabled">
+  <div class="app-pane">
 
     {% include "./partials/header.html" %}
+
+    {% include "./partials/phase-banner.html" %}
 
     {% include "./partials/navigation.html" %}
 
@@ -12,6 +14,7 @@
 
       <div class="app-pane__subnav">
         {% block subNav %}{% endblock %}
+        {% include "./partials/back-to-top.html" %}
       </div>
 
       <div class="app-pane__content">
@@ -20,11 +23,11 @@
           {% block pageContent %}{% endblock %}
         </main>
 
-        {% include "./partials/footer.html" %}
-
       </div>
-
+      
     </div>
+
+    {% include "./partials/footer.html" %}
 
   </div>
 
