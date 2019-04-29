@@ -2,21 +2,19 @@
    #NAV
    ========================================================================== */
 
+.app-pane__nav {
+  background-color: govuk-colour("grey-4");
+}
+
 .app-nav {
   @include govuk-font(19);
-  border-bottom: 1px solid $govuk-border-colour;
-
-  @include govuk-media-query($from: tablet) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
+  margin-left: -15px;
 }
 
 .app-nav__list {
   display: flex;
   list-style: none;
-  margin: 0 0 -1px;
+  margin: 0 0 0px;
   padding: 0;
   white-space: nowrap;
 

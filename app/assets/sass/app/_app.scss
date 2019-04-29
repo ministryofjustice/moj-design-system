@@ -2,8 +2,38 @@
    #APP
    ========================================================================== */
 
-$toc-width: 300px;
-$toc-width-tablet: 210px;
+$toc-width: 260px;
+
+.app-phase-banner {
+  border-bottom: none;
+}
+
+.app-back-to-top {
+  display: none;
+  @include govuk-media-query($from: tablet) {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+
+    a,
+    a:link,
+    a:visited {
+      color: govuk-colour("blue");
+    }
+  }
+}
+
+.app-back-to-top__icon {
+  display: inline-block;
+  width: .8em;
+  height: 1em;
+  margin-top: -5px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 .app-main-wrapper {
   max-width: 1680px;
@@ -93,21 +123,6 @@ $toc-width-tablet: 210px;
 
 }
 
-.app-pane__header {
-
-  @include govuk-media-query($from: tablet) {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-
-    > * {
-      flex: 1 0 auto;
-    }
-
-  }
-
-}
-
 .app-pane__body {
 
   @include govuk-media-query($from: tablet) {
@@ -115,30 +130,18 @@ $toc-width-tablet: 210px;
     position: relative;
     min-height: 0;
     flex: 1 1 100%;
-
-    > * {
-      overflow-x: scroll;
-      -webkit-overflow-scrolling: touch;
-      -ms-overflow-style: none;
-    }
-
+    @include govuk-width-container();
   }
 
 }
 
 .app-pane__subnav {
-  border-bottom: 1px solid $govuk-border-colour;
 
   @include govuk-media-query($from: tablet) {
-    border-right: 1px solid $govuk-border-colour;
+    // border-right: 1px solid $govuk-border-colour;
     flex: 0 0 auto;
-    width: $toc-width-tablet;
-  }
-
-  @include govuk-media-query($from: desktop) {
     width: $toc-width;
   }
-
 }
 
 .app-pane__content {
@@ -147,6 +150,7 @@ $toc-width-tablet: 210px;
     margin-left: auto;
     flex: 1 1 auto;
     flex-direction: column;
+    min-width: 0; // needed so that example pre doesn't overflow
 
     // Stick footer to bottom of screen if content is shorter than viewport
     .app-content {

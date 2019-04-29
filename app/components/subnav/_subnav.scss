@@ -2,23 +2,17 @@
    #SUBNAV (mobile and desktop)
    ========================================================================== */
 
-.app-pane__subnav {
-
-  @include govuk-media-query($until: tablet) {
-    background-color: govuk-colour("grey-4");
-  }
-
-}
-
 .app-subnav {
   @include govuk-font(16);
-  display: flex;
-  overflow-x: scroll;
+
+  @include govuk-media-query($until: tablet) {
+    display: flex;
+    overflow-x: scroll;
+  }
 
   @include govuk-media-query($from: tablet) {
     display: block;
-    margin-bottom: govuk-spacing(3);
-    padding: govuk-spacing(4);
+    padding: govuk-spacing(4) 0 0;
   }
 
 }
@@ -45,7 +39,7 @@
 
   @include govuk-media-query($until: tablet) {
     display: flex;
-    margin: 0 0 -1px;
+    margin: 0;
     white-space: nowrap;
   }
 
@@ -96,10 +90,17 @@
   a,
   a:link,
   a:visited {
-    background-color: govuk-colour("grey-4");
     border-color: govuk-colour("blue");
     color: govuk-colour("blue");
     font-weight: bold;
+  }
+
+  @include govuk-media-query($from: tablet) {
+    a,
+    a:link,
+    a:visited {
+      background-color: govuk-colour("grey-4");
+    }
   }
 
 }
