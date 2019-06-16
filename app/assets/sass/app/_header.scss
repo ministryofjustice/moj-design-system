@@ -41,4 +41,5 @@
 .app-header__title {
   @include govuk-font($size: 24);
   vertical-align: middle;
+  margin-left: govuk-spacing(2);
 }
