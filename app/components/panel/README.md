@@ -18,19 +18,19 @@ In most cases, the panel component is used on confirmation pages, to tell the us
 ```
 {{ appPanel({
     titleText: "Get in touch",
-    html: "If you’ve got a question, idea or suggestion share it in #design-system channel on Slack or email the Design System team on <a class='app-contact-panel__link' href='mailto:design-sytem@digital.justice.gov.uk'>design-sytem@digital.justice.gov.uk</a>"
+    html: "If you’ve got a question, idea or suggestion share it in #design-system channel on Slack or email the Design System team on <a class='app-panel__link' href='mailto:design-sytem@digital.justice.gov.uk'>design-sytem@digital.justice.gov.uk</a>"
   })
 }}
 ```
 
 #### Markup
 ```
-<div class="app-contact-panel">
-  <h2 class="app-contact-panel__heading">
+<div class="app-panel">
+  <h2 class="app-panel__heading">
     Get in touch
   </h2>
-  <p class="app-contact-panel__body">
-    If you’ve got a question, idea or suggestion share it in #design-system channel on Slack or email the Design System team on <a class="app-contact-panel__link" href="mailto:design-sytem@digital.justice.gov.uk">design-sytem@digital.justice.gov.uk</a>
+  <p class="app-panel__body">
+    If you’ve got a question, idea or suggestion share it in #design-system channel on Slack or email the Design System team on <a class="app-panel__link" href="mailto:design-sytem@digital.justice.gov.uk">design-sytem@digital.justice.gov.uk</a>
   </p>
 </div>
 ```

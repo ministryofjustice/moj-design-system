@@ -1,8 +1,8 @@
 /* ==========================================================================
-   #CONTACT PANEL
+   #PANEL
    ========================================================================== */
 
-.app-contact-panel {
+.app-panel {
   @include govuk-responsive-margin(6, "top");
   @include govuk-responsive-margin(6, "bottom");
   @include govuk-responsive-padding(3);
@@ -10,31 +10,31 @@
   color: govuk-colour("white");
 }
 
-.app-contact-panel__heading,
-.app-contact-panel__body,
-.app-contact-panel__link {
+.app-panel__heading,
+.app-panel__body,
+.app-panel__link {
   color: govuk-colour("white");
 }
 
-.app-contact-panel__heading {
+.app-panel__heading {
   @extend .govuk-heading-m;
 }
 
-.app-contact-panel__body {
+.app-panel__body {
   @include govuk-font(19);
   margin-bottom: 0;
 }
 
-.app-contact-panel__link:link,
-.app-contact-panel__link:active
-.app-contact-panel__link:visited {
+.app-panel__link:link,
+.app-panel__link:active
+.app-panel__link:visited {
   color: govuk-colour("white");
 }
 
-.app-contact-panel__link:hover {
+.app-panel__link:hover {
   color: lighten(govuk-colour("blue"), 45%);
 }
 
-.app-contact-panel__link:focus {
+.app-panel__link:focus {
   color: govuk-colour("black");
 }
