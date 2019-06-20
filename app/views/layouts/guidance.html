@@ -4,30 +4,31 @@
 
   <div class="app-pane">
 
-    {% include "partials/header.html" %}
+    {% include "./partials/header.html" %}
 
-    {% include "partials/phase-banner.html" %}
+    {% include "./partials/phase-banner.html" %}
 
-    {% include "partials/navigation.html" %}
+    {% include "./partials/navigation.html" %}
 
     <div class="app-pane__body">
 
       <div class="app-pane__subnav">
         {% block subNav %}{% endblock %}
-        {% include "partials/back-to-top.html" %}
+        {% include "./partials/back-to-top.html" %}
       </div>
 
       <div class="app-pane__content">
 
         <main class="app-content" role="main">
           {% block pageContent %}{% endblock %}
+          {% include "partials/contact-panel.html" %}
         </main>
 
       </div>
 
     </div>
 
-    {% include "partials/footer.html" %}
+    {% include "./partials/footer.html" %}
 
   </div>
 
