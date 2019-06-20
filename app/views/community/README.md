@@ -1,6 +1,6 @@
-# Components
+# Community
 
-The MOJ Design System is for everyone. It has a strong cross-government community behind it. It includes the latest research, design and development to represent and be relevant for its users.
+The MOJ Design System is for everyone. It has a strong community behind it. It includes the latest research, design and development to represent and be relevant for its users.
 
 Find out:
 
@@ -18,9 +18,9 @@ These principles are for the community of people that create and contribute to g
 
 Reuse as much as possible and iterate based on user needs.
 
-Start by checking what exists in the [MOJ Design System](/).
+Start by checking what exists in the [GOV.UK Design System](https://gov.uk/design-system) and [MOJ Design System](/).
 
-If something is not in the Design System, check the [community backlog](/community/backlog/) to see what colleagues in other departments have done before.
+If something is not in the Design System, check the [community backlog](/community/backlog/) to see what colleagues in other teams have done before.
 
 Reach out to the community to ask questions, gather examples and learn from others’ mistakes.
 

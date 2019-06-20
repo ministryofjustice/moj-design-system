@@ -1,9 +1,8 @@
 {% extends "../../layouts/guidance.html" %}
 
-{% set sectionId = "get-started" %}
-{% set sectionTitle = "Section 1" %}
-{% set pageId = "content-1" %}
-{% set pageTitle = "Content 1" %}
+{% set sectionId = "community" %}
+{% set pageId = "design-system-working-group" %}
+{% set pageTitle = "Design system working group" %}
 
 {% block subNav %}
 {% include "../navigation.html" %}
@@ -11,7 +10,7 @@
 
 {% block pageContent %}
 
-  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">{{ sectionTitle | default('Get started') }} </span> {{ pageTitle }}</h1>
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Community</span> {{ pageTitle }}</h1>
 
   <div class="app-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
@@ -24,3 +23,4 @@
   }}
 
 {% endblock %}
+
