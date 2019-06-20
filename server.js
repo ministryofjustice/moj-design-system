@@ -102,12 +102,8 @@ const appViews = [
   path.join(__dirname, '/node_modules/govuk-frontend/'),
   path.join(__dirname, '/node_modules/govuk-frontend/components'),
   path.join(__dirname, '/node_modules/@ministryofjustice/frontend/'),
-  path.join(__dirname, '/node_modules/@ministryofjustice/rontend/components'),
+  path.join(__dirname, '/node_modules/@ministryofjustice/frontend/components'),
   path.join(__dirname, 'app/views'),
-  // path.join(__dirname, 'app/views/components'),
-  // path.join(__dirname, 'app/views/patterns'),
-  path.join(__dirname, 'app/views/layouts'),
-  // path.join(__dirname, 'app/views/partials'),
   path.join(__dirname, 'app/components')
 ];
 
