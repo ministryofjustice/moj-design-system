@@ -1,11 +1,11 @@
 <div class="{%- if params.classes %} {{ params.classes }}{% else %}app-panel{% endif %}">
   <h{{ params.headingLevel | default(2) }} class="{%- if params.titleClasses %} {{ params.titleClasses }}{% else %}app-panel__heading{% endif %}">
-    {{ params.titleHtml | safe if params.titleHtml else params.titleText }}
+    {{- params.titleHtml | safe if params.titleHtml else params.titleText -}}
   </h{{ params.headingLevel | default(2) }}>
 
   {%- if params.html or params.text %}
     <p class="app-panel__body">
-      {{ params.html | safe if params.html else params.text }}
+      {{- params.html | safe if params.html else params.text -}}
     </p>
 	{% endif -%}
 </div>
