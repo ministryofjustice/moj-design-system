@@ -29,13 +29,7 @@ exports.getFileContents = path => {
 exports.getNunjucksCode = path => {
   let fileContents = this.getFileContents(path);
   let parsedFile = matter(fileContents);
-  let content = parsedFile.content.replace(
-    /{%\s*extends\s*\S*\s*%}\s+/,
-    ''
-  );
-  return content;
-
-  // return parsedFile.content;
+  return parsedFile.content;
 }
 
 // This helper function takes a path of a *.md.njk file and
