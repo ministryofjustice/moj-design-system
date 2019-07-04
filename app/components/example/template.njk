@@ -11,13 +11,13 @@
 {% endif -%}
 
 {% set codeHref = './app/views/' + section + params.name + '/examples/' + params.example + '/template.html' %}
-{% set cssHref = './app/views/' + section + params.name + '/examples/' + params.example + '/styles.css' %}
-{% set jsHref = './app/views/' + section + params.name + '/examples/' + params.example + '/scripts.html' %}
+{#% set cssHref = './app/views/' + section + params.name + '/examples/' + params.example + '/styles.css' %#}
+{#% set jsHref = './app/views/' + section + params.name + '/examples/' + params.example + '/scripts.html' %#}
 
 {% set exampleHref = '/' + section + params.name + '/examples/' + params.example %}
 
 {%- if section == 'components/' %}
-  {% set argumentsHref = 'https://github.com/ministryofjustice/mojdt-frontend/tree/master/src/' + section + params.name + '#arguments' %}
+  {% set argumentsHref = 'https://github.com/ministryofjustice/mojdt-frontend/tree/master/src/' + section + '/moj-' + params.name + '#arguments' %}
 {% endif -%}
 
 {%- set nunjucksCode %}
@@ -32,17 +32,17 @@
 {% endcode %}
 {% endset -%}
 
-{%- set cssCode %}
-{#% code %}css
+{#%- set cssCode %}
+{% code %}css
 {{ getCssCode(cssHref) | safe }}
-{% endcode %#}
-{% endset -%}
+{% endcode %}
+{% endset -%#}
 
-{%- set jsCode %}
+{#%- set jsCode %}
 {% code %}js
 {{ getJsCode(jsHref) | safe }}
 {% endcode %}
-{% endset -%}
+{% endset -%#}
 
 <div class="app-example">
 
@@ -58,25 +58,33 @@
 
   <ul class="app-tabs__list">
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example}}">HTML</a></li>
-    <!-- <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#css{{'-' + params.example}}">CSS</a></li> -->
-    <!-- <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#js{{'-' + params.example}}">JavaScript</a></li> -->
+    {#%- if cssCode.length %}
+      <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#css{{'-' + params.example}}">CSS</a></li>
+    {% endif -%#}
+    {#%- if jsCode.length %}
+      <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#js{{'-' + params.example}}">JavaScript</a></li>
+    {% endif -%#}
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example}}">Nunjucks</a></li>
   </ul>
 
   <div class="app-tabs__panel app-js-hidden" id="html{{ '-' + params.example }}" data-module="app-copy">
-    {{ htmlCode | safe }}
+    {{ htmlCode | indent(4) | safe }}
   </div>
 
-  <!-- <div class="app-tabs__panel app-js-hidden" id="css{{ '-' + params.example }}" data-module="app-copy">
-    {{ cssCode | safe }}
-  </div> -->
+  {#%- if cssCode.length %}
+  <div class="app-tabs__panel app-js-hidden" id="css{{ '-' + params.example }}" data-module="app-copy">
+    {{ cssCode | indent(4) | safe }}
+  </div>
+  {% endif -%#}
 
-  <!-- <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example }}" data-module="app-copy">
-    {{ jsCode | safe }}
-  </div> -->
+  {#%- if jsCode.length %}
+  <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example }}" data-module="app-copy">
+    {{ jsCode | indent(4) | safe }}
+  </div>
+  {% endif -%#}
 
   <div class="app-tabs__panel app-js-hidden" id="nunjucks{{ '-' + params.example }}" data-module="app-copy">
-    {{ nunjucksCode | safe }}
+    {{ nunjucksCode | indent(4) | safe }}
 
     {%- if argumentsHref %}
     You can configure this component using the [Nunjucks macro arguments]({{ argumentsHref }})
