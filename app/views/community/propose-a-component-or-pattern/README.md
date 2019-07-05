@@ -1,14 +1,12 @@
 {% set contributionCallOutHtml %}
-
-  <p class="govuk-body">Consider whether you want to contribute to directly to the <a href="">GOV.UK Design System</a> instead. It will mean your work can be used with the whole fo government more easily.</p>
+  <p class="govuk-body">Consider whether you want to contribute directly to the <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a> instead. It will mean your work can be used with the whole of government.</p>
 
   <p class="govuk-body">You should only contribute to the MOJ Design System if:</p>
 
   <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
-    <li>the contribution is only relevant to MOJ service</li>
-    <li>the GOV.UK Design System team aren't currently able to prioritise your work</li>
+    <li>the contribution isn't relevant to the whole of government</li>
+    <li>the GOV.UK Design System team are currently unable to prioritise your work</li>
   </ul>
-
 {% endset %}
 
 {{mojBanner({
