@@ -38,10 +38,10 @@ The default, neutral badge is blue. [Alternative styles](/styles/badge/) are als
 
 This component has been used successfully in the following services:
 
-- Judicial case manager (HM Courts & Tribunals Service)
-- Professional case manager (HM Courts & Tribunals Service)
+- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
+- Professional case manager (Her Majesty’s Courts and Tribunals Service)
 - Claim fees for Crown court defence (Legal Aid Agency)
-- Prisoner Escort Request (HM Prisons & Probation Service)
+- Prisoner Escort Request (Her Majesty’s Prison and Probation Service)
 
 ## Contribute to this component
 

@@ -58,8 +58,8 @@ Use this variant when you want to tell users some information.
 
 This component has been used successfully in the following services:
 
-- Judicial case manager (HM Courts and Tribunals Service)
-- Professional case manager (HM Courts and Tribunals Service)
+- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
+- Professional case manager (Her Majesty’s Courts and Tribunals Service)
 
 ## Contribute to this component
 
