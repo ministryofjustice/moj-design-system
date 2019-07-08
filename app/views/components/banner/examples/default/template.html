@@ -1,0 +1,10 @@
+{%- from "moj-banner/macro.njk" import mojBanner -%}
+
+{% set bannerHtml %}
+  <h2 class="govuk-heading-m">The case has been reassigned to you by Jane Smith</h2>
+  <p><a href="#">Dismiss</a></p>
+{% endset %}
+
+{{ mojBanner({
+  html: bannerHtml
+}) }}
