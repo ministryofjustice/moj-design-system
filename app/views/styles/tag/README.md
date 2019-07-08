@@ -117,7 +117,7 @@ There are a number of additional colour styles that can be used:
 
 ### When to use these styles
 
-Use these tag styles when the user needs to be alerted to the status of something, for example,
+Use these tag styles when the user needs to be alerted to the status of something, for example, the status of a prisoner or someone in custody.
 
 ### Research on these styles
 

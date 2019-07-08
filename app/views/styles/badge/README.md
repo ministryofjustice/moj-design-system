@@ -154,9 +154,15 @@ There are a number of additional colour styles that can be used:
 </tbody>
 </table>
 
+## Guidance
+
+### When to use these styles
+
+Use these badge styles when the user needs to be alerted to the status of something, for example, the status of a prisoner or someone in custody.
+
 ### Research on these styles
 
-We need more research. If you have used alternative tag styles, get in touch to share your research findings.
+We need more research. If you have used alternative badge styles, get in touch to share your research findings.
 
 ## Contribute to these styles
 
