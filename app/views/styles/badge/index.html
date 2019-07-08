@@ -1,0 +1,19 @@
+{% extends "../../layouts/guidance.html" %}
+
+{% set sectionId = "styles" %}
+{% set pageId = "badge" %}
+{% set pageTitle = "Badge" %}
+
+{% block subNav %}
+{% include "../navigation.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> {{ pageTitle }}</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}

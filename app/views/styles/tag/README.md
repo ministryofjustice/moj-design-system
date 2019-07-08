@@ -6,7 +6,7 @@ There are a number of additional colour styles that can be used:
     <thead class="govuk-table__head">
         <tr class="govuk-table__row">
             <th class="govuk-table__header" scope="col">
-                Tag class name
+                Class name
             </th>
             <th class="govuk-table__header" scope="col">
                 Tag
@@ -112,6 +112,12 @@ There are a number of additional colour styles that can be used:
         </tr>
     </tbody>
 </table>
+
+## Guidance
+
+### When to use these styles
+
+Use these tag styles when the user needs to be alerted to the status of something, for example,
 
 ### Research on these styles
 

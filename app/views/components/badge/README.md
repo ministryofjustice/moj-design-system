@@ -20,7 +20,7 @@ The badge is useful for drawing users attention to particular information. It sh
 
 There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
-The default, neutral badge is blue. Badges can also be styled in green and red.
+The default, neutral badge is blue. [Alternative styles](/styles/badge/) are also available, for example, green and red.
 
 {{ dsExample({
   name: 'badge',
@@ -38,9 +38,10 @@ The default, neutral badge is blue. Badges can also be styled in green and red.
 
 This component has been used successfully in the following services:
 
-- Judicial case manager (HM Courts and Tribunals Service)
-- Professional case manager (HM Courts and Tribunals Service)
+- Judicial case manager (HM Courts & Tribunals Service)
+- Professional case manager (HM Courts & Tribunals Service)
 - Claim fees for Crown court defence (Legal Aid Agency)
+- Prisoner Escort Request (HM Prisons & Probation Service)
 
 ## Contribute to this component
 
