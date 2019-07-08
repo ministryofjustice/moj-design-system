@@ -1,6 +1,5 @@
 $govuk-global-styles: true;
 
-
 // Import GOV.UK Frontend
 @import "node_modules/govuk-frontend/all";
 @import "node_modules/@ministryofjustice/frontend/all";
@@ -8,7 +7,6 @@ $govuk-global-styles: true;
 body {
   margin: 0;
 }
-
 
 // App example
 .app-example-page {
