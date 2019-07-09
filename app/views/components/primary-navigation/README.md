@@ -1,4 +1,4 @@
-Let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form too.
+Let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form.
 
 {{ dsExample({
   name: 'primary-navigation',
