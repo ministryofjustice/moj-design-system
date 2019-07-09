@@ -18,14 +18,14 @@ There are 2 ways to use the multi select component. You can use HTML or, if you 
 
 The component uses JavaScript to progressively enhance the table component:
 
-```
+{% code %}
 <script>
   new MOJFrontend.MultiSelect({
     container: $('.moj-multi-select__select-all-container'),
     checkboxes: $('.govuk-checkboxes__input')
   });
 </script>
-```
+{% endcode %}
 
 ### Research on this component
 

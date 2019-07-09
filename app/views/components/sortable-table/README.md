@@ -18,13 +18,13 @@ There are 2 ways to use the sortable table component. You can use HTML or, if yo
 
 The component uses JavaScript to progressively enhance the table component:
 
-```
+{% code %}
 <script>
   new MOJFrontend.SortableTable({
     table: $('table')[0]
   });
 </script>
-```
+{% endcode %}
 
 ### Research on this component
 
