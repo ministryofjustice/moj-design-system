@@ -1,4 +1,4 @@
-Use the Menu component to group buttons together in a row or collapsible menu.
+Use the menu component to group buttons together in a row or collapsible menu.
 
 {{ dsExample({
   name: 'menu',
