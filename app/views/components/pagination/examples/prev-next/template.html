@@ -1,0 +1,12 @@
+{%- from "moj-pagination/macro.njk" import mojPagination -%}
+
+{{ mojPagination({
+  previous: {
+    text: 'Previous',
+    href: '#'
+  },
+  next: {
+    text: 'Next',
+    href: '#'
+  }
+}) }}
