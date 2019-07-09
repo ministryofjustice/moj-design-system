@@ -1,0 +1,16 @@
+{% from "moj-menu/macro.njk" import mojMenu %}
+
+{{ mojMenu({
+  items: [{
+    text: "Primary action",
+    href: "#"
+  }, {
+    text: "Second action",
+    href: "#",
+    classes: "govuk-button--secondary"
+  }, {
+    text: "Third action",
+    href: "#",
+    classes: "govuk-button--secondary"
+  }]
+}) }}
