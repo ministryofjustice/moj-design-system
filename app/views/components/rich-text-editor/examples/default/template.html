@@ -1,0 +1,26 @@
+{%- from "button/macro.njk" import govukButton -%}
+{%- from "input/macro.njk" import govukInput -%}
+{%- from "textarea/macro.njk" import govukTextarea -%}
+
+{{ govukInput({
+  id: 'subject',
+  name: 'subject',
+  label: {
+    text: 'Subject',
+    classes: 'govuk-!-font-weight-bold'
+  }
+}) }}
+
+{{ govukTextarea({
+  id: 'body',
+  name: 'body',
+  classes: 'js-editor',
+  label: {
+    text: 'Message',
+    classes: 'govuk-!-font-weight-bold'
+  }
+}) }}
+
+{{ govukButton({
+  text: 'Send message'
+}) }}
