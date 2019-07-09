@@ -1,0 +1,112 @@
+{%- from "moj-filter/macro.njk" import mojFilter -%}
+{%- from "checkboxes/macro.njk" import govukCheckboxes -%}
+{%- from "input/macro.njk" import govukInput -%}
+
+{%- set filterOptionsHtml %}
+
+  {{ govukInput({
+    id: 'keywords',
+    name: 'keywords',
+    label: {
+      text: 'Keywords',
+      classes: 'govuk-label--m'
+    }
+  }) }}
+
+  {{ govukCheckboxes({
+    idPrefix: 'type',
+    name: 'type',
+    classes: "govuk-checkboxes--small",
+    fieldset: {
+      legend: {
+        text: 'Type',
+        classes: 'govuk-fieldset__legend--m'
+      }
+    },
+    items: [
+      {
+        value: '1',
+        text: 'Divorce (18)',
+        checked: true
+      },
+      {
+        value: '2',
+        text: 'Financial Remedy (5)',
+        checked: true
+      },
+      {
+        value: '3',
+        text: 'Probate (2)'
+      }
+    ]
+  }) }}
+
+  {{ govukCheckboxes({
+    idPrefix: 'status',
+    name: 'status',
+    classes: "govuk-checkboxes--small",
+    fieldset: {
+      legend: {
+        text: 'Status',
+        classes: 'govuk-fieldset__legend--m'
+      }
+    },
+    items: [
+      {
+        value: '1',
+        text: 'Application drafted',
+        checked: true
+      },
+      {
+        value: '2',
+        text: 'Awaiting payment'
+      },
+      {
+        value: 'magistrate',
+        text: 'Petition paid',
+        checked: false
+      }
+    ]
+  }) }}
+{% endset -%}
+
+{{ mojFilter({
+  heading: {
+    text: 'Filter'
+  },
+  selectedFilters: {
+
+    heading: {
+      text: 'Selected filters'
+    },
+
+    clearLink: {
+      text: 'Clear filters'
+    },
+
+    categories: [
+      {
+        heading: {
+          text: 'Type'
+        },
+        items: [{
+          href: '/path/to/remove/this',
+          text: 'Divorce'
+        }, {
+          href: '/path/to/remove/this',
+          text: 'Financial remedy'
+        }]
+      },
+      {
+        heading: {
+          text: 'Status'
+        },
+        items: [{
+          href: '/path/to/remove/this',
+          text: 'Application drafted'
+        }]
+      }
+    ]
+  },
+  optionsHtml: filterOptionsHtml
+}) }}
