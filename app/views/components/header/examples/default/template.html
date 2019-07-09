@@ -1,0 +1,24 @@
+{%- from "moj-header/macro.njk" import mojHeader -%}
+
+{{ mojHeader({
+  organisationLabel: {
+    text: 'Organisation name',
+    href: '#'
+  },
+  serviceLabel: {
+    text: 'Service name',
+    href: '#'
+  },
+  navigation: {
+    label: 'Account navigation',
+    items: [{
+      text: 'Account name',
+      href: '#',
+      active: true
+    }, {
+      text: 'Sign out',
+      href: '#'
+    }]
+  }
+
+}) }}
