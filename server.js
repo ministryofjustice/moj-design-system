@@ -121,6 +121,13 @@ nunjucksEnvironment.addGlobal('getCssCode', fileHelper.getCSSCode);
 nunjucksEnvironment.addGlobal('getJsCode', fileHelper.getJSCode);
 nunjucksEnvironment.addExtension('NunjucksCodeHighlight', highlight);
 
+// Add filters from MOJ Frontend
+let mojFilters = require('./node_modules/@ministryofjustice/frontend/filters/all')();
+mojFilters = Object.assign(mojFilters);
+Object.keys(mojFilters).forEach(function (filterName) {
+  nunjucksEnvironment.addFilter(filterName, mojFilters[filterName])
+});
+
 // Set view engine
 app.set('view engine', 'html');
 
