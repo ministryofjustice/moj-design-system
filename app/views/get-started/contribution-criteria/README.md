@@ -1,1 +1,0 @@
-The MoJ follows the [GOV.UK Design System contribution criteria](https://design-system.service.gov.uk/community/contribution-criteria/). The difference is that contributions will be reviewed by the MoJ's Design System Working Group and the Design Operations team.
