@@ -1,7 +1,7 @@
 {% set contributionCallOutHtml %}
   <p class="govuk-body">Consider whether you want to contribute directly to the <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a> instead. It will mean your work can be used with the whole of government.</p>
 
-  <p class="govuk-body">You should only contribute to the MOJ Design System if:</p>
+  <p class="govuk-body">You should only contribute to the MoJ Design System if:</p>
 
   <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
     <li>the contribution isn't relevant to the whole of government</li>
@@ -9,43 +9,35 @@
   </ul>
 {% endset %}
 
-{{mojBanner({
+{{ mojBanner({
   html: contributionCallOutHtml
-})}}
+}) }}
 
-Anyone can propose a new component or pattern for the MOJ Design System.
+Anyone can propose a new component or pattern for the MoJ Design System.
 
-To be successful, proposals need to show that the component or pattern being suggested would be [useful and unique](/community/contribution-criteria).
+To be successful, proposals need to show that the component or pattern being suggested would be [useful and unique](/get-started/contribution-criteria/).
 
-Follow the 3 steps to propose a component or pattern for the Design System.
+Follow 3 steps to propose a component or pattern for the Design System.
 
 ## 1. Check the community backlog
-
-Check if someone else has already suggested your idea or something similar on the [community backlog](/community/backlog).
+Check if someone else has already suggested your idea or something similar on the [community backlog](/get-started/community-backlog/).
 
 If your idea is on the backlog and marked as 'proposed', follow the link and comment on the issue. Say you need the component or pattern and share any examples or evidence you have to support the proposal.
 
-If it’s marked 'to do' and you would like to work on it, read how to [develop a component or pattern](/community/develop-a-component-or-pattern).
+If it’s marked 'to do' and you would like to work on it, read how to [develop a component or pattern](#).
 
 ## 2. Raise an issue
 
-If your idea is not on the backlog, [raise an issue using the template](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/new). A member of the Design System team will get in touch to discuss your proposal.
+If your idea is not on the backlog, [raise an issue](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/new).
 
 At this stage, you just need to present your idea and evidence of the user needs. You can include screenshots or links to versions of the component or pattern in use, but avoid spending time working on a specific design or writing code.
 
-## 3. Send your proposal for review
+## 3. Present your proposal
 
-The Design System team will help you prepare your proposal and share it with the [Design System working group](/community/design-system-working-group) to review.
+You will need to present your original proposal and thinking at the weekly crit or a specially arranged meeting.
 
-When your proposal is ready, the Design System team will send it to the working group 2 weeks before their next monthly meeting.
+At the meeting, the Design System Working Group will review your proposal and decide if it is useful and unique. This review helps people avoid spending time and effort on something that's not needed for the design system.
 
-At the meeting, the working group will review your proposal and decide if it is useful and unique. This review helps people avoid spending time and effort on something that’s not needed.
+If the working group agrees your proposal is useful and unique, the working group will mark it as 'to do' on the backlog.
 
-After the meeting, the Design System team will let you know the decision and recommendations, if there are any.
-
-If the working group agrees your proposal is useful and unique, the Design System team will mark it as 'to do' on the [community backlog](/community/backlog).
-
-At this point, you can either start to [develop the component or pattern](/community/develop-a-component-or-pattern) or leave it for someone else to work on.
-
-
-
+At this point, you can either start to develop the component or pattern or leave it for someone else to work on.
