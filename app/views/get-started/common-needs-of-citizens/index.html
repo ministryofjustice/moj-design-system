@@ -1,0 +1,20 @@
+{% extends "../../layouts/guidance.html" %}
+
+{% set sectionId = "get-started" %}
+{% set sectionTitle = "Common user needs" %}
+{% set pageId = "common-needs-of-citizens" %}
+{% set pageTitle = "Common needs of citizens" %}
+
+{% block subNav %}
+{% include "../navigation.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">{{ sectionTitle | default('Get started') }} </span> {{ pageTitle }}</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}
