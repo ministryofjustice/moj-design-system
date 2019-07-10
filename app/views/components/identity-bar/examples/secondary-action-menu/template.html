@@ -1,0 +1,29 @@
+{%- from "moj-identity-bar/macro.njk" import mojIdentityBar -%}
+
+{{ mojIdentityBar({
+  title: {
+    html: "<b>John Smith</b> and <b>Jane Smith</b> (Divorce)"
+  },
+  menus: [
+    {
+      items: [
+        {
+          text: "Primary action"
+        }
+      ]
+    },
+    {
+      items: [
+        {
+          text: "Second action",
+          href: "#",
+          classes: "govuk-button--secondary"
+        }, {
+          text: "Third action",
+          href: "#",
+          classes: "govuk-button--secondary"
+        }
+      ]
+    }
+  ]
+}) }}
