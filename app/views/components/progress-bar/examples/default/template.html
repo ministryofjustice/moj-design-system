@@ -1,0 +1,27 @@
+{%- from "moj-progress-bar/macro.njk" import mojProgressBar -%}
+
+{{ mojProgressBar({
+  items: [
+  {
+    label: {
+      text: 'Step 1 (Complete)'
+    },
+    complete: true
+  },
+  {
+    label: {
+      text: 'Step 2 (Active)'
+    },
+    active: true
+  },
+  {
+    label: {
+      text: 'Step 3 (Pending)'
+    }
+  },
+  {
+    label: {
+      text: 'Step 4 (Pending)'
+    }
+  }]
+}) }}
