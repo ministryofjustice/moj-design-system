@@ -13,7 +13,7 @@ Use the filter layout in tandem with the [filter component](/components/filter/)
 
 ### How it works
 
-Place the filter inside `.filter-layout__filter` and the list inside `.filter-layout__content`.
+Place the filter inside `.moj-filter-layout__filter` and the list inside `.moj-filter-layout__content`.
 
 The list will expand to fill the available space.
 
