@@ -21,6 +21,9 @@ dotenv.config();
 const routes = require('./app/routes/index');
 const autoRoutes = require('./app/routes/auto');
 
+// Local dependencies
+const utils = require('./lib/utils.js');
+
 // Port
 const port = process.env.PORT || 3000;
 
@@ -31,9 +34,6 @@ const useHttps = process.env.USE_HTTPS || true;
 const username = process.env.USERNAME;
 const password = process.env.PASSWORD;
 const useBrowserSync = process.env.USE_BROWSER_SYNC || true;
-
-// Local dependencies
-const utils = require('./lib/utils.js');
 
 // env = env.toLowerCase();
 // useAuth = useAuth.toLowerCase();
