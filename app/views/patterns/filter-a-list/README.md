@@ -35,6 +35,6 @@ Filters can be used in combination with [search](/components/search/). In this c
 
 We need more research. If you have used the filter pattern, get in touch to share your research findings.
 
-## Contribute to this component
+## Contribute to this pattern
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)

@@ -22,7 +22,7 @@ There are 2 ways to use the badge component. You can use HTML or, if you are usi
 
 ### Research on this component
 
-We need more research. If you have used the progress bar component, get in touch to share your research findings.
+We need more research. If you have used the timeline component, get in touch to share your research findings.
 
 ## Contribute to this component
 
