@@ -1,15 +1,4 @@
 {%- from "input/macro.njk" import govukInput -%}
-{%- from "button/macro.njk" import govukButton -%}
-
-{{ govukInput({
-  id: "username",
-  name: "username",
-  classes: "govuk-input--width-20",
-  label: {
-    text: "Username",
-    classes: 'govuk-label--m'
-  }
-}) }}
 
 {{ govukInput({
   id: "password",
@@ -21,8 +10,4 @@
     classes: 'govuk-label--m'
   },
   value: "1234ABC!"
-}) }}
-
-{{ govukButton({
-  text: 'Sign in'
 }) }}

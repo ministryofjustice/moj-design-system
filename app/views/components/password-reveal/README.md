@@ -3,7 +3,7 @@ Use the password reveal component to let users check their password safely.
 {{ dsExample({
   name: 'password-reveal',
   example: 'default',
-  height: 350
+  height: 175
 }) }}
 
 ## Guidance
