@@ -1,4 +1,4 @@
-Let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form.
+Use this component to let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form.
 
 {{ dsExample({
   name: 'primary-navigation',
@@ -12,7 +12,7 @@ Let users navigate top level locations within your service. Optionally, you can 
 
 Use this together with the [header](/components/header/) component for non-citizen facing services. This component comes directly after the header.
 
-<!-- #### With inline search
+#### With inline search
 
 You can configure this component to show an inline search form. Use this type of search when users can search everything within a service.
 
@@ -22,7 +22,7 @@ You can configure this component to show an inline search form. Use this type of
   height: 180
 }) }}
 
-#### With toggle search
+<!-- #### With toggle search
 
 You can configure this component to show a toggleable search form. Use this type of search when users can only search for certain things in a certain way. For example, searching for cases via case reference number or party.
 
@@ -44,7 +44,7 @@ Don't use this for citizen facing services as they should use the GOV.UK Design 
 
 ### How it works
 
-There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the primary navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ### Research on this component
 

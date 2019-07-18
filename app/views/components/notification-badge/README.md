@@ -30,7 +30,7 @@ There are 2 ways to use the notification badge component. You can use HTML or, i
 
 ### Research on this component
 
-We need more research. If you have used the notification badge, get in touch to share your research findings.
+We need more research. If you have used the notification badge component, get in touch to share your research findings.
 
 ## Contribute to this component
 

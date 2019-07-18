@@ -1,4 +1,4 @@
-Use the Sortable Table component to let users sort table cells in ascending or descending order.
+Use the sortable table component to let users sort table cells in ascending or descending order.
 
 {{ dsExample({
   name: 'sortable-table',
@@ -28,7 +28,7 @@ The component uses JavaScript to progressively enhance the table component:
 
 ### Research on this component
 
-We need more research. If you have used the form validator, get in touch to share your research findings.
+We need more research. If you have used the sortable table component, get in touch to share your research findings.
 
 ## Contribute to this component
 

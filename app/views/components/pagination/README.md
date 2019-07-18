@@ -28,7 +28,7 @@ The component can be configured to hide or show the result count, previous and n
 
 ### Research on this component
 
-We need more research. If you have used the form validator, get in touch to share your research findings.
+We need more research. If you have used the pagination component, get in touch to share your research findings.
 
 ## Contribute to this component
 

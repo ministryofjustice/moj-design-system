@@ -194,10 +194,10 @@ There are a number of additional colour styles that can be used:
 
 This component has been used successfully in the following services:
 
-- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
-- Professional case manager (Her Majesty’s Courts and Tribunals Service)
 - Claim fees for Crown court defence (Legal Aid Agency)
+- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
 - Prisoner Escort Request (Her Majesty’s Prison and Probation Service)
+- Professional case manager (Her Majesty’s Courts and Tribunals Service)
 
 ## Contribute to this component
 

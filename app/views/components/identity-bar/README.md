@@ -1,4 +1,4 @@
-Use this component to give users context of where they are within a service such as viewing a case, user or fee account.
+Use the identity bar component to give users context of where they are within a service such as viewing a case, user or fee account.
 
 {{ dsExample({
   name: 'identity-bar',
@@ -15,6 +15,10 @@ This component is helpful when an entity consists of additional [sub sections](/
 ### When not to use this component
 
 Don't use this component if there's only one details page. For example, clicking a case in a case list and seeing a single page of information about the case.
+
+### How it works
+
+There are 2 ways to use the identity bar component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 #### Action menu
 
@@ -50,9 +54,9 @@ This [menu](/components/menu/) is made up of multiple menus. The first consists 
 
 This component has been used in:
 
+- Fees and payments (Her Majesty’s Courts and Tribunals Service)
 - Judicial case manager (Her Majesty’s Courts and Tribunals Service)
 - Professional case manager (Her Majesty’s Courts and Tribunals Service)
-- Fees and payments (Her Majesty’s Courts and Tribunals Service)
 
 ## Contribute to this component
 

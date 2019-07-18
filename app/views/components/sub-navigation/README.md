@@ -1,4 +1,4 @@
-Use the Sub navigation component for sub pages in a system or service.
+Use the sub navigation component for sub pages in a system or service.
 
 {{ dsExample({
   name: 'sub-navigation',
@@ -20,7 +20,7 @@ Do not use this component for primary level items or global navigation items.
 
 ### How it works
 
-There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the sub-navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ### Research on this component
 
