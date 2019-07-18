@@ -3,7 +3,7 @@ Use the rich text editor component to let users format their input in a text are
 {{ dsExample({
   name: 'rich-text-editor',
   example: 'default',
-  height: 450
+  height: 300
 }) }}
 
 ## Guidance
@@ -18,7 +18,7 @@ Don't use this if the user only needs to send a basic message.
 
 ### How it works
 
-There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the rich text editor component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ### Configuration
 

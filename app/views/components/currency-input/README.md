@@ -14,7 +14,7 @@ Use the currency input component when you need users to tell you an amount of mo
 
 ### How it works
 
-There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the currency input component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The component uses `type="text"` rather than `type="number"` to ensure that all users can enter the decimal symbol. The pattern attribute is used to trigger a numeric keypad on iOS devices.
 

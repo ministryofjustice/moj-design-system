@@ -29,7 +29,7 @@ The component uses JavaScript to progressively enhance the table component:
 
 ### Research on this component
 
-We need more research. If you have used the form validator, get in touch to share your research findings.
+We need more research. If you have used the multi select component, get in touch to share your research findings.
 
 ## Contribute to this component
 

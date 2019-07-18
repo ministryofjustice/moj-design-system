@@ -18,6 +18,8 @@ Don't use this component when a basic in-page form has multiple actions.
 
 ### How it works
 
+There are 2 ways to use the menu component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+
 By default this component just groups buttons together to ensure they are spaced correctly. But can be turned into a toggle menu at a configurable screen width that:
 
 - is aligned right or left
