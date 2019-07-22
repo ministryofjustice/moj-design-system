@@ -11,8 +11,7 @@
 }
 
 .app-panel__heading,
-.app-panel__body,
-.app-panel__link {
+.app-panel__body {
   color: govuk-colour("white");
 }
 
@@ -25,16 +24,20 @@
   margin-bottom: 0;
 }
 
-.app-panel__link:link,
-.app-panel__link:active
-.app-panel__link:visited {
-  color: govuk-colour("white");
-}
+.app-panel__link {
+  
+  &:link,
+  &:active,
+  &:visited {
+    color: govuk-colour("white");
+  }
+  
+  &:hover {
+    color: lighten(govuk-colour("blue"), 45%);
+  }
 
-.app-panel__link:hover {
-  color: lighten(govuk-colour("blue"), 45%);
-}
+  &:focus {
+    color: govuk-colour("black");
+  }
 
-.app-panel__link:focus {
-  color: govuk-colour("black");
 }
