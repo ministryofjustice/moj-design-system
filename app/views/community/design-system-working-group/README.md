@@ -14,7 +14,7 @@ To achieve this, teams need to work as efficiently as possible when designing an
 They also need access to interaction and content design resources based on best practice from across government.
 
 ### MoJ Design System
-To support this work, the DesignOps team at the Ministry of Justice (MoJ) has created the MoJ Design System. It contains guidance, examples, code and research that teams can use to help them prototype and build services.
+To support this work, the Design Operations team at the Ministry of Justice (MoJ) has created the MoJ Design System. It contains guidance, examples, code and research that teams can use to help them prototype and build services.
 
 Anyone can propose or develop new components or patterns for the [Design System](https://github.com/ministryofjustice/mojdt-design-system-backlog).
 
@@ -26,7 +26,7 @@ Enabling people from across the MoJ to contribute will ensure the Design System:
 - reduces duplication of effort
 
 ### Design System Working Group
-The DesignOps team set up a working group which includes representatives from different disciplines and agencies across the MoJ.
+The Design Operations team set up a working group which includes representatives from different disciplines and agencies across the MoJ.
 
 The working group ensures components and patterns published in the Design System are of a high quality and meet user needs.
 
@@ -79,12 +79,12 @@ By joining the working group, representatives commit to support the Design Syste
 - review proposals and contributions against the Design System [contribution criteria](https://design-system.service.gov.uk/community/contribution-criteria/)
 - collect input and feedback from their colleagues across government to inform their decisions
 - ask contributors any questions they need to inform their decisions
-- send their decisions on contributions to the DesignOps team before each review session
+- send their decisions on contributions to the Design Operations team before each review session
 - attend a 1 hour long review session each month to discuss their decisions with contributors and the other representatives
 - agree to have review session notes shared publicly, though they will not be named individually
 
-### Responsibilities of the DesignOps team at MoJ Digital
-The DesignOps team at MoJ Digital commits to support contributors and the working group. They:
+### Responsibilities of the Design Operations team at MoJ Digital
+The Design Operations team at MoJ Digital commits to support contributors and the working group. They:
 
 - work with contributors to ensure their contribution is in the best shape possible before the working group review it
 - ensure that any code meets [MoJ Frontend Coding Standards](https://github.com/alphagov/govuk-frontend/tree/master/docs/contributing/coding-standards)
@@ -93,7 +93,7 @@ The DesignOps team at MoJ Digital commits to support contributors and the workin
 - work with contributors to get components and patterns published in a timely manner after review sessions
 - have ultimate responsibility to ensure the contents in the Design System adhere to relevant MoJ standards
 
-Neither the DesignOps team nor the working group will overrule the other. If there is a disagreement, there will be processes in place to collect concerns and ensure a fair decision.
+Neither the Design Operations team nor the working group will overrule the other. If there is a disagreement, there will be processes in place to collect concerns and ensure a fair decision.
 
 ### Leaving the working group
 After 3 months, representatives of the working group will be asked if they wish to continue for another 3 months or leave.
@@ -102,7 +102,7 @@ Some continuity and consistency in the working group helps things to run smoothl
 
 However, circumstances can change unexpectedly and absolutely no one will be made to feel bad if they have to leave before the end of 3 months.
 
-Anyone wanting to leave should contact the DesignOps team who will organise a replacement.
+Anyone wanting to leave should contact the Design Operations team who will organise a replacement.
 
 ## 4. Reviewing proposals and contributions
 
@@ -111,15 +111,15 @@ Each month, the working group meets for 1 hour on Google Hangouts to discuss new
 
 The purpose of the session is for representatives to share their decisions and discuss questions, concerns or recommendations with each other and the contributors.
 
-These sessions are booked a month in advance by the DesignOps team. The invitation to the session includes a link to join the Google Hangout as well as other important details.
+These sessions are booked a month in advance by the Design Operations team. The invitation to the session includes a link to join the Google Hangout as well as other important details.
 
-Representatives who know they cannot attend a session should let the DesignOps team know as early as possible and send their decision and recommendations regardless.
+Representatives who know they cannot attend a session should let the Design Operations team know as early as possible and send their decision and recommendations regardless.
 
-During the review session, there will be note takers from the DesignOps team to record discussions, recommendations and decisions.
+During the review session, there will be note takers from the Design Operations team to record discussions, recommendations and decisions.
 
 The Design System team will share these notes with the working group to check after each session.
 
-To help Design System users understand how past decisions were made, the DesignOps team will publish a summary of the notes in GitHub. These will not mention individuals’ names.
+To help Design System users understand how past decisions were made, the Design Operations team will publish a summary of the notes in GitHub. These will not mention individuals’ names.
 
 ### Reviewing new proposals
 During a review session, representatives review each proposal against the contribution criteria, and vote on if it is [useful and unique](https://design-system.service.gov.uk/community/contribution-criteria/).
@@ -131,7 +131,7 @@ Proposals that meet these criteria can move into the ‘To-do’ column in the [
 When they have been fully researched and developed, contributions will be sent to the working group for a second review focusing on the implementation.
 
 ### Reviewing contributions before they are published
-The DesignOps team will share contributions to review with the working group 2 weeks before each review session.
+The Design Operations team will share contributions to review with the working group 2 weeks before each review session.
 
 Representatives then have one week to review each contribution against the [contribution criteria for before a component or pattern is published](https://design-system.service.gov.uk/community/contribution-criteria/#before-publication).
 
@@ -153,10 +153,10 @@ Representatives will have the opportunity to ask the contributor any questions a
 At the end of the discussion, representatives will be asked if they’d like to change their initial answer, and the facilitator will confirm the final outcome.
 
 ### Publishing contributions
-After the review session, the DesignOps team will work with the contributor to address any recommendations and get the contributions ready to publish.
+After the review session, the Design Operations team will work with the contributor to address any recommendations and get the contributions ready to publish.
 
 Depending on the amount of work needed, it may take a few weeks to complete these steps.
 
 If, during the course of addressing the working group’s recommendations, there are significant changes to the original contribution, it may be brought back to a future session for another review.
 
-Once published, the DesignOps team will move the issue from ‘In progress’ to ‘Published’ in the community backlog, and will notify the working group.
+Once published, the Design Operations team will move the issue from ‘In progress’ to ‘Published’ in the community backlog, and will notify the working group.
