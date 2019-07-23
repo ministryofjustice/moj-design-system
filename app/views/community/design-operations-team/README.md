@@ -1,5 +1,4 @@
-
-
+The Design Operations team exists to support the entire design profession with the tools and guidance they need to get their work done to the highest standards.
 
 ## 1. Introduction
 As part of the [Government Transformation Strategy](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy#vision-and-objectives) the Government has committed to “build services that run seamlessly across government”.
