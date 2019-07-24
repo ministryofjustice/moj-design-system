@@ -1,7 +1,5 @@
 The MoJ follows the [GOV.UK Design System contribution criteria](https://design-system.service.gov.uk/community/contribution-criteria/). The difference is that contributions will be reviewed by the MoJ's [Design System Working Group](/community/design-system-working-group/) and the [Design Operations team](design-operations-team).
 
-{% from "table/macro.njk" import govukTable %}
-
 The contents of the Design System must be of a high quality and meet user needs. To guarantee this, all components and patterns need to meet certain criteria.
 
 ## New proposals
