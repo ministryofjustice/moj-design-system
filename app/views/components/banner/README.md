@@ -54,12 +54,9 @@ Use this variant when you want to tell users some information.
   height: 175
 }) }}
 
-### Research on this component
+## Research on this component
 
-This component has been used successfully in the following services:
-
-- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
-- Professional case manager (Her Majesty’s Courts and Tribunals Service)
+This component is marked as experimental because more research is needed on this component.
 
 ## Contribute to this component
 

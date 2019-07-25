@@ -29,7 +29,6 @@ The design, code and guidance here are based on [recommendations from the commun
 This component has been used successfully in the following services:
 
 - [Claim fees for Crown court defence](https://claim-crown-court-defence.service.gov.uk/) (Legal Aid Agency)
-- [Making a money claim](https://www.gov.uk/make-money-claim) (Her Majesty’s Courts and Tribunals Service)
 
 ## Contribute to this component
 

@@ -45,9 +45,9 @@ You shouldn't use the page heading with actions if you:
 
 ### When to use the buttons within the page
 
-Use buttons within the page when the action relates to a component within the page. For example, adding a new question to a round.
+Use buttons within the page when the action relates to a component within the page.
 
-### Button placement: above or below?
+## Button placement
 
 You should first left align buttons underneath the component they relate to. When adding items to a long list consider placing it [above the list](/patterns/filter-a-list/) so that users don't have to scroll beyond the list to take the same action again.
 
@@ -73,10 +73,7 @@ Don't put actions inside the [primary navigation](/components/primary-navigation
 
 ## Research on this pattern
 
-This pattern has been used in:
-
-- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
-- Professional case manager (Her Majesty’s Courts and Tribunals Service)
+More research is needed on this pattern.
 
 ## Contribute to this pattern
 

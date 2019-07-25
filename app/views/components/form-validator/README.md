@@ -6,13 +6,7 @@ Use the form validator component to validate forms without a server-side round-t
   height: 1000
 }) }}
 
-## Guidance
-
-### When to use this component
-
-Use this when sorting is needed to help find data within a large table of data. This might be useful in combination with the [filter](/patterns/filter-a-list/) pattern.
-
-### How it works
+## How it works
 
 In alignment with established GOV.UK Design System standards:
 
@@ -20,7 +14,7 @@ In alignment with established GOV.UK Design System standards:
 - when the form is submitted with errors, focus moves to the error summary; errors are shown above the field and the `<title>` is prefixed with the error count.
 - submit buttons are never disabled.
 
-### Research on this component
+## Research on this component
 
 We need more research. If you have used the form validator component, get in touch to share your research findings.
 

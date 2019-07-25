@@ -10,7 +10,7 @@ Use the Filter component to filter a large set of results.
 
 ### When to use this component
 
-Use this component to help users find a particular item in a large collection according to their own preferences and mental models.
+Use this component to help users find something in a large collection.
 
 ### How it works
 
@@ -24,7 +24,7 @@ Clicking on a selected filter removes the filter from the results.
 
 ### Research on this component
 
-We need more research. If you have used the filter component, get in touch to share your research findings.
+This pattern is marked as experimental because it needs more research.
 
 ## Contribute to this component
 
