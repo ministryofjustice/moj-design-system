@@ -1,47 +1,41 @@
-Help users perform an action using one of the following:
-
-- buttons in the [identity bar](/components/identity-bar/)
-- buttons in the [page heading](/components/page-header-with-actions/)
-- buttons within the body
+Help users perform an action.
 
 ## Identity bar
 
-<video role="region" aria-label="Identity action buttons, this video has no audio." controls muted>
+<!-- <video role="region" aria-label="Identity action buttons, this video has no audio." controls muted>
   <source src="/public/videos/identity-bar-actions.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ### When to use the identity bar
 
-Use the identity bar for action buttons when the user may need to take action from any page within the particular entity.
+Use the [Identity Bar](/components/identity-bar/) component for action buttons when the user may need to take action from any page within the particular entity.
 
 ### When not to use the identity bar
 
-Some actions should only be shown for the specific page. For example, when adding a question or uploading a document to the case file. In these cases you should use the page heading with actions or buttons within the body.
+Some actions should only be shown for the specific page like linking one case to another. In these cases you should use a different approach explained next.
 
 ## Page heading with actions
 
-<video role="region" aria-label="Page header action buttons, this video has no audio." controls muted>
+<!-- <video role="region" aria-label="Page header action buttons, this video has no audio." controls muted>
   <source src="/public/videos/page-header-actions.mp4" type="video/mp4">
-</video>
+</video> -->
 
-### When to use the page heading with actions
+### When to use the page header actions component
 
-Use the page heading with actions when the user needs to perform an action relating to a specific section of a system but doesn't specifically relate to anything within the page.
+Use the [Page Header Actions](/components/page-header-actions/) component when the user needs to perform an action relating to a specific section of a system but doesn't specifically relate to anything within the page.
 
-In the example above the user is adding a new document to the case file but not performing an action against the document in view.
+### When not to use the page header actions component
 
-### When not to use the page heading with actions
+Don't use the Page Header Actions component if you:
 
-You shouldn't use the page heading with actions if you:
-
-- need to help users perform the same action across several sub sections. In this case use the identity bar.
-- users are performing actions against a component within the page. See below for an example of this for asking questions.
+- need to help users perform the same action across sub sections. Use the [Identity Bar](/components/identity-bar/) component instead.
+- users are performing actions against a specific component within the page. See information below.
 
 ## Buttons within the body
 
-<video role="region" aria-label="In-page action buttons, this video has no audio." controls muted>
+<!-- <video role="region" aria-label="In-page action buttons, this video has no audio." controls muted>
   <source src="/public/videos/in-page-actions.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ### When to use the buttons within the page
 
@@ -49,15 +43,15 @@ Use buttons within the page when the action relates to a component within the pa
 
 ## Button placement
 
-You should first left align buttons underneath the component they relate to. When adding items to a long list consider placing it [above the list](/patterns/filter-a-list/) so that users don't have to scroll beyond the list to take the same action again.
+You should first left align buttons underneath the component they relate to. When adding items to a long list place it [above the list](/patterns/filter-a-list/) so that users don't have to scroll past the list.
 
 ## Removing distraction when within a flow
 
-When taking an action (creating, editing etc), users should be taken to a new page with as much of the screen paraphernalia removed as possible including the original list of items.
+When taking an action, users should be taken to a new page with as much of the screen paraphernalia removed as possible including the original list of items.
 
-A back link should be placed at the top left of the flow.
+A back link should be placed at the top left of each page of the flow.
 
-You can optionally include a cancel link below the continue button to help users leave a multi-page form process.
+You can include a cancel link below the continue button to help users leave a multi-page flow more easily.
 
 ## Repeat use actions
 
