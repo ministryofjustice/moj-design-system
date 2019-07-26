@@ -1,8 +1,8 @@
-Help users manage items in a list.
+Help users manage a list of items.
 
 {{ dsExample({
   section: 'patterns',
-  name: 'manage-items-in-a-list',
+  name: 'manage-a-list',
   example: 'default',
   height: 750
 }) }}
