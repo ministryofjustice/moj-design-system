@@ -9,9 +9,7 @@ Use the filter layout in tandem with the [filter component](/components/filter/)
   section: 'styles'
 }) }}
 
-## Guidance
-
-### How it works
+## How it works
 
 Place the filter inside `.moj-filter-layout__filter` and the list inside `.moj-filter-layout__content`.
 

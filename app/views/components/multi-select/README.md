@@ -6,7 +6,7 @@ Use the Multi Select component to let users select multiple items in a list.
   height: 650
 }) }}
 
-### How it works
+## How it works
 
 There are 2 ways to use the multi select component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks [table macro](https://design-system.service.gov.uk/components/table/).
 

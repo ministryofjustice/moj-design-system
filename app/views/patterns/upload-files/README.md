@@ -21,7 +21,7 @@ There are 4 steps:
 3. Check file
 4. Add another file or continue
 
-## How does it work
+## How it works
 
 Try not to ask users to upload files—it's a complex interaction.
 
