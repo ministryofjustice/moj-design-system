@@ -1,0 +1,25 @@
+{% extends "../../layouts/guidance.html" %}
+
+{% set sectionId = "patterns" %}
+{% set sectionTitle = "Patterns" %}
+{% set pageId = "upload-files" %}
+{% set pageTitle = "Upload files" %}
+
+{% block subNav %}
+  {% include "../navigation.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4"><span class="govuk-caption-xl">{{ sectionTitle }}</span> {{ pageTitle }}</h1>
+
+  {{ govukTag({
+    classes: 'govuk-!-margin-bottom-8',
+    text: 'Experimental'
+  }) }}
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}
