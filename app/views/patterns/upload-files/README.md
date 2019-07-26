@@ -4,9 +4,40 @@ Help users upload one or more files.
 
 <img src="/public/images/patterns/upload-file-single.png">
 
+There are 3 steps:
+
+1. Select file
+2. Upload file
+3. Check file
+
 ## Upload multiple files
 
 <img src="/public/images/patterns/upload-file-multiple.png">
+
+There are 4 steps:
+
+1. Select file
+2. Upload file
+3. Check file
+4. Add another file or continue
+
+## How does it work
+
+Try not to ask users to upload files—it's a complex interaction.
+
+You can change the contents of the pattern to suit your needs.
+
+If the user uploaded an image you can show a preview on the check screen. The image can be full width.
+
+If the user uploaded a spreadsheet, you can show users the data in a table.
+
+If there are other fields on the first screen like a comment box, you can also show the answer on the check screen.
+
+The file uploading works exactly the same with and without JavaScript.
+
+When there's an error, use the GOV.UK Design System [Error Summary](https://design-system.service.gov.uk/components/error-summary/) and [Error Message](https://design-system.service.gov.uk/components/error-message/) components.
+
+Use the [file input error messages](https://design-system.service.gov.uk/components/file-upload/#error-messages) from the GOV.UK Design System.
 
 ## Known gaps
 
