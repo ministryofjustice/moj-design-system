@@ -25,7 +25,7 @@ You can also let users enter additional information along with the file itself. 
 - Files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
 - Files come with very little meta data, so you can let users provide a comment to associate with the file.
 
-If you add additional fields, then you should show the answers on the check screen with the file.
+If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
 
 ### Single file upload steps
 
@@ -78,7 +78,7 @@ Like the stepped single file upload pattern you can also let users enter additio
 - Files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
 - Files come with very little meta data, so you can let users provide a comment to associate with the file.
 
-If you add additional fields, then you should show the answers on the check screen with the file.
+If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
 
 ### 1. Upload screen
 
@@ -132,15 +132,7 @@ Once the files are uploaded, they're either marked as successfully uploaded or u
 
 You can use this pattern on its own or as part of a larger form with multiple questions.
 
-### Enhanced version (with JavaScript)
-
-#### 1. Initial state
-
-#### 2. In progress
-
-#### 3. Complete state
-
-### Degraded version (without JavaScript)
+### When JavaScript is unavailable
 
 The component works differently when JavaScript is unavailable.
 
@@ -172,9 +164,15 @@ The component works differently when JavaScript is unavailable.
 
 Uploading files involves a tricky number of interactions such as scanning or taking a photo, putting it on the computer, selecting it from the file system and waiting for it to be uploaded. For these reasons, try not to ask users to upload files where ever possible.
 
+## Accept multiple file types
+
+Let users upload as many different file types as possible. You can convert them automatically if needed. If you must limit file types, then let users know by using hint text.
+
 ## Reduce file size automatically
 
-Large files can slow users down. If you don't have to show users the original file then you should automatically reduce the size of the file and use that one instead. You can always store the original file behind the scenes.
+Where ever possible, let users upload large file sizes. But, large files can slow systems down.
+
+If you don't have to show the original file then you should automatically reduce the size of the file and show that instead. You can always store the original file behind the scenes and provide it on request.
 
 ## Use the file upload error templates
 
@@ -182,23 +180,8 @@ Use the GOV.UK Design System [file error templates](https://design-system.servic
 
 ## Research on this pattern
 
-The basis of these patterns have been used successfully at the Home Office. We have adopted and tweaked the patterns.
-
 If you have used these patterns, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
 You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
-
-
-<!--
-When using a single file upload, you should:
-
-- let users upload files in as many formats as possible
-- let users upload large files
-- make it clear what files are accepted using hint text
-
-
-
-The check screen can be changed based on what the user uploads. If the user uploads a spreadsheet, you can display it in a table. If the user uploads an image, you can give users a preview of it. You can make the image full width to let users see as much detail as possible.
--->
