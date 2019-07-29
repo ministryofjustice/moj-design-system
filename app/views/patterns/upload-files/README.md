@@ -1,25 +1,43 @@
 Help users upload one or more files.
 
-## Upload a single file
+## Flows
+
+### Single file
 
 <img src="/public/images/patterns/upload-file-single.png">
 
-There are 3 steps:
-
-1. Select file
-2. Upload file
-3. Check file
-
-## Upload multiple files
+### Multiple files
 
 <img src="/public/images/patterns/upload-file-multiple.png">
 
-There are 4 steps:
+## Screens
 
-1. Select file
-2. Upload file
-3. Check file
-4. Add another file or continue
+### 1. Upload screen
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'default',
+  section: 'patterns',
+  height: 700
+}) }}
+
+### 2. Check screen
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'check',
+  section: 'patterns',
+  height: 1300
+}) }}
+
+### 3. Add another (if applicable)
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'add-another',
+  section: 'patterns',
+  height: 1000
+}) }}
 
 ## How it works
 
@@ -40,6 +58,12 @@ For example, when uploading a receipt, a comment about what the receipt relates 
 Files often have long, meaningless complex file names. This makes it difficult to find the file later. In this case you can let users provide a human friendly file name too.
 
 If you add additional fields, then you can also show the answers on the check screen alongside the file.
+
+## Reducing file sizes
+
+Large files can slow users down which is especially the case in repeat-use, frequently used services like a case working system.
+
+It can be helpful to automatically reduce the file size of the upload files.
 
 ## Known gaps
 
