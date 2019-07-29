@@ -23,21 +23,23 @@ There are 4 steps:
 
 ## How it works
 
-Try not to ask users to upload files—it's a complex interaction.
+Avoid asking users to upload a file as it's a difficult interaction.
 
-You can change the contents of the pattern to suit your needs.
+You can change the content to suit your needs.
 
-If the user uploaded an image you can show a preview on the check screen. The image can be full width.
+The check screen can be changed based on what the user uploads. If the user uploads a spreadsheet, you can display it in a table. If the user uploads an image, you can give users a preview of it. You can make the image full width to let users see as much detail as possible.
 
-If the user uploaded a spreadsheet, you can show users the data in a table.
+For errors, use the GOV.UK Design System [file error templates](https://design-system.service.gov.uk/components/file-upload/#error-messages).
 
-If there are other fields on the first screen like a comment box, you can also show the answer on the check screen.
+## Additional fields
 
-The file uploading works exactly the same with and without JavaScript.
+There are times when you might want to ask users for additional information alongside the file itself.
 
-When there's an error, use the GOV.UK Design System [Error Summary](https://design-system.service.gov.uk/components/error-summary/) and [Error Message](https://design-system.service.gov.uk/components/error-message/) components.
+For example, when uploading a receipt, a comment about what the receipt relates to might help you validate a claim or help users explain what part of the receipt is applicable.
 
-Use the [file input error messages](https://design-system.service.gov.uk/components/file-upload/#error-messages) from the GOV.UK Design System.
+Files often have long, meaningless complex file names. This makes it difficult to find the file later. In this case you can let users provide a human friendly file name too.
+
+If you add additional fields, then you can also show the answers on the check screen alongside the file.
 
 ## Known gaps
 
