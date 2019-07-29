@@ -65,6 +65,21 @@ Large files can slow users down which is especially the case in repeat-use, freq
 
 It can be helpful to automatically reduce the file size of the upload files.
 
+## Bulk file uploading
+
+Bulk file uploading lets users upload files quickly which might be more appropriate in repeat use interfaces like case working systems.
+
+Only use this pattern if you have evidence that the above patterns are not working well enough.
+
+### Without JavaScript
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'bulk-no-js',
+  section: 'patterns',
+  height: 580
+}) }}
+
 ## Known gaps
 
 These patterns are useful for infrequently used services or for users with low digital literacy.
