@@ -1,8 +1,8 @@
 Help users upload one or more files using one of the following:
 
-- Stepped single file upload
-- Stepped multi-file upload
-- Bulk file upload
+- stepped single file upload
+- stepped multi-file upload
+- bulk file upload
 
 ## Stepped single file upload
 
@@ -22,8 +22,8 @@ A single file upload works by using the native file input to let users select a 
 
 You can also let users enter additional information along with the file itself. Here's two examples:
 
-- Files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
-- Files come with very little meta data, so you can let users provide a comment to associate with the file.
+- files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
+- files come with very little meta data, so you can let users provide a comment to associate with the file.
 
 If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
 
@@ -47,16 +47,6 @@ If you add additional fields, then you should show the answers on the check scre
   height: 1300
 }) }}
 
-#### 3. Add another (if applicable)
-
-{{ dsExample({
-  name: 'upload-files',
-  example: 'add-another',
-  section: 'patterns',
-  height: 1000,
-  id: '1'
-}) }}
-
 ## Stepped multi-file upload
 
 <img src="/public/images/patterns/upload-file-multiple.png">
@@ -75,8 +65,8 @@ This pattern uses the first two steps of the stepped single file upload pattern.
 
 Like the stepped single file upload pattern you can also let users enter additional information along with the file itself. Here's two examples:
 
-- Files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
-- Files come with very little meta data, so you can let users provide a comment to associate with the file.
+- files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
+- files come with very little meta data, so you can let users provide a comment to associate with the file.
 
 If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
 
