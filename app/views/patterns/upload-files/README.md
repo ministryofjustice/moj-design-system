@@ -2,7 +2,7 @@ Help users upload one or more files using one of the following:
 
 - Stepped single file upload
 - Stepped multi-file upload
-- Bulk multi-file upload
+- Bulk file upload
 
 ## Stepped single file upload
 
@@ -14,7 +14,7 @@ Use this pattern when you're asking users to upload one file.
 
 ### When not use the stepped single file upload pattern
 
-Don't use this pattern if you're asking users to upload multiple files, or if users need to upload single files repeatedly like they might have to do in a case working system. Use the stepped multi-file upload or a bulk multi-upload pattern instead.
+Don't use this pattern if you're asking users to upload multiple files, or if users need to upload single files repeatedly like they might have to do in a case working system. Use the stepped multi-file upload or a bulk file upload pattern instead.
 
 ### How the stepped single file upload pattern works
 
@@ -67,7 +67,7 @@ Use this pattern when you're asking users to upload multiple files.
 
 ### When not use the stepped multi-file upload pattern
 
-You should try using this pattern, even for repeat-use interfaces like case working systems. But if your research shows this pattern isn't efficient enough, you should use the bulk multi-file upload pattern.
+You should try using this pattern, even for repeat-use interfaces like case working systems. But if your research shows this pattern isn't efficient enough, you should use the bulk file upload pattern.
 
 ### How the stepped multi-file upload pattern works
 
@@ -110,21 +110,21 @@ If you add additional fields, then you should show the answers on the check scre
   id: '2'
 }) }}
 
-## Bulk multi-file upload
+## Bulk file upload
 
 <img src="/public/images/patterns/upload-file-bulk.png">
 
-### When to use the bulk multi-file upload pattern
+### When to use the bulk file upload pattern
 
-Bulk file uploading lets users upload files quickly which can be better for frequently used interfaces like case working systems.
+The bulk file upload patterns lets users upload files quickly which can be better for frequently used interfaces like case working systems.
 
-### When not to use the bulk multi-file upload pattern
+### When not to use the bulk file upload pattern
 
 Do not use this pattern for citizen facing services or users with low digital literacy. You should use the stepped single file (or multi-file) upload pattern in these cases.
 
-### How the bulk multi-file upload pattern works
+### How the bulk file upload pattern works
 
-The bulk multi-file upload pattern works by letting users select multiple files at a time—either with the native file picker or by dragging and dropping them onto the dropzone.
+The bulk file upload pattern works by letting users select multiple files at a time—either with the native file picker or by dragging and dropping them onto the dropzone.
 
 Once files are selected or dropped, files are uploaded immediately using AJAX. For each dropped file, upload progress is shown in real time underneath the dropzone.
 
