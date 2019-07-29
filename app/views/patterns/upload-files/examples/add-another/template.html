@@ -31,8 +31,6 @@
     <div class="govuk-grid-column-two-thirds">
       <h2 class="govuk-heading-m">Files added</h2>
 
-
-
       {{ govukSummaryList({
         rows: [
           {
@@ -40,7 +38,7 @@
               text: "File 1"
             },
             value: {
-              text: "receipta.jpg"
+              html: '<a download href="/">receipta.jpg</a>, 2MB'
             },
             actions: {
               items: [
@@ -57,7 +55,7 @@
               text: "File 2"
             },
             value: {
-              html: 'receipt2.jpg'
+              html: '<a download href="/">receipt2.jpg</a>, 5MB'
             },
             actions: {
               items: [
