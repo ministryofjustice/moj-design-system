@@ -61,23 +61,32 @@ If you add additional fields, then you can also show the answers on the check sc
 
 ## Reducing file sizes
 
-Large files can slow users down which is especially the case in repeat-use, frequently used services like a case working system.
-
-It can be helpful to automatically reduce the file size of the upload files.
+Large files can slow users down. If you don't have to show users the original file then you should automatically reduce the size of the file and use that one instead. You can always store the original file behind the scenes.
 
 ## Bulk file uploading
 
-Bulk file uploading lets users upload files quickly which might be more appropriate in repeat use interfaces like case working systems.
+Bulk file uploading lets users upload files quickly which might be more appropriate in frequently used interfaces like case working systems.
 
 Only use this pattern if you have evidence that the above patterns are not working well enough.
 
 ### Without JavaScript
 
+#### 1. Initial state
+
 {{ dsExample({
   name: 'upload-files',
-  example: 'bulk-no-js',
+  example: 'bulk-no-js-1',
   section: 'patterns',
-  height: 580
+  height: 350
+}) }}
+
+#### 2. Uploaded state
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'bulk-no-js-2',
+  section: 'patterns',
+  height: 800
 }) }}
 
 ## Known gaps

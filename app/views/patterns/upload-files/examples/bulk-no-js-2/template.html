@@ -1,7 +1,21 @@
 {% from "summary-list/macro.njk" import govukSummaryList %}
 {% from "button/macro.njk" import govukButton %}
 {% from "file-upload/macro.njk" import govukFileUpload %}
+{% from "error-summary/macro.njk" import govukErrorSummary %}
 
+  {{ govukErrorSummary({
+    titleText: "There is a problem",
+    errorList: [
+      {
+        text: "File X must be a CSV or ODS",
+        href: "#file-upload-1"
+      },
+      {
+        text: "File Y must be smaller than 2MB",
+        href: "#file-upload-1"
+      }
+    ]
+  }) }}
 
   {{ govukFileUpload({
     id: "file-upload-1",
@@ -28,7 +42,7 @@
                 text: "File 1"
               },
               value: {
-                text: "receipta.jpg"
+                html: '<a download href="/">receipta.jpg</a>, 2MB'
               },
               actions: {
                 items: [
@@ -45,7 +59,7 @@
                 text: "File 2"
               },
               value: {
-                html: 'receipt2.jpg'
+                html: '<a download href="/">receipt2.jpg</a>, 5MB'
               },
               actions: {
                 items: [
