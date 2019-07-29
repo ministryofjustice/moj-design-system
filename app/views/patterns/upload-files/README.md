@@ -126,11 +126,11 @@ You can use this pattern on its own or as part of a larger form with multiple qu
 
 The component works differently when JavaScript is unavailable.
 
-1. There's no dropzone.
-2. A separate upload button appears underneath the file input. Pressing this should submit the entire form and show errors as normal as well as successfully uploaded files just underneath the file input. Users can upload additional files if they wish.
-3. An error summary appears at the top. If there are multiple errors, both errors focus the same file input.
-4. Inline errors are shown just above the file input.
-5. If the user selects the continue button, the entire form is validated. If all fields are valid, the user proceeds to the next step—even if they wanted to upload more files. You can add a check file page afterwards to let users review the files they've added. See the stepped multi-file pattern for an example.
+1. there's no dropzone.
+2. a separate upload button appears underneath the file input. Pressing this should submit the entire form and show errors as normal as well as successfully uploaded files just underneath the file input. Users can upload additional files if they wish.
+3. an error summary appears at the top. If there are multiple errors, both errors focus the same file input.
+4. inline errors are shown just above the file input.
+5. if the user selects the continue button, the entire form is validated. If all fields are valid, the user proceeds to the next step—even if they wanted to upload more files. You can add a check file page afterwards to let users review the files they've added. See the stepped multi-file pattern for an example.
 
 #### 1. Initial state
 
