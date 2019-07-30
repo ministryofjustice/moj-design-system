@@ -19,7 +19,7 @@
 
 .app-subnav__title {
   @include govuk-font($size: 19);
-  color: govuk-colour("grey-1");
+  color: govuk-colour("dark-grey");
   font-weight: normal;
   margin: 0;
   padding: govuk-spacing(2);
@@ -82,12 +82,18 @@
     border-color: govuk-colour("light-blue");
   }
 
+  a:focus {
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    box-shadow: 0 -2px $govuk-focus-colour, 0 4px $govuk-focus-text-colour;
+    border-color: $govuk-focus-text-colour;
+  }
+
 }
 
 
 .app-subnav__list-item--selected {
 
-  a,
   a:link,
   a:visited {
     border-color: govuk-colour("blue");
@@ -95,12 +101,25 @@
     font-weight: bold;
   }
 
+  a:focus {
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    box-shadow: 0 -2px $govuk-focus-colour, 0 4px $govuk-focus-text-colour;
+    border-color: $govuk-focus-text-colour;
+  }
+
   @include govuk-media-query($from: tablet) {
-    a,
     a:link,
     a:visited {
-      background-color: govuk-colour("grey-4");
+      background-color: govuk-colour("light-grey");
+    }
+
+    a:focus {
+      color: $govuk-focus-text-colour;
+      background-color: $govuk-focus-colour;
+      border-color: transparent;
     }
   }
+
 
 }

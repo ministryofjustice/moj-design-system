@@ -1,4 +1,4 @@
-{% extends "template.njk" %}
+{% extends "govuk/template.njk" %}
 
 {% from "back-link/macro.njk"     import govukBackLink %}
 {% from "breadcrumbs/macro.njk"   import govukBreadcrumbs %}
@@ -45,7 +45,7 @@
   {% block scripts %}
     <!-- Javascript -->
     <script src="/public/javascripts/vendor/jquery.min.js"></script>
-    <script src="/node_modules/govuk-frontend/all.js"></script>
+    <script src="/node_modules/govuk-frontend/govuk/all.js"></script>
     {% block pageScripts %}{% endblock %}
   {% endblock %}
   <!-- GOV.UK Prototype Kit {{releaseVersion}} -->

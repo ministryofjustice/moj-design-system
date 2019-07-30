@@ -70,7 +70,7 @@
   }
 
   &[aria-selected=true] {
-    background-color: govuk-colour("grey-4");
+    background-color: govuk-colour("light-grey");
     color: govuk-colour("black");
     margin-bottom: -1px;
     padding-bottom: 21px;
@@ -86,7 +86,7 @@
 
 .app-tabs__panel {
   @include govuk-font($size: 19);
-  background-color: govuk-colour("grey-4");
+  background-color: govuk-colour("light-grey");
   border: 1px solid $govuk-border-colour;
   border-top: 0;
   position: relative;

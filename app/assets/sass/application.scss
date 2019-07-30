@@ -2,8 +2,8 @@ $govuk-global-styles: true;
 $govuk-page-width: 1100px;
 
 // Import GOV.UK Frontend
-@import "node_modules/govuk-frontend/all";
-@import "node_modules/@ministryofjustice/frontend/all";
+@import "node_modules/govuk-frontend/govuk/all";
+// @import "node_modules/@ministryofjustice/frontend/all";
 
 // Import Components
 @import "../../components/all";
@@ -83,7 +83,7 @@ p {
 li code,
 td code,
 p code {
-  background-color: govuk-colour("grey-4");
+  background-color: govuk-colour("light-grey");
   padding: 0 govuk-spacing(1);
 }
 
@@ -93,7 +93,6 @@ p code {
   $copy-button-colour: #00823b;
 
   @include govuk-font(16);
-  @include govuk-focusable;
   position: absolute;
   z-index: 1;
   top: govuk-spacing(4);
@@ -111,6 +110,10 @@ p code {
   &:active {
     margin-top: 2px;
     box-shadow: none;
+  }
+
+  &:focus {
+    // todo https://design-system.service.gov.uk/get-started/focus-states/#make-other-focusable-elements-accessible
   }
 }
 
