@@ -1,35 +1,33 @@
-Help users upload one or more files using one of the following:
+Help users upload:
 
-- stepped single file upload
-- stepped multi-file upload
-- bulk file upload
+- a single file
+- multiple files, one at a time
+- multiple files at the same time
 
-## Stepped single file upload
+## A single file
 
 <img src="/public/images/patterns/upload-file-single.png">
 
-### When to use the stepped single file upload pattern
+### When to use this
 
-Use this pattern when you're asking users to upload one file.
+Use this pattern when you're asking users to upload just one file.
 
-### When not use the stepped single file upload pattern
+### When not to use this
 
-Don't use this pattern if you're asking users to upload multiple files, or if users need to upload single files repeatedly like they might have to do in a case working system. Use the stepped multi-file upload or a bulk file upload pattern instead.
+Don't use this pattern if you're asking users to upload multiple files, or if users need to upload single files repeatedly like they might have to do in a case working system.
 
-### How the stepped single file upload pattern works
+### How it works
 
-A single file upload works by using the native file input to let users select a file one at a time.
+Use the [file upload](https://design-system.service.gov.uk/components/file-upload/) component to let users select a file.
 
-You can also let users enter additional information along with the file itself. Here's two examples:
+You can also let users enter additional information about the file:
 
 - files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
 - files come with very little meta data, so you can let users provide a comment to associate with the file.
 
-If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
+If you add additional fields, then you must show the answers on the check screen. If the file is an image, then you can show a preview. If the file is a spreadsheet, then you can show the values in a table.
 
-### Single file upload steps
-
-#### 1. Upload screen
+### 1. Upload screen
 
 {{ dsExample({
   name: 'upload-files',
@@ -38,7 +36,7 @@ If you add additional fields, then you should show the answers on the check scre
   height: 700
 }) }}
 
-#### 2. Check screen
+### 2. Check screen
 
 {{ dsExample({
   name: 'upload-files',
@@ -47,28 +45,30 @@ If you add additional fields, then you should show the answers on the check scre
   height: 1300
 }) }}
 
-## Stepped multi-file upload
+## Multiple files, one at a time
 
 <img src="/public/images/patterns/upload-file-multiple.png">
 
-### When to use the stepped multi-file upload pattern
+### When to use this
 
-Use this pattern when you're asking users to upload multiple files.
+Use this pattern when users need to upload multiple files.
 
-### When not use the stepped multi-file upload pattern
+### When not to use this
 
-You should try using this pattern, even for repeat-use interfaces like case working systems. But if your research shows this pattern isn't efficient enough, you should use the bulk file upload pattern.
+If you need to let users upload multiple files, you should start by using this pattern.
 
-### How the stepped multi-file upload pattern works
+It's possible that this approach is too slow for users that are required to upload a lot of files on a frequent basis. In this case you can let users upload multiple files at the same time which is shown later.
+
+### How it works
 
 This pattern uses the first two steps of the stepped single file upload pattern. It has an additional screen to let users choose to add another file if they need to.
 
-Like the stepped single file upload pattern you can also let users enter additional information along with the file itself. Here's two examples:
+You can also let users enter additional information about the file:
 
 - files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
 - files come with very little meta data, so you can let users provide a comment to associate with the file.
 
-If you add additional fields, then you should show the answers on the check screen with the file. If the file is an image, then show users a preview. If the file is a spreadsheet, then show the values in a table.
+If you add additional fields, then you must show the answers on the check screen. If the file is an image, then you can show a preview. If the file is a spreadsheet, then you can show the values in a table.
 
 ### 1. Upload screen
 
@@ -100,25 +100,27 @@ If you add additional fields, then you should show the answers on the check scre
   id: '2'
 }) }}
 
-## Bulk file upload
+## Multiple files at the same time
 
 <img src="/public/images/patterns/upload-file-bulk.png">
 
-### When to use the bulk file upload pattern
+### When to use this
 
-The bulk file upload patterns lets users upload files quickly which can be better for frequently used interfaces like case working systems.
+Before using this pattern, you should try letting users upload multiple files, one at a time. See guidance above for this.
 
-### When not to use the bulk file upload pattern
+If research shows it's not working fast enough, use this pattern to let users upload multiple files at the same time. This can be useful in repeat-use services like case working systems.
 
-Do not use this pattern for citizen facing services or users with low digital literacy. You should use the stepped single file (or multi-file) upload pattern in these cases.
+### When not to use this
 
-### How the bulk file upload pattern works
+Don't use this pattern if your users have low digital literacy. Let users upload multiple files, one at a time instead.
 
-The bulk file upload pattern works by letting users select multiple files at a time—either with the native file picker or by dragging and dropping them onto the dropzone.
+### How it works
 
-Once files are selected or dropped, files are uploaded immediately using AJAX. For each dropped file, upload progress is shown in real time underneath the dropzone.
+This pattern works by letting users select multiple files at a time—either with the native file picker or by dragging and dropping them onto the dropzone.
 
-Once the files are uploaded, they're either marked as successfully uploaded or unsuccessfully uploaded (as an error). No error summary is shown at the top of the page. Error are associated to the file input using the `aria-describedby` attribute.
+Once files are added, they're uploaded immediately using AJAX. For each dropped file, upload progress is shown in real time underneath the dropzone.
+
+Once the files are uploaded, they're either marked as successfully uploaded or unsuccessfully uploaded (as an error). No error summary is shown at the top of the page. Errors are associated to the file input using the `aria-describedby` attribute.
 
 You can use this pattern on its own or as part of a larger form with multiple questions.
 
@@ -152,7 +154,14 @@ The component works differently when JavaScript is unavailable.
 
 ## Avoid asking users to upload files
 
-Uploading files involves a tricky number of interactions such as scanning or taking a photo, putting it on the computer, selecting it from the file system and waiting for it to be uploaded. For these reasons, try not to ask users to upload files where ever possible.
+Uploading files involves a number of challenging interactions like:
+
+- such as scanning or taking a photo
+- transfering it onto a device
+- selecting it from the file system
+- waiting for it to be uploaded
+
+For these reasons, try not to ask users to upload files whereever possible.
 
 ## Accept multiple file types
 
