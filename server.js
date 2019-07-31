@@ -100,7 +100,6 @@ if ((env === 'production' || env === 'staging') && useAuth === 'false') {
 // Setup application
 const appViews = [
   path.join(__dirname, '/node_modules/govuk-frontend/'),
-  path.join(__dirname, '/node_modules/govuk-frontend/components'),
   path.join(__dirname, '/node_modules/@ministryofjustice/frontend/'),
   path.join(__dirname, '/node_modules/@ministryofjustice/frontend/components'),
   path.join(__dirname, 'app/views'),
@@ -133,8 +132,9 @@ app.set('view engine', 'html');
 
 // Middleware to serve static assets
 app.use('/public', express.static(path.join(__dirname, '/public')));
-app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-frontend', 'assets')));
+app.use('/assets', express.static(path.join(__dirname, '/node_modules/govuk-frontend/govuk/assets')))
 app.use('/assets', express.static(path.join(__dirname, '/node_modules/@ministryofjustice/frontend/assets')));
+
 app.use('/node_modules/govuk-frontend', express.static(path.join(__dirname, '/node_modules/govuk-frontend')));
 app.use('/node_modules/moj-frontend', express.static(path.join(__dirname, '/node_modules/@ministryofjustice/frontend')));
 
