@@ -3,7 +3,7 @@ const gulp = require('gulp');
 const config = require('./config.json');
 
 gulp.task('watch-sass', (done) => {
-  gulp.watch(config.paths.assets + 'sass/**', { cwd: './' }, gulp.task('sass'));
+  gulp.watch([config.paths.assets + 'sass/**', config.paths.components + '**/*.scss'], { cwd: './' }, gulp.task('sass'));
   done();
 });
 
