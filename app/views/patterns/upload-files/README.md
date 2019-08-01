@@ -31,7 +31,7 @@ If you add additional fields, then you must show the answers on the check screen
 
 {{ dsExample({
   name: 'upload-files',
-  example: 'default',
+  example: 'upload-single',
   section: 'patterns',
   height: 700
 }) }}
@@ -74,7 +74,7 @@ If you add additional fields, then you must show the answers on the check screen
 
 {{ dsExample({
   name: 'upload-files',
-  example: 'default',
+  example: 'upload-multiple',
   section: 'patterns',
   height: 700,
   id: '2'
