@@ -1,4 +1,4 @@
-Use the badge to highlight small details. For example, when something is urgent or complete.
+Use the badge to highlight small details like an urgent case.
 
 {{ dsExample({
   name: 'badge',
@@ -6,17 +6,11 @@ Use the badge to highlight small details. For example, when something is urgent 
   height: 125
 }) }}
 
-## Guidance
-
-### When to use this component
+## When to use this component
 
 The badge is useful for drawing users attention to particular information. It should be used sparingly because when used a lot it loses its value.
 
-<!-- ### When not to use this component -->
-
-
-
-### How it works
+## How it works
 
 There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
@@ -34,7 +28,7 @@ The default, neutral badge is blue. [Alternative styles](/styles/badge/) are als
   height: 125
 }) }}
 
-### Alternative styles
+## Additional styles
 
 There are a number of additional colour styles that can be used:
 
@@ -113,7 +107,7 @@ There are a number of additional colour styles that can be used:
 </tbody>
 </table>
 
-**With a size modifier**
+### With a size modifier
 
 <table class="govuk-table">
 <thead class="govuk-table__head">
@@ -190,12 +184,11 @@ There are a number of additional colour styles that can be used:
 </tbody>
 </table>
 
-### Research on this component
+## Research on this component
 
 This component has been used successfully in the following services:
 
 - Claim fees for Crown court defence (Legal Aid Agency)
-- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
 - Prisoner Escort Request (Her Majesty’s Prison and Probation Service)
 - Professional case manager (Her Majesty’s Courts and Tribunals Service)
 

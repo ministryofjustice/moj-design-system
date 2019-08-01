@@ -6,13 +6,11 @@ Use the Filter component to filter a large set of results.
   height: 1000
 }) }}
 
-## Guidance
+## When to use this component
 
-### When to use this component
+Use this component to help users find something in a large collection.
 
-Use this component to help users find a particular item in a large collection according to their own preferences and mental models.
-
-### How it works
+## How it works
 
 The filter component can take any set of GOV.UK form fields such as radio buttons, checkboxes, memorable date inputs and text boxes.
 
@@ -22,9 +20,9 @@ Users submit the form with one or more filters and the results are filtered acco
 
 Clicking on a selected filter removes the filter from the results.
 
-### Research on this component
+## Research on this component
 
-We need more research. If you have used the filter component, get in touch to share your research findings.
+This pattern is marked as experimental because it needs more research.
 
 ## Contribute to this component
 

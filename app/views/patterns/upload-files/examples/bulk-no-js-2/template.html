@@ -1,0 +1,80 @@
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
+{% from "govuk/components/error-summary/macro.njk" import govukErrorSummary %}
+
+  {{ govukErrorSummary({
+    titleText: "There is a problem",
+    errorList: [
+      {
+        text: "File X must be a CSV or ODS",
+        href: "#file-upload-1"
+      },
+      {
+        text: "File Y must be smaller than 2MB",
+        href: "#file-upload-1"
+      }
+    ]
+  }) }}
+
+  {{ govukFileUpload({
+    id: "file-upload-1",
+    name: "file-upload-1",
+    isPageHeading: true,
+    label: {
+      text: "Upload receipt",
+      classes: 'govuk-label--xl'
+    },
+    errorMessage: {
+      html: 'File X must be a CSV or ODS<br>File Y must be smaller than 2MB'
+    }
+  }) }}
+
+  {{ govukButton({ text: 'Upload', classes: 'govuk-button--secondary' }) }}<br>
+
+  <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h2 class="govuk-heading-m">Files added</h2>
+        {{ govukSummaryList({
+          rows: [
+            {
+              key: {
+                text: "File 1"
+              },
+              value: {
+                html: '<a download href="/">receipta.jpg</a>, 2MB'
+              },
+              actions: {
+                items: [
+                  {
+                    href: "#",
+                    text: "Delete",
+                    visuallyHiddenText: "file 1"
+                  }
+                ]
+              }
+            },
+            {
+              key: {
+                text: "File 2"
+              },
+              value: {
+                html: '<a download href="/">receipt2.jpg</a>, 5MB'
+              },
+              actions: {
+                items: [
+                  {
+                    href: "#",
+                    text: "Delete",
+                    visuallyHiddenText: "file 2"
+                  }
+                ]
+              }
+            }
+          ]
+        }) }}
+    </div>
+  </div>
+
+  {{ govukButton({ text: 'Continue' }) }}
+</form>

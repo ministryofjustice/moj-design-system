@@ -113,13 +113,11 @@ There are a number of additional colour styles that can be used:
     </tbody>
 </table>
 
-## Guidance
+## When to use these styles
 
-### When to use these styles
+Use tag styles when the user needs to be alerted to the status of something like the status of a prisoner.
 
-Use these tag styles when the user needs to be alerted to the status of something, for example, the status of a prisoner or someone in custody.
-
-### Research on these styles
+## Research on these styles
 
 We need more research. If you have used alternative tag styles, get in touch to share your research findings.
 

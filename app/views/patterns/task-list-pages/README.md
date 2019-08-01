@@ -11,15 +11,13 @@ Task list pages help users understand:
 
 <img src="/public/images/patterns/task-list.png" alt="A screenshot of the task list pattern in use. It is placed directly above the H1." />
 
-## Guidance
-
-### When to use this component
+## When to use this component
 
 Only use a task list page for longer transactions involving multiple tasks that users may need to complete over a number of sessions.
 
 Try to simplify the transaction before you use a task list page. If you’re able to reduce the number of tasks or steps involved, you may not need one.
 
-### How it works
+## How it works
 
 You should show a task list page:
 - at the start of the transaction
@@ -31,7 +29,7 @@ When using a task list page in your service you need to:
 
 If there are lots of tasks to complete, you might also need to group them into sub-sections.
 
-#### Show the status of the task
+### Show the status of the task
 
 Whenever you show a task list page, make it clear to users which tasks they’ve completed by labelling them ‘Completed’.
 
@@ -39,7 +37,7 @@ If the user has not completed the task, use the ‘Incomplete’ label.
 
 <!-- IMAGE -->
 
-#### Group related actions into tasks
+### Group related actions into tasks
 
 Group related activities and questions into tasks, for example, ‘Provide financial evidence’ and ‘Give medical information’. This will help users understand and plan what they need to do.
 
@@ -48,7 +46,7 @@ Where possible, task names should:
 - start with verbs, for example, ‘check’, ‘declare’, ‘report’
 - not be phrased as questions as people think they can skip these if the answer is ‘no’
 
-#### Group tasks into sections
+### Group tasks into sections
 
 If your transaction involves lots of tasks, make it manageable by splitting it up into sections that represent stages in the process.
 
@@ -56,7 +54,7 @@ Avoid a ‘Before you start’ section, as users will skip this because it impli
 
 Where possible, allow users to complete tasks in any order. This will help them plan their time and complete sections as and when they can.
 
-### Research on this pattern
+## Research on this pattern
 
 We need more research. If you have used the support, get in touch to share your research findings.
 

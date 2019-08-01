@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .app-pane__nav {
-  background-color: govuk-colour("grey-4");
+  background-color: govuk-colour("light-grey");
 }
 
 .app-nav {
@@ -44,19 +44,25 @@
   }
 
   a:focus {
-    background-color: govuk-colour("white");
     position: relative;
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    border-bottom-color: $govuk-focus-text-colour;
+    box-shadow: none;
   }
 
 }
 
-.app-nav__list-item--selected {
+.app-nav__list-item--selected a:link,
+.app-nav__list-item--selected a:visited {
+  border-bottom-color: govuk-colour("blue");
+  color: govuk-colour("blue");
+}
 
-  a,
-  a:link,
-  a:visited {
-    border-bottom-color: govuk-colour("blue");
-    color: govuk-colour("blue");
-  }
-
+.app-nav__list-item--selected a:focus {
+  position: relative;
+  color: $govuk-focus-text-colour;
+  background-color: $govuk-focus-colour;
+  border-bottom-color: $govuk-focus-text-colour;
+  box-shadow: none;
 }

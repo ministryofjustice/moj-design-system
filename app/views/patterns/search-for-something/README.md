@@ -2,32 +2,28 @@
   <source src="/public/videos/search.mp4" type="video/mp4">
 </video>
 
-## Guidance
-
-### When to use this pattern
+## When to use this pattern
 
 Use this pattern to help users search for something within a system. For example, a case in a case working system.
 
 This pattern is especially helpful when users need to be able to search from anywhere as it's accessible from any page.
 
-#### Search everything
+## Search everything
 
-Users generally expect to be able to search for anything and by any particular detail. Try not to limit what and how the user can search.
+Users expect to be able to search for anything and by any keyword.
 
-If you must limit what the user can search for, use a specific label and hint text. For example:
+If you must limit what the user can search for, use a specific label and hint. For example:
 
-- label should be “Find case”
-- hint should be “Enter a case number or party name”
+- label could be “Find person”
+- hint could be “Enter person's last name or identification number”
 
-#### Advanced search
+## Advanced search
 
 Don't provide users with an advanced search page. Users prefer to search and _then_ refine their results. To do this, let users [filter their results](/patterns/filter-a-list/).
 
-### Research on this pattern
+## Research on this pattern
 
-This pattern has been used in:
-
-- Judicial case manager (Her Majesty’s Courts and Tribunals Service)
+More research is needed on this.
 
 ## Contribute to this pattern
 

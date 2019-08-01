@@ -6,13 +6,11 @@ Help users enter an amount of money in a specified currency.
   height: 200
 }) }}
 
-## Guidance
-
-### When to use this component
+## When to use this component
 
 Use the currency input component when you need users to tell you an amount of money in a particular currency, for example pounds sterling, euros or dollars.
 
-### How it works
+## How it works
 
 There are 2 ways to use the currency input component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
@@ -22,14 +20,13 @@ The input does not prevent users from typing invalid numbers because that makes 
 
 The currency symbol is styled differently to the input so that users don't confuse it with the input's value.
 
-### Research on this component
+## Research on this component
 
 The design, code and guidance here are based on [recommendations from the community](https://github.com/alphagov/govuk-design-system-backlog/issues/68).
 
 This component has been used successfully in the following services:
 
 - [Claim fees for Crown court defence](https://claim-crown-court-defence.service.gov.uk/) (Legal Aid Agency)
-- [Making a money claim](https://www.gov.uk/make-money-claim) (Her Majesty’s Courts and Tribunals Service)
 
 ## Contribute to this component
 

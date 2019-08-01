@@ -1,0 +1,19 @@
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
+{% from "govuk/components/error-summary/macro.njk" import govukErrorSummary %}
+
+  {{ govukFileUpload({
+    id: "file-upload-1",
+    name: "file-upload-1",
+    isPageHeading: true,
+    label: {
+      text: "Upload receipt",
+      classes: 'govuk-label--xl'
+    }
+  }) }}
+
+  {{ govukButton({ text: 'Upload', classes: 'govuk-button--secondary' }) }}<br>
+
+  {{ govukButton({ text: 'Continue' }) }}
+</form>

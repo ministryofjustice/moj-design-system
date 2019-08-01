@@ -10,6 +10,11 @@
   {% set height = 350 %}
 {% endif -%}
 
+{% set id = '' %}
+{%- if params.id %}
+  {% set id = params.id %}
+{% endif -%}
+
 {% set codeHref = './app/views/' + section + params.name + '/examples/' + params.example + '/template.html' %}
 {#% set cssHref = './app/views/' + section + params.name + '/examples/' + params.example + '/styles.css' %#}
 {#% set jsHref = './app/views/' + section + params.name + '/examples/' + params.example + '/scripts.html' %#}
@@ -32,18 +37,6 @@
 {% endcode %}
 {% endset -%}
 
-{#%- set cssCode %}
-{% code %}css
-{{ getCssCode(cssHref) | safe }}
-{% endcode %}
-{% endset -%#}
-
-{#%- set jsCode %}
-{% code %}js
-{{ getJsCode(jsHref) | safe }}
-{% endcode %}
-{% endset -%#}
-
 <div class="app-example">
 
   <span class="app-example__new-window">
@@ -57,17 +50,11 @@
 <div class="app-tabs">
 
   <ul class="app-tabs__list">
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example}}">HTML</a></li>
-    {#%- if cssCode.length %}
-      <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#css{{'-' + params.example}}">CSS</a></li>
-    {% endif -%#}
-    {#%- if jsCode.length %}
-      <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#js{{'-' + params.example}}">JavaScript</a></li>
-    {% endif -%#}
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example}}">Nunjucks</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example + '-' + id}}">HTML</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example + '-' + id}}">Nunjucks</a></li>
   </ul>
 
-  <div class="app-tabs__panel app-js-hidden" id="html{{ '-' + params.example }}" data-module="app-copy">
+  <div class="app-tabs__panel app-js-hidden" id="html{{ '-' + params.example + '-' + id}}" data-module="app-copy">
     {{ htmlCode | indent(4) | safe }}
   </div>
 
@@ -83,7 +70,7 @@
   </div>
   {% endif -%#}
 
-  <div class="app-tabs__panel app-js-hidden" id="nunjucks{{ '-' + params.example }}" data-module="app-copy">
+  <div class="app-tabs__panel app-js-hidden" id="nunjucks{{ '-' + params.example + '-' + id}}" data-module="app-copy">
     {{ nunjucksCode | indent(4) | safe }}
 
     {%- if argumentsHref %}

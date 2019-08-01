@@ -1,4 +1,4 @@
-Use the password reveal component to let users check their password safely.
+Use the Password Reveal component to let users check their password safely.
 
 {{ dsExample({
   name: 'password-reveal',
@@ -6,13 +6,11 @@ Use the password reveal component to let users check their password safely.
   height: 175
 }) }}
 
-## Guidance
-
-### When to use this component
+## When to use this component
 
 Use the password reveal component to let users check their password safely.
 
-### Research on this component
+## Research on this component
 
 We need more research. If you have used the password reveal, get in touch to share your research findings.
 
