@@ -6,9 +6,9 @@ After following this guide your prototype will automatically deploy any changes 
 
 You'll need to be a member of the [moj-design](https://dashboard.heroku.com/teams/moj-design/apps) Heroku team and have your prototype in [MoJ's GitHub account](https://github.com/ministryofjustice).
 
-If you don't have access to these, ask in the Slack channel [#prototyping](https://mojdt.slack.com/messages/C9DSD7NA0) and whoever is managing support that day should be able to add you.
+If you don't have access to these, ask in the Slack channel [#moj-design-system](https://mojdt.slack.com/messages/CH5RUSB27) and whoever is managing support that day should be able to add you.
 
-If you don't know how to setup GitHub read the [version your prototype](#) guide.
+<!-- If you don't know how to setup GitHub read the [version your prototype](#) guide. -->
 
 ## Setting up Heroku
 
