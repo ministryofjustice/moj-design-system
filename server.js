@@ -8,17 +8,24 @@ const express = require('express');
 const dotenv = require('dotenv');
 const nunjucks = require('nunjucks');
 const markdown = require('nunjucks-markdown');
+const sessionInMemory = require('express-session');
+const bodyParser = require('body-parser');
 const marked = require('marked');
 const fileHelper = require('./app/utils/file-helper');
 const NunjucksCodeHighlight = require('nunjucks-highlight.js');
 const hljs = require('highlight.js');
 const highlight = new NunjucksCodeHighlight(nunjucks, hljs);
 
+let sessionOptions = {
+  secret: 'moj-frontend'
+};
+
 // Run before other code to make sure variables from .env are available
 dotenv.config();
 
 // Routing
 const routes = require('./app/routes/index');
+const multiFileUploadRoutes = require('./app/routes/multi-file-upload');
 const autoRoutes = require('./app/routes/auto');
 
 // Local dependencies
@@ -42,6 +49,8 @@ const useBrowserSync = process.env.USE_BROWSER_SYNC || true;
 
 // Application
 const app = express();
+
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Find a free port and start the server
 utils.findAvailablePort(app, (port) => {
@@ -137,8 +146,15 @@ app.use('/assets', express.static(path.join(__dirname, '/node_modules/@ministryo
 app.use('/node_modules/govuk-frontend', express.static(path.join(__dirname, '/node_modules/govuk-frontend')));
 app.use('/node_modules/moj-frontend', express.static(path.join(__dirname, '/node_modules/@ministryofjustice/frontend')));
 
+app.use(sessionInMemory(Object.assign(sessionOptions, {
+  name: 'moj-frontend',
+  resave: false,
+  saveUninitialized: false
+})));
+
 // Use routes
 app.use(routes);
+app.use(multiFileUploadRoutes);
 app.use(autoRoutes);
 
 const renderer = new marked.Renderer();
