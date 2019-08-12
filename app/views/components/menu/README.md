@@ -45,7 +45,7 @@ Use the green colour when it's the main action the user needs to take.
 
 ### Research on this component
 
-More research is needed.
+We need more research. If you have used the menu component, get in touch to share your research findings.
 
 ## Contribute to this component
 

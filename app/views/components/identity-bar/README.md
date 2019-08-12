@@ -50,7 +50,7 @@ This [menu](/components/menu/) is made up of multiple menus. The first consists 
 
 ## Research on this component
 
-More research is needed.
+We need more research. If you have used the identity bar component, get in touch to share your research findings.
 
 ## Contribute to this component
 

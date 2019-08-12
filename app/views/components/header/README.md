@@ -16,7 +16,7 @@ The name of the organisation and service or system appears in the top left. You 
 
 ## Research on this component
 
-More research is needed.
+We need more research. If you have used the header component, get in touch to share your research findings.
 
 ## Contribute to this component
 

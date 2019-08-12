@@ -87,3 +87,13 @@ You can include a check screen at this point if you need to.
 ### Error messages
 
 Use the file upload error messages [from the GOV.UK Design System](https://design-system.service.gov.uk/components/file-upload/#error-messages).
+
+## Research on this component
+
+This component is marked as experimental because it needs more research.
+
+If you have used the multi file upload component, get in touch to share your research findings.
+
+## Contribute to this component
+
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)

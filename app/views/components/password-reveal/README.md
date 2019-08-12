@@ -12,7 +12,7 @@ Use the password reveal component to let users check their password safely.
 
 ## Research on this component
 
-We need more research. If you have used the password reveal, get in touch to share your research findings.
+We need more research. If you have used the password reveal component, get in touch to share your research findings.
 
 ## Contribute to this component
 
