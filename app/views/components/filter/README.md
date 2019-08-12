@@ -1,4 +1,4 @@
-Use the Filter component to filter a large set of results.
+Use the Filter component to let users filter a large list of items.
 
 {{ dsExample({
   name: 'filter',
@@ -6,23 +6,21 @@ Use the Filter component to filter a large set of results.
   height: 1000
 }) }}
 
-## When to use this component
-
-Use this component to help users find something in a large collection.
-
 ## How it works
 
-The filter component can take any set of GOV.UK form fields such as radio buttons, checkboxes, memorable date inputs and text boxes.
+You should use this component with the [filter layout](/styles/filter-layout) as shown in the [filter a list](/patterns/filter-a-list) pattern.
 
-The filters should reflect attributes about the items in the list of results. For example, if you have a case list with status as a column, then you can have status as a filter.
+The filter component can consist of any form control like radio buttons, checkboxes, date inputs and text boxes.
 
-Users submit the form with one or more filters and the results are filtered accordingly with the filters marked as selected at the top of the filter.
+Users can select 1 or more filters and submit the form. The page refreshes to show the items that match the filters. The selected filters are also marked at the top of the filter to let users see what they've selected and remove them easily.
 
-Clicking on a selected filter removes the filter from the results.
+Clicking on a selected filter, refreshes the page and removes the filter.
 
 ## Research on this component
 
-This pattern is marked as experimental because it needs more research.
+This component is marked as experimental because it needs more research.
+
+If you have used the filter component, get in touch to share your research findings.
 
 ## Contribute to this component
 

@@ -85,6 +85,7 @@ td code,
 p code {
   background-color: govuk-colour("light-grey");
   padding: 0 govuk-spacing(1);
+  @include govuk-font(19);
 }
 
 

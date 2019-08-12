@@ -20,7 +20,7 @@ There are 2 ways to use the sub-navigation component. You can use HTML or, if yo
 
 ## Research on this component
 
-More research is needed.
+We need more research. If you have used the sub navigation component, get in touch to share your research findings.
 
 ## Contribute to this component
 

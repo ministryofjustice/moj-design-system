@@ -1,42 +1,45 @@
-Help users upload:
+
+<img src="/public/images/patterns/upload-file-single.png">
+
+## When to use this pattern
+
+Use this pattern whenever you need users to upload one or more files.
+
+## When not to use this pattern
+
+Do not ask users to upload files unless you really need to in order to deliver your service.
+
+Uploading files can involve a number of interactions that users might find challenging, like:
+
+- scanning a document or taking a photo
+- sending a file from one device to another
+- selecting a file from a folder
+- waiting for a file to be uploaded
+
+## How it works
+
+How you help users upload files depends on whether they need to upload:
 
 - a single file
 - multiple files, one at a time
 - multiple files at the same time
 
-## A single file
+### Help users upload a single file
 
-<img src="/public/images/patterns/upload-file-single.png">
-
-### When to use this
-
-Use this pattern when you're asking users to upload just one file.
-
-### When not to use this
-
-Don't use this pattern if you're asking users to upload multiple files, or if users need to upload single files repeatedly like they might have to do in a case working system.
-
-### How it works
-
-Use the [file upload](https://design-system.service.gov.uk/components/file-upload/) component to let users select a file.
-
-You can also let users enter additional information about the file:
-
-- files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
-- files come with very little meta data, so you can let users provide a comment to associate with the file.
-
-If you add additional fields, then you must show the answers on the check screen. If the file is an image, then you can show a preview. If the file is a spreadsheet, then you can show the values in a table.
-
-### 1. Upload screen
+Use the [file upload component in the GOV.UK Design System](https://design-system.service.gov.uk/components/file-upload/) to let users upload a single file.
 
 {{ dsExample({
   name: 'upload-files',
-  example: 'default',
+  example: 'upload-single',
   section: 'patterns',
   height: 700
 }) }}
 
-### 2. Check screen
+Once users have uploaded their file, let them check it’s the right one by showing a preview.
+
+For files where a preview might be difficult to check, consider how you can help users check the information.
+
+For example, if the file is a spreadsheet, you could show its contents in a table.
 
 {{ dsExample({
   name: 'upload-files',
@@ -45,52 +48,9 @@ If you add additional fields, then you must show the answers on the check screen
   height: 1300
 }) }}
 
-## Multiple files, one at a time
+### Let users upload additional files
 
-<img src="/public/images/patterns/upload-file-multiple.png">
-
-### When to use this
-
-Use this pattern when users need to upload multiple files.
-
-### When not to use this
-
-If you need to let users upload multiple files, you should start by using this pattern.
-
-It's possible that this approach is too slow for users that are required to upload a lot of files on a frequent basis. In this case you can let users upload multiple files at the same time which is shown later.
-
-### How it works
-
-This pattern uses the first two steps of the stepped single file upload pattern. It has an additional screen to let users choose to add another file if they need to.
-
-You can also let users enter additional information about the file:
-
-- files often have long, meaningless names which makes them difficult to find later. You can let users enter a friendly name, to help them find it easily later.
-- files come with very little meta data, so you can let users provide a comment to associate with the file.
-
-If you add additional fields, then you must show the answers on the check screen. If the file is an image, then you can show a preview. If the file is a spreadsheet, then you can show the values in a table.
-
-### 1. Upload screen
-
-{{ dsExample({
-  name: 'upload-files',
-  example: 'default',
-  section: 'patterns',
-  height: 700,
-  id: '2'
-}) }}
-
-### 2. Check screen
-
-{{ dsExample({
-  name: 'upload-files',
-  example: 'check',
-  section: 'patterns',
-  height: 1300,
-  id: '2'
-}) }}
-
-### 3. Add another
+If users need the option to upload more than one file, include an additional screen asking if they want to upload another.
 
 {{ dsExample({
   name: 'upload-files',
@@ -100,86 +60,41 @@ If you add additional fields, then you must show the answers on the check screen
   id: '2'
 }) }}
 
-## Multiple files at the same time
+### Let users upload multiple files at once
 
-<img src="/public/images/patterns/upload-file-bulk.png">
+When users need to upload multiple files, start by letting them upload one file at a time, as shown in the previous example.
 
-### When to use this
+This is the simplest approach, especially for users with low digital literacy.
 
-Before using this pattern, you should try letting users upload multiple files, one at a time. See guidance above for this.
+However, in services designed for regular and repeated use, like caseworking systems, it might be more helpful to let users upload multiple files at once.
 
-If research shows it's not working fast enough, use this pattern to let users upload multiple files at the same time. This can be useful in repeat-use services like case working systems.
+Only take this approach if user research shows uploading files one at a time is problematic.
 
-### When not to use this
+To let users upload multiple files at once, use the [multi file upload component](/components/multi-file-upload).
 
-Don't use this pattern if your users have low digital literacy. Let users upload multiple files, one at a time instead.
+### Let users enter additional information about their files
 
-### How it works
+Files often have long, meaningless names by default, so you can let users enter a friendly name to make them easier to find later.
 
-This pattern works by letting users select multiple files at a time—either with the native file picker or by dragging and dropping them onto the dropzone.
+You can also let users provide a description of what a file contains, if research shows this is useful.
 
-Once files are added, they're uploaded immediately using AJAX. For each dropped file, upload progress is shown in real time underneath the dropzone.
+If you do add additional fields, show the answers on the check screen along with the file.
 
-Once the files are uploaded, they're either marked as successfully uploaded or unsuccessfully uploaded (as an error). No error summary is shown at the top of the page. Errors are associated to the file input using the `aria-describedby` attribute.
+### Accept multiple file types
 
-You can use this pattern on its own or as part of a larger form with multiple questions.
+Let users upload as many different file types as possible. You can convert them automatically if you need to. If you must limit file types, let users know by using hint text.
 
-### When JavaScript is unavailable
+### Reduce file size automatically
 
-The component works differently when JavaScript is unavailable.
+Wherever possible, let users upload large file sizes.
 
-1. there's no dropzone.
-2. a separate upload button appears underneath the file input. Pressing this should submit the entire form and show errors as normal as well as successfully uploaded files just underneath the file input. Users can upload additional files if they wish.
-3. an error summary appears at the top. If there are multiple errors, both errors focus the same file input.
-4. inline errors are shown just above the file input.
-5. if the user selects the continue button, the entire form is validated. If all fields are valid, the user proceeds to the next step—even if they wanted to upload more files. You can add a check file page afterwards to let users review the files they've added. See the stepped multi-file pattern for an example.
+When showing users a preview of a large file to check, consider if you can show a smaller version of that file so that it loads faster.
 
-#### 1. Initial state
+If you do this, you can store the original file and give users the option to view it if they need to.
 
-{{ dsExample({
-  name: 'upload-files',
-  example: 'bulk-no-js-1',
-  section: 'patterns',
-  height: 350
-}) }}
+### Error messages
 
-#### 2. Uploaded state
-
-{{ dsExample({
-  name: 'upload-files',
-  example: 'bulk-no-js-2',
-  section: 'patterns',
-  height: 800
-}) }}
-
-## Avoid asking users to upload files
-
-Uploading files involves a number of challenging interactions like:
-
-- such as scanning or taking a photo
-- transfering it onto a device
-- selecting it from the file system
-- waiting for it to be uploaded
-
-For these reasons, try not to ask users to upload files whereever possible.
-
-## Accept multiple file types
-
-Let users upload as many different file types as possible. You can convert them automatically if needed. If you must limit file types, then let users know by using hint text.
-
-## Reduce file size automatically
-
-Where ever possible, let users upload large file sizes. But, large files can slow systems down.
-
-If you don't have to show the original file then you should automatically reduce the size of the file and show that instead. You can always store the original file behind the scenes and provide it on request.
-
-## Use the file upload error templates
-
-Use the GOV.UK Design System [file error templates](https://design-system.service.gov.uk/components/file-upload/#error-messages).
-
-## Research on this pattern
-
-If you have used these patterns, get in touch to share your research findings.
+Use the [file upload error messages from the GOV.UK Design System](https://design-system.service.gov.uk/components/file-upload/#error-messages).
 
 ## Contribute to this pattern
 

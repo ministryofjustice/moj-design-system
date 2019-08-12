@@ -54,7 +54,9 @@ Use this variant when you want to tell users some information.
 
 ## Research on this component
 
-This component is marked as experimental because more research is needed on this component.
+This component is marked as experimental because it needs more research.
+
+If you have used the banner component, get in touch to share your research findings.
 
 ## Contribute to this component
 
