@@ -194,4 +194,4 @@ This component has been used successfully in the following services:
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/26)
