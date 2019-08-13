@@ -9,7 +9,7 @@ You must follow the [GOV.UK Design System prototype setup guide](https://design-
 The MOJ Design System uses MOJ Frontend. To install it, run these steps:
 
 1. open Terminal
-2. change the directory to your prototype. For example, `cd path/to/protoype`
+2. change the directory to your prototype. For example, `cd path/to/prototype`
 3. run `npm install @ministryofjustice/frontend --save`
 
 ## Updating MOJ Frontend
