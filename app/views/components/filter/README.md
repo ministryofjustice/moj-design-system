@@ -24,4 +24,4 @@ If you have used the filter component, get in touch to share your research findi
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/2)

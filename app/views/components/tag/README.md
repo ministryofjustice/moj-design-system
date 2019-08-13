@@ -123,4 +123,4 @@ We need more research. If you have used alternative tag styles, get in touch to 
 
 ## Contribute to these styles
 
-You can contribute to these styles via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to these styles via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/26)

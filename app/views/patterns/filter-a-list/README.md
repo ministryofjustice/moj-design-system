@@ -31,8 +31,8 @@ Filters can be used in combination with [search](/components/search/). In this c
 
 ## Research on this pattern.
 
-We need more research. If you have used the filter pattern, get in touch to share your research findings.
+We need more research. If you have used the filter a list pattern, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/2)

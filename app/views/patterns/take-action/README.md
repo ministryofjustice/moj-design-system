@@ -47,8 +47,8 @@ Don't put actions within the [primary navigation](/components/primary-navigation
 
 ## Research on this pattern
 
-More research is needed on this pattern.
+We need more research. If you have used this pattern, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/38)

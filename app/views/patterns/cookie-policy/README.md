@@ -9,18 +9,16 @@ You may be able to use this content without any changes. Check with your technic
   height: 2315
 }) }}
 
-## Guidance
-
-### When to use this pattern
+## When to use this pattern
 
 Every service for citizens and professional users needs a cookie policy. Services for staff and the judiciary may not need them.
 
 If you need a cookie policy, link to it from the footer.
 
-### Research on this pattern
+## Research on this pattern
 
 We need more research. If you have used this cookie policy, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/49)

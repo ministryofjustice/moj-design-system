@@ -30,10 +30,10 @@ When items are within a table, the select all button should be in the first tabl
 
 ## Research on this pattern
 
-We need more research. If you have used the support, get in touch to share your research findings.
+We need more research. If you have used the manage a list pattern, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/40)
 
 
