@@ -96,6 +96,12 @@ If you do this, you can store the original file and give users the option to vie
 
 Use the [file upload error messages from the GOV.UK Design System](https://design-system.service.gov.uk/components/file-upload/#error-messages).
 
+## Research on this pattern
+
+This pattern is marked as experimental because it needs more research.
+
+If you have used the file upload pattern, get in touch to share your research findings.
+
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/1)
