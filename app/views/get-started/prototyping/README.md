@@ -21,7 +21,7 @@ You can check which version your prototype is running by opening `package.json` 
 To update your prototype to the latest version of MOJ Frontend:
 
 1. open `package.json` in the root folder of your prototype in a text editor
-2. Under `dependencies`, update the reference to MOJ Frontend to  `"@ministryofjustice/frontend": "0.0.10-alpha”,`
+2. Under `dependencies`, update the reference to MOJ Frontend to  `"@ministryofjustice/frontend": "0.0.10-alpha",`
 3. save `package.json`
 4. open Terminal/command line
 5. change the directory to your prototype's directory. For example, `cd path/to/prototype`
