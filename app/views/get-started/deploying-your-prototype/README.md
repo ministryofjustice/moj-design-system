@@ -16,11 +16,11 @@ We use pipelines in Heroku. Pipelines let you have multiple apps and keep things
 
 1. go to the homepage for [moj-design](https://dashboard.heroku.com/teams/moj-design/apps) in Heroku
 2. click 'new' in the top right corner of the screen and select 'Create new pipeline'
-3. name the pipeline `{organisation-abbreviation}-{service-name}`
+3. name the pipeline `{organisation-abbreviation}-{service-name}-prototype`
 4. leave the pipeline owner set to `moj-design`
 5. in the connect to GitHub section select `ministryofjustice` and type the name of your repo which is normally `{service-name}-prototype` and click search
-6. find the correct GitHub repo and click 'connect'
-7. click 'create pipeline'
+6. find the correct GitHub repo and click 'Connect'
+7. click 'Create pipeline'
 
 If everything has worked you should be taken to the pipeline view. You then need to create an app to deploy your prototype to.
 
@@ -36,7 +36,7 @@ From the pipeline view.
 
 If everything has worked you should see the name of the app in the production column.
 
-You can check that the app has been deployed by selecting `Open app in browser`.
+You can check that the app has been deployed by selecting 'Open app'.
 
 You should see a screen saying 'Error: Username or password not set. See guidance for setting these.' instead of your prototype. Now follow the guidance on setting a username and password for your app.
 
@@ -69,7 +69,7 @@ If everything is working you should see a 'building app' message.
 Automatic deploys mean that every push to the `master` branch will deploy a new version of this app.
 
 1. from the pipeline view app in production click the small dropdown icon within the tile
-2. select 'Configure automatic deploys...''
+2. select 'Configure automatic deploys...'
 3. you'll see a dialogue asking you to choose a branch to deploy the default branch is `master` you'll normally want to retain this default
 4. click the 'Enable Automatic Deploys' button
 
