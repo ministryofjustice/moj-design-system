@@ -23,8 +23,8 @@ Don't provide users with an advanced search page. Users prefer to search and _th
 
 ## Research on this pattern
 
-More research is needed on this.
+We need more research. If you have used the search pattern, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/24)

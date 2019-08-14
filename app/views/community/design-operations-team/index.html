@@ -1,0 +1,20 @@
+{% extends "../../layouts/guidance.html" %}
+
+{% set sectionId = "community" %}
+{% set sectionTitle = "Community" %}
+{% set pageId = "design-operations-team" %}
+{% set pageTitle = "Design operations team" %}
+
+{% block subNav %}
+{% include "../navigation.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">{{ sectionTitle }}</span> {{ pageTitle }}</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}

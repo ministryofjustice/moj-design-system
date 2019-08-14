@@ -18,8 +18,10 @@ Clicking on a selected filter, refreshes the page and removes the filter.
 
 ## Research on this component
 
-This pattern is marked as experimental because it needs more research.
+This component is marked as experimental because it needs more research.
+
+If you have used the filter component, get in touch to share your research findings.
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/2)

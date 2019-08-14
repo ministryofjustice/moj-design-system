@@ -1,7 +1,7 @@
 
 Any websites published since September 2018 need to meet accessibility standards and publish an accessibility statement.
 
-HMCTS will need to publish accessibility statements for each service, which will be linked from the service footer.
+MOJ will need to publish accessibility statements for each service, which will be linked from the service footer.
 
 ## What the statement needs to cover
 
@@ -14,7 +14,6 @@ The statement must:
 - explain the procedure if people are not happy with the response
 - be in an accessible and consistent format
 - be updated annually
-
 
 ## Accessibility statement template
 
@@ -36,7 +35,6 @@ You should include users with access needs and those using assistive technologie
 
 When fixing issues with your online services and published content make sure they meet the key acceptance criteria of the European or international standards (respectively, [EN 301 549](http://mandate376.standards.eu/standard) and [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/)).
 
-
 ## Background
 
 The Public Sector Bodies (Websites and Mobile Applications) (No.2) Accessibility Regulations 2018 came into force on 23 September 2018. It aims to ensure public sector websites and mobile apps are accessible to all users, especially those with disabilities.
@@ -44,3 +42,7 @@ The Public Sector Bodies (Websites and Mobile Applications) (No.2) Accessibility
 Any websites published since September 2018 will need a statement by September 2019, while older websites have until 2020 to comply.
 
 [Public sector website accessibility statements - what you need to know](https://gds.blog.gov.uk/2018/11/21/public-sector-website-accessibility-statements-what-you-need-to-know/).
+
+## Contribute to this pattern
+
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/50)

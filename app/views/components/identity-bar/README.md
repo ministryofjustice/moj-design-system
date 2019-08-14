@@ -50,8 +50,8 @@ This [menu](/components/menu/) is made up of multiple menus. The first consists 
 
 ## Research on this component
 
-More research is needed.
+We need more research. If you have used the identity bar component, get in touch to share your research findings.
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/38)

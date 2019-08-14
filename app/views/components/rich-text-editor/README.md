@@ -25,8 +25,8 @@ You can also add bold, underline and italic buttons but these styles should be u
 
 ## Research on this component
 
-More reserch is needed.
+We need more research. If you have used the rich text editor component, get in touch to share your research findings.
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/44)
