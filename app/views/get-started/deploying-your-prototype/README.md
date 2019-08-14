@@ -18,7 +18,7 @@ We use pipelines in Heroku. Pipelines let you have multiple apps and keep things
 2. click 'new' in the top right corner of the screen and select 'Create new pipeline'
 3. name the pipeline `{organisation-abbreviation}-{service-name}-prototype`
 4. leave the pipeline owner set to `moj-design`
-5. in the connect to GitHub section select `ministryofjustice` and type the name of your repo which is normally `{service-name}-prototype` and click search
+5. in the connect to GitHub section select `ministryofjustice` and type the name of your repo which is normally `{organisation-abbreviation}-{service-name}-prototype` and click search
 6. find the correct GitHub repo and click 'Connect'
 7. click 'Create pipeline'
 
@@ -29,10 +29,10 @@ If everything has worked you should be taken to the pipeline view. You then need
 From the pipeline view.
 
 1. click 'Add app' in the production column
-2. click `Create new app`
-3. give the app a name, normally in the format `{organisation-abbreviation}-{service-name}` this can be the same name as the pipeline (Heroku limit app names to 30 characters and they must be lowercase)
-4. set the region to `Europe`
-5. click `Create app`
+2. click 'Create new app'
+3. give the app a name, normally in the format `{organisation-abbreviation}-{service-name}-prototype` this can be the same name as the pipeline (Heroku limit app names to 30 characters and they must be lowercase)
+4. set the region to 'Europe'
+5. click 'Create app'
 
 If everything has worked you should see the name of the app in the production column.
 
