@@ -3,13 +3,7 @@ Use the Side Navigation component to let users navigate sub sections in a system
 {{ dsExample({
   name: 'side-navigation',
   example: 'default',
-  height: 500
-}) }}
-
-{{ dsExample({
-  name: 'side-navigation',
-  example: 'sections',
-  height: 500
+  height: 250
 }) }}
 
 ## When to use this component
@@ -23,6 +17,16 @@ Do not use this component for primary level items or global navigation items.
 ## How it works
 
 There are 2 ways to use the timeline component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+
+The component can be configured to group navigation items into sections
+
+### Sections
+
+{{ dsExample({
+  name: 'side-navigation',
+  example: 'sections',
+  height: 480
+}) }}
 
 ## Research on this component
 
