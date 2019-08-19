@@ -8,7 +8,7 @@ Use the Sub Navigation component to let users navigate sub sections in a system 
 
 ## When to use this component
 
-Use this component when you have a second level of navigation.
+Use this component when you have a second level of navigation. See also the [Side Navigation](/components/side-navigation) component
 
 ## When not to use this component
 
