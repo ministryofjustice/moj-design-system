@@ -1,7 +1,7 @@
-Use the Menu component to group buttons together in a row or collapsible menu.
+Use the Button Menu component to group buttons together in a row or collapsible menu.
 
 {{ dsExample({
-  name: 'menu',
+  name: 'button-menu',
   example: 'default',
   height: 175
 }) }}
@@ -28,7 +28,7 @@ By default this component just groups buttons together to ensure they are spaced
 Use the grey clour when it's not the main action the user needs to take.
 
 {{ dsExample({
-  name: 'menu',
+  name: 'button-menu',
   example: 'collapsible',
   height: 250
 }) }}
@@ -38,14 +38,14 @@ Use the grey clour when it's not the main action the user needs to take.
 Use the green colour when it's the main action the user needs to take.
 
 {{ dsExample({
-  name: 'menu',
+  name: 'button-menu',
   example: 'collapsible-alternative',
   height: 250
 }) }}
 
 ### Research on this component
 
-We need more research. If you have used the menu component, get in touch to share your research findings.
+We need more research. If you have used the button menu component, get in touch to share your research findings.
 
 ## Contribute to this component
 

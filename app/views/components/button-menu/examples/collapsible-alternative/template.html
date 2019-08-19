@@ -1,21 +1,19 @@
-{% from "moj/components/menu/macro.njk" import mojMenu %}
+{% from "moj/components/button-menu/macro.njk" import mojButtonMenu %}
 
-{{ mojMenu({
-  items: [
-    {
+
+<div style="float: right;">
+  {{ mojButtonMenu({
+    items: [{
       text: "First action",
-      href: "#",
-      classes: "govuk-button--secondary"
-    },
-    {
+      href: "#"
+    }, {
       text: "Second action",
       href: "#",
       classes: "govuk-button--secondary"
-    },
-    {
+    }, {
       text: "Third action",
       href: "#",
       classes: "govuk-button--secondary"
-    }
-  ]
-}) }}
+    }]
+  }) }}
+</div>
