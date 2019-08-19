@@ -21,33 +21,33 @@ If the component is tall or can grow tall, put the buttons above the component l
 
 <img src="/public/images/patterns/take-action-in-page-buttons-above.png">
 
-If the component is short, put the buttons below
+If the component is short, put the buttons below.
 
-<img src="/public/images/patterns/take-action-in-page-buttons-above.png">
+<img src="/public/images/patterns/take-action-in-page-buttons-under.png">
 
-## Minimise noise within a flow
+## Minimise distraction when taking action
 
 When selecting an action, users should be taken to a [question page](https://design-system.service.gov.uk/patterns/question-pages/) without sub navigation if applicable to reduce noise.
 
 You can include a cancel link below the continue button to help users leave a multi-page flow more easily.
 
-## Repeatable actions
+## Handling repeated actions
 
 If the user has to perform the same action repeatedly, the user should be taken back to where they started with [success message](/components/banner/) being shown at the top of the page.
 
 If the user performs the action infrequently or it's a final or significant action, show users a [confirmation page](https://design-system.service.gov.uk/patterns/confirmation-pages/)
 
-## Infrequent or dangerous actions
+## Handling infrequent or dangerous actions
 
 If the user is performing an important action or if that action is taken infrequently, show users a [check answers](https://design-system.service.gov.uk/patterns/check-answers) page followed by a [confirmation page](https://design-system.service.gov.uk/patterns/confirmation-pages).
 
-## Actions are not navigation
+## Do not put actions inside navigation menus
 
 Don't put actions within the [primary navigation](/components/primary-navigation/) or [sub navigation](/components/sub-navigation/).
 
 ## Research on this pattern
 
-We need more research. If you have used this pattern, get in touch to share your research findings.
+We need more research. If you've used this pattern, get in touch to share your research findings.
 
 ## Contribute to this pattern
 
