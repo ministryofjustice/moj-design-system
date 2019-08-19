@@ -21,9 +21,9 @@ If the component is tall or can grow tall, put the buttons above the component l
 
 <img src="/public/images/patterns/take-action-in-page-buttons-above.png">
 
-If the component is short, put the buttons below
+If the component is short, put the buttons below.
 
-<img src="/public/images/patterns/take-action-in-page-buttons-above.png">
+<img src="/public/images/patterns/take-action-in-page-buttons-under.png">
 
 ## Minimise noise within a flow
 
