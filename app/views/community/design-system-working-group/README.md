@@ -16,7 +16,7 @@ They also need access to interaction and content design resources based on best 
 ### MoJ Design System
 To support this work, the Design Operations team at the Ministry of Justice (MoJ) has created the MoJ Design System. It contains guidance, examples, code and research that teams can use to help them prototype and build services.
 
-Anyone can propose or develop new components or patterns for the [Design System](https://github.com/ministryofjustice/mojdt-design-system-backlog).
+Anyone can propose or develop new components or patterns for the [Design System](https://github.com/ministryofjustice/moj-design-system-backlog).
 
 Enabling people from across the MoJ to contribute will ensure the Design System:
 
@@ -126,7 +126,7 @@ During a review session, representatives review each proposal against the contri
 
 At this stage, representatives should base their decision on the idea for the component or pattern in question, not a possible implementation or any examples shown.
 
-Proposals that meet these criteria can move into the ‘To-do’ column in the [community backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/projects/1), ready to be worked on and contributed.
+Proposals that meet these criteria can move into the ‘To-do’ column in the [community backlog](https://github.com/ministryofjustice/moj-design-system-backlog/projects/1), ready to be worked on and contributed.
 
 When they have been fully researched and developed, contributions will be sent to the working group for a second review focusing on the implementation.
 
