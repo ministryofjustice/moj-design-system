@@ -21,4 +21,4 @@ We need more research. If you have used this cookie policy, get in touch to shar
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/49)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/moj-design-system-backlog/issues/49)

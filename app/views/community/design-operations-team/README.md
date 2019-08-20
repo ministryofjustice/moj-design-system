@@ -8,7 +8,7 @@ To achieve this, teams need to work as efficiently as possible when designing an
 They also need access to interaction and content design resources based on best practice from across government.
 
 ### MoJ Design System & Frontend
-To support this work, the Design Operations team has created the [MoJ Design System](https://github.com/ministryofjustice/mojdt-design-system) and the [MoJ Frontend](https://github.com/ministryofjustice/mojdt-frontend). It contains guidance, examples, code and research that teams can use to prototype and build MoJ services.
+To support this work, the Design Operations team has created the [MoJ Design System](https://github.com/ministryofjustice/moj-design-system) and the [MoJ Frontend](https://github.com/ministryofjustice/moj-frontend). It contains guidance, examples, code and research that teams can use to prototype and build MoJ services.
 
 Enabling people from across the MoJ to contribute will ensure the Design System:
 
@@ -17,9 +17,9 @@ Enabling people from across the MoJ to contribute will ensure the Design System:
 - showcases best practice in the MoJ
 - reduces duplication of effort
 
-The [MoJ Design System Backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog) exists to catalogue components and patterns used by the MoJ Digital community. The backlog is assessed by the [MoJ Design System Working Group](/community/design-system-working-group/) and components and patterns are prioritised for inclusion in the Design System.
+The [MoJ Design System Backlog](https://github.com/ministryofjustice/moj-design-system-backlog) exists to catalogue components and patterns used by the MoJ Digital community. The backlog is assessed by the [MoJ Design System Working Group](/community/design-system-working-group/) and components and patterns are prioritised for inclusion in the Design System.
 
-Anyone can contribute a new component or pattern to the MoJ Design System. This is done by creating a new issue on the [MoJ Design System community backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog).
+Anyone can contribute a new component or pattern to the MoJ Design System. This is done by creating a new issue on the [MoJ Design System community backlog](https://github.com/ministryofjustice/moj-design-system-backlog).
 
 The MoJ Design System Working Group includes representatives from different disciplines and agencies across the MoJ.
 

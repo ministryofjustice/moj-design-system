@@ -29,4 +29,4 @@ This component has been tested in prototypes of several citizen and internal pro
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/6)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/moj-design-system-backlog/issues/6)
