@@ -24,4 +24,4 @@ We need more research. If you have used the sub navigation component, get in tou
 
 ## Contribute to this component
 
-You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/4)
+You can contribute to this component via the [design system backlog](https://github.com/ministryofjustice/moj-design-system-backlog/issues/4)

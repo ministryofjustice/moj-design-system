@@ -66,5 +66,5 @@ The only issue we have seen is that one person thought ‘incomplete’ meant th
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/moj-design-system-backlog/)
 

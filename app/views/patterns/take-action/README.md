@@ -51,4 +51,4 @@ We need more research. If you've used this pattern, get in touch to share your r
 
 ## Contribute to this pattern
 
-You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/issues/38)
+You can contribute to this pattern via the [design system backlog](https://github.com/ministryofjustice/moj-design-system-backlog/issues/38)
