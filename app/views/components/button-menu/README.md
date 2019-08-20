@@ -33,7 +33,7 @@ Use the grey clour when it's not the main action the user needs to take.
   height: 250
 }) }}
 
-#### Right aligned green toggle menu
+### Right aligned green toggle menu
 
 Use the green colour when it's the main action the user needs to take.
 
@@ -43,7 +43,7 @@ Use the green colour when it's the main action the user needs to take.
   height: 250
 }) }}
 
-### Research on this component
+## Research on this component
 
 We need more research. If you have used the button menu component, get in touch to share your research findings.
 
