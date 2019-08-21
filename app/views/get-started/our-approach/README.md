@@ -1,9 +1,9 @@
-The MoJ understands user experience is key to delivery. The Design System Working Group and Design Operations team's ways of working are focussed on delivering better products for users by being **open**, **collaborative** and **pragmatic**.
+The MOJ understands user experience is key to delivery. The Design System Working Group and Design Operations team's ways of working are focussed on delivering better products for users by being **open**, **collaborative** and **pragmatic**.
 
 **Being open**
 - our service teams have visibility of our work and backlog and understand how it feeds into delivery
 - our service teams provide input to the focus, priority and direction of our work
-- we invest time to ensure our work has wider value across the MoJ
+- we invest time to ensure our work has wider value across the MOJ
 
 **Being collaborative**
 - we share a vision with our service teams for how design supports delivery

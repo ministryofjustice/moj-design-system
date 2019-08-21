@@ -1,4 +1,4 @@
-The MoJ follows the [GOV.UK Design System contribution criteria](https://design-system.service.gov.uk/community/contribution-criteria/). The difference is that contributions will be reviewed by the MoJ's [Design System Working Group](/community/design-system-working-group/) and the [Design Operations team](design-operations-team).
+The MOJ follows the [GOV.UK Design System contribution criteria](https://design-system.service.gov.uk/community/contribution-criteria/). The difference is that contributions will be reviewed by the MOJ's [Design System Working Group](/community/design-system-working-group/) and the [Design Operations team](design-operations-team).
 
 The contents of the Design System must be of a high quality and meet user needs. To guarantee this, all components and patterns need to meet certain criteria.
 
@@ -81,7 +81,7 @@ The working group reviews the implementation to make sure it is usable, consiste
 
         <p>Both the guidance and any content included in examples must follow the <a href='https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style'>GOV.UK content style guide</a>.</p>
 
-        <p class='govuk-!-margin-bottom-0'>If there is code, it follows the <a href='https://github.com/ministryofjustice/moj-frontend/blob/master/CONTRIBUTING.md#conventions-to-follow'>MoJ Frontend coding standards</a> and is ready to merge in <a href='https://www.npmjs.com/package/@ministryofjustice/frontend'>MoJ Frontend</a>.</p>"
+        <p class='govuk-!-margin-bottom-0'>If there is code, it follows the <a href='https://github.com/ministryofjustice/moj-frontend/blob/master/CONTRIBUTING.md#conventions-to-follow'>MOJ Frontend coding standards</a> and is ready to merge in <a href='https://www.npmjs.com/package/@ministryofjustice/frontend'>MOJ Frontend</a>.</p>"
       }
     ],
     [
