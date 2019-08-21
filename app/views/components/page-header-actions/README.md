@@ -23,7 +23,7 @@ The component ensures the buttons are aligned right in line with the heading. On
 
 ## Research on this component
 
-We need more research. If you have used the page header actions component, get in touch to share your research findings.
+We need more research. If you have used the Page Header Actions component, get in touch to share your research findings.
 
 ## Contribute to this component
 

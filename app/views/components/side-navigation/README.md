@@ -16,7 +16,7 @@ Do not use this component for primary level items or global navigation items.
 
 ## How it works
 
-There are 2 ways to use the side navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the Side Navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The component can be configured to group navigation items into sections
 
@@ -30,7 +30,7 @@ The component can be configured to group navigation items into sections
 
 ## Research on this component
 
-We need more research. If you have used the side navigation component, get in touch to share your research findings.
+We need more research. If you have used the Side Navigation component, get in touch to share your research findings.
 
 ## Contribute to this component
 

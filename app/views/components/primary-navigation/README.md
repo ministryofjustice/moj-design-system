@@ -1,4 +1,4 @@
-Let users navigate and search your service.
+Use the Primary Navigation component to let users navigate and search your service.
 
 {{ dsExample({
   name: 'primary-navigation',
@@ -6,7 +6,7 @@ Let users navigate and search your service.
   height: 150
 }) }}
 
-You must use this component with the [header](/components/header/) component.
+You must use this component with the [header](/components/header) component.
 
 ### Links
 
@@ -38,7 +38,7 @@ You must tell users what they are searching for and how they can search using th
 
 ## Research on this component
 
-We need more research. If you have used the primary navigation component, get in touch to share your research findings.
+We need more research. If you have used the Primary Navigation component, get in touch to share your research findings.
 
 ## Contribute to this component
 

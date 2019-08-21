@@ -10,7 +10,7 @@ Use the Filter component to let users filter a large list of items.
 
 You should use this component with the [filter layout](/styles/filter-layout) as shown in the [filter a list](/patterns/filter-a-list) pattern.
 
-The filter component can consist of any form control like radio buttons, checkboxes, date inputs and text boxes.
+The Filter component can consist of any form control like radio buttons, checkboxes, date inputs and text boxes.
 
 Users can select 1 or more filters and submit the form. The page refreshes to show the items that match the filters. The selected filters are also marked at the top of the filter to let users see what they've selected and remove them easily.
 
@@ -20,7 +20,7 @@ Clicking on a selected filter, refreshes the page and removes the filter.
 
 This component is marked as experimental because it needs more research.
 
-If you have used the filter component, get in touch to share your research findings.
+If you have used the Filter component, get in touch to share your research findings.
 
 ## Contribute to this component
 
