@@ -1,4 +1,4 @@
-Use the [GOV.UK tag component](https://design-system.service.gov.uk/components/tag/) to indicate the status of something, such as an item on a [task list](https://design-system.service.gov.uk/patterns/task-list-pages).
+Use the [GOV.UK tag component](https://design-system.service.gov.uk/components/tag/) to indicate the status of something, such as an item on a [task list page](https://design-system.service.gov.uk/patterns/task-list-pages).
 
 There are a number of additional colour styles that can be used:
 

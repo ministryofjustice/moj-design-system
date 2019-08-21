@@ -1,10 +1,10 @@
-The Design System Working Group is a multidisciplinary panel of representatives from across the MoJ. It makes sure that all components and patterns published in the MoJ Design System are of a high quality and meet user needs.
+The Design System Working Group is a multidisciplinary panel of representatives from across the MOJ. It makes sure that all components and patterns published in the MOJ Design System are of a high quality and meet user needs.
 
 The working group:
 
 - reviews proposals and contributions against the [contribution criteria](/community/contribution-criteria/)
 - makes recommendations to help contributors improve their work
-- advocates for the needs of colleagues across the MoJ
+- advocates for the needs of colleagues across the MOJ
 
 ## 1. Introduction
 As part of the [Government Transformation Strategy](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy#vision-and-objectives) the Government has committed to “build services that run seamlessly across government”.
@@ -13,20 +13,20 @@ To achieve this, teams need to work as efficiently as possible when designing an
 
 They also need access to interaction and content design resources based on best practice from across government.
 
-### MoJ Design System
-To support this work, the Design Operations team at the Ministry of Justice (MoJ) has created the MoJ Design System. It contains guidance, examples, code and research that teams can use to help them prototype and build services.
+### MOJ Design System
+To support this work, the Design Operations team at the Ministry of Justice (MOJ) has created the MOJ Design System. It contains guidance, examples, code and research that teams can use to help them prototype and build services.
 
 Anyone can propose or develop new components or patterns for the [Design System](https://github.com/ministryofjustice/moj-design-system-backlog).
 
-Enabling people from across the MoJ to contribute will ensure the Design System:
+Enabling people from across the MOJ to contribute will ensure the Design System:
 
 - represents user needs
 - can scale quickly enough
-- showcases best practice in the MoJ
+- showcases best practice in the MOJ
 - reduces duplication of effort
 
 ### Design System Working Group
-The Design Operations team set up a working group which includes representatives from different disciplines and agencies across the MoJ.
+The Design Operations team set up a working group which includes representatives from different disciplines and agencies across the MOJ.
 
 The working group ensures components and patterns published in the Design System are of a high quality and meet user needs.
 
@@ -40,11 +40,11 @@ For these reasons, joining the working group can be discussed as a community or 
 ## 2. Purpose of the working group
 The working group supports contributions to the Design System by ensuring that components and patterns reflect the needs of:
 
-- MoJ service users
-- the wider MoJ community
+- MOJ service users
+- the wider MOJ community
 
 ### Principles of the working group
-_These principles were co-created by the [GOV.UK Design System working group representatives in a workshop on 19 June 2018](https://designnotes.blog.gov.uk/2019/02/14/how-the-gov-uk-design-system-can-work-alongside-other-government-design-resources/). To avoid confusion, they are also the guiding principles for the MoJ’s Design System working group._
+_These principles were co-created by the [GOV.UK Design System working group representatives in a workshop on 19 June 2018](https://designnotes.blog.gov.uk/2019/02/14/how-the-gov-uk-design-system-can-work-alongside-other-government-design-resources/). To avoid confusion, they are also the guiding principles for the MOJ’s Design System working group._
 
 #### Open by default
 
@@ -63,7 +63,7 @@ The working group must be as representative as possible to help it:
 #### Community driven
 The Design System can only meet the needs of the whole community if it’s built by the whole community.
 
-The working group ensures that it’s community led, not MoJ Digital led.
+The working group ensures that it’s community led, not MOJ Digital led.
 
 #### Enablers, not blockers
 The working group values getting contributions into the Design System over keeping them out.
@@ -83,15 +83,15 @@ By joining the working group, representatives commit to support the Design Syste
 - attend a 1 hour long review session each month to discuss their decisions with contributors and the other representatives
 - agree to have review session notes shared publicly, though they will not be named individually
 
-### Responsibilities of the Design Operations team at MoJ Digital
-The Design Operations team at MoJ Digital commits to support contributors and the working group. They:
+### Responsibilities of the Design Operations team at MOJ Digital
+The Design Operations team at MOJ Digital commits to support contributors and the working group. They:
 
 - work with contributors to ensure their contribution is in the best shape possible before the working group review it
-- ensure that any code meets [MoJ Frontend Coding Standards](https://github.com/alphagov/govuk-frontend/tree/master/docs/contributing/coding-standards)
+- ensure that any code meets [MOJ Frontend Coding Standards](https://github.com/alphagov/govuk-frontend/tree/master/docs/contributing/coding-standards)
 - organise and facilitate review sessions and make sure everyone gets a fair chance to speak
 - record decisions publicly
 - work with contributors to get components and patterns published in a timely manner after review sessions
-- have ultimate responsibility to ensure the contents in the Design System adhere to relevant MoJ standards
+- have ultimate responsibility to ensure the contents in the Design System adhere to relevant MOJ standards
 
 Neither the Design Operations team nor the working group will overrule the other. If there is a disagreement, there will be processes in place to collect concerns and ensure a fair decision.
 
@@ -107,7 +107,7 @@ Anyone wanting to leave should contact the Design Operations team who will organ
 ## 4. Reviewing proposals and contributions
 
 ### Review sessions
-Each month, the working group meets for 1 hour on Google Hangouts to discuss new proposals or contributions for the MoJ Design System. Contributors are invited to join the call.
+Each month, the working group meets for 1 hour on Google Hangouts to discuss new proposals or contributions for the MOJ Design System. Contributors are invited to join the call.
 
 The purpose of the session is for representatives to share their decisions and discuss questions, concerns or recommendations with each other and the contributors.
 

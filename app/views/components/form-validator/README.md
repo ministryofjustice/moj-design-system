@@ -1,4 +1,4 @@
-Use the form validator component to validate forms without a server-side round-trip while also conforming to the established standards set out in the [GOV.UK Design System](https://design-system.service.gov.uk/).
+Use the Form Validator component to validate forms without a server-side round-trip while also conforming to the established standards set out in the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
 {{ dsExample({
   name: 'form-validator',
@@ -16,7 +16,7 @@ In alignment with established GOV.UK Design System standards:
 
 ## Research on this component
 
-We need more research. If you have used the form validator component, get in touch to share your research findings.
+We need more research. If you have used the Form Validator component, get in touch to share your research findings.
 
 ## Contribute to this component
 

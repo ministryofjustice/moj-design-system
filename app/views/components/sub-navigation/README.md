@@ -16,11 +16,11 @@ Do not use this component for primary level items or global navigation items.
 
 ## How it works
 
-There are 2 ways to use the sub-navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the Sub Navigation component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ## Research on this component
 
-We need more research. If you have used the sub navigation component, get in touch to share your research findings.
+We need more research. If you have used the Sub Navigation component, get in touch to share your research findings.
 
 ## Contribute to this component
 

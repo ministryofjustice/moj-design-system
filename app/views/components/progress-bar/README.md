@@ -1,4 +1,4 @@
-Use the Progress Bar component to show users which stage of the journey they’re at.
+Use the Progress Bar component to show users which stage of the journey they're at.
 
 {{ dsExample({
   name: 'progress-bar',
@@ -18,11 +18,11 @@ Progress bars are not used to show individual steps within a transaction, or use
 
 ## How it works
 
-There are 2 ways to use the progress bar component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the Progress Bar component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ## Research on this component
 
-We need more research. If you have used the progress bar component, get in touch to share your research findings.
+We need more research. If you have used the Progress Bar component, get in touch to share your research findings.
 
 ## Contribute to this component
 

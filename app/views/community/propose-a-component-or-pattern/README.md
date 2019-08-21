@@ -1,7 +1,7 @@
 {% set contributionCallOutHtml %}
   <p class="govuk-body">Consider whether you want to contribute directly to the <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a> instead. It will mean your work can be used with the whole of government.</p>
 
-  <p class="govuk-body">You should only contribute to the MoJ Design System if:</p>
+  <p class="govuk-body">You should only contribute to the MOJ Design System if:</p>
 
   <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
     <li>the contribution isn't relevant to the whole of government</li>
@@ -13,7 +13,7 @@
   html: contributionCallOutHtml
 }) }}
 
-Anyone can propose a new component or pattern for the MoJ Design System.
+Anyone can propose a new component or pattern for the MOJ Design System.
 
 To be successful, proposals need to show that the component or pattern being suggested would be [useful and unique](/get-started/contribution-criteria/).
 

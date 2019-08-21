@@ -1,4 +1,4 @@
-This guide explains how to create prototypes using the MoJ Design System and GOV.UK Prototype Kit.
+This guide explains how to create prototypes using the MOJ Design System and GOV.UK Prototype Kit.
 
 ## Before you start
 
@@ -14,14 +14,14 @@ The MOJ Design System uses MOJ Frontend. To install it, run these steps:
 
 ## Updating MOJ Frontend
 
-The current version of MOJ Frontend is **0.0.11-alpha**.
+The current version of MOJ Frontend is **0.0.12-alpha**.
 
 You can check which version your prototype is running by opening `package.json` in the root folder of your prototype. Look for `"@ministryofjustice/frontend"` under `"dependencies"`.
 
 To update your prototype to the latest version of MOJ Frontend:
 
 1. open `package.json` in the root folder of your prototype in a text editor
-2. Under `dependencies`, update the reference to MOJ Frontend to  `"@ministryofjustice/frontend": "0.0.11-alpha",`
+2. Under `dependencies`, update the reference to MOJ Frontend to  `"@ministryofjustice/frontend": "0.0.12-alpha",`
 3. save `package.json`
 4. open Terminal/command line
 5. change the directory to your prototype's directory. For example, `cd path/to/prototype`

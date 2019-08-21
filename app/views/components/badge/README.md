@@ -1,4 +1,4 @@
-Use the badge to highlight small details like an urgent case.
+Use the Badge component to highlight small details like an urgent case.
 
 {{ dsExample({
   name: 'badge',
@@ -12,7 +12,7 @@ The badge is useful for drawing users attention to particular information. It sh
 
 ## How it works
 
-There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the Badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The default, neutral badge is blue. [Alternative styles](/styles/badge/) are also available, for example, green and red.
 

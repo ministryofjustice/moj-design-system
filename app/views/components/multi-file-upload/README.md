@@ -1,4 +1,4 @@
-Help users upload multiple files at the same time.
+Use the Multi File Upload component to help users upload multiple files at the same time.
 
 {{ dsExample({
   name: 'multi-file-upload',

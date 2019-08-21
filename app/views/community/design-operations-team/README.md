@@ -7,49 +7,49 @@ To achieve this, teams need to work as efficiently as possible when designing an
 
 They also need access to interaction and content design resources based on best practice from across government.
 
-### MoJ Design System & Frontend
-To support this work, the Design Operations team has created the [MoJ Design System](https://github.com/ministryofjustice/moj-design-system) and the [MoJ Frontend](https://github.com/ministryofjustice/moj-frontend). It contains guidance, examples, code and research that teams can use to prototype and build MoJ services.
+### MOJ Design System & Frontend
+To support this work, the Design Operations team has created the [MOJ Design System](https://github.com/ministryofjustice/moj-design-system) and the [MOJ Frontend](https://github.com/ministryofjustice/moj-frontend). It contains guidance, examples, code and research that teams can use to prototype and build MOJ services.
 
-Enabling people from across the MoJ to contribute will ensure the Design System:
+Enabling people from across the MOJ to contribute will ensure the Design System:
 
 - represents user needs
 - can scale quickly enough
-- showcases best practice in the MoJ
+- showcases best practice in the MOJ
 - reduces duplication of effort
 
-The [MoJ Design System Backlog](https://github.com/ministryofjustice/moj-design-system-backlog) exists to catalogue components and patterns used by the MoJ Digital community. The backlog is assessed by the [MoJ Design System Working Group](/community/design-system-working-group/) and components and patterns are prioritised for inclusion in the Design System.
+The [MOJ Design System Backlog](https://github.com/ministryofjustice/moj-design-system-backlog) exists to catalogue components and patterns used by the MOJ Digital community. The backlog is assessed by the [MOJ Design System Working Group](/community/design-system-working-group/) and components and patterns are prioritised for inclusion in the Design System.
 
-Anyone can contribute a new component or pattern to the MoJ Design System. This is done by creating a new issue on the [MoJ Design System community backlog](https://github.com/ministryofjustice/moj-design-system-backlog).
+Anyone can contribute a new component or pattern to the MOJ Design System. This is done by creating a new issue on the [MOJ Design System community backlog](https://github.com/ministryofjustice/moj-design-system-backlog).
 
-The MoJ Design System Working Group includes representatives from different disciplines and agencies across the MoJ.
+The MOJ Design System Working Group includes representatives from different disciplines and agencies across the MOJ.
 
 The working group:
 
-- ensures components and patterns published in the MoJ Design System are of a high quality and meet explicit user needs
-- provides support to designers across MoJ in the use of components and patterns that are new or emerging
-- supports designers in their contribution of components and patterns to the MoJ Design System community backlog.
+- ensures components and patterns published in the MOJ Design System are of a high quality and meet explicit user needs
+- provides support to designers across MOJ in the use of components and patterns that are new or emerging
+- supports designers in their contribution of components and patterns to the MOJ Design System community backlog.
 
 The Design Operations team commits to support contributors and the Design System Working Group.
 
 Design Operations will:
 
 - work with contributors to ensure their contribution is in the best shape possible before the working group review it
-- ensure that any code meets MoJ Frontend Coding Standards
+- ensure that any code meets MOJ Frontend Coding Standards
 - organise and facilitate review sessions and make sure everyone gets a fair chance to speak
 - record decisions publicly
 - work with contributors to get components and patterns published in a timely manner after review sessions
-- have ultimate responsibility to ensure the contents in the Design System adhere to relevant MoJ standards
+- have ultimate responsibility to ensure the contents in the Design System adhere to relevant MOJ standards
 
 **The key goals of Design Operations are:**
-1. Consistency – All designers in the MoJ Design Team working with the MoJ Design System, MoJ Design System community backlog and the MoJ Frontend
+1. Consistency – All designers in the MOJ Design Team working with the MOJ Design System, MOJ Design System community backlog and the MOJ Frontend
 2. Culture – A Design Team culture of design reviews and design crits
 3. Diversity – A diverse Design Team considering gender, ethnicity and status
 
 ## 2. Purpose of Design Operations
 
 ### Supporting designers to get the job done
-- MoJ Design System
-- use of GOV.UK Frontend and MoJ Frontend for prototyping
+- MOJ Design System
+- use of GOV.UK Frontend and MOJ Frontend for prototyping
 - designing accessible and inclusive products and services
 - the software and tools the design team use
 - procurement of any new tools
@@ -74,7 +74,7 @@ Design Operations will:
 - branding
 
 ## 3. Roles and responsibilities: Design Operations
-The Design Operations team is made up of designers, working in MOJ delivery teams who additionally lead on the MoJ Design System, MoJ Frontend and the design of services at scale in a consistent, inclusive way.
+The Design Operations team is made up of designers, working in MOJ delivery teams who additionally lead on the MOJ Design System, MOJ Frontend and the design of services at scale in a consistent, inclusive way.
 
 The team is responsible for:
 
@@ -82,6 +82,6 @@ The team is responsible for:
 - delivering cross-cutting tools and services to support designers and delivery teams
 - defining MOJ Digital’s design language for public and staff-facing services
 - providing support and documentation for all designers to build services that are accessible and meet user needs
-- managing the MoJ Design System which complements the cross-government GOV.UK Design System by acting as a repository for emerging and experimental patterns and components in use at MoJ Digital & Technology
+- managing the MOJ Design System which complements the cross-government GOV.UK Design System by acting as a repository for emerging and experimental patterns and components in use at MOJ Digital & Technology
 - managing the process for identifying and recommending patterns in the MOJ Design System for inclusion in the GOV.UK Design System
 - representing the department on the GOV.UK Design System working group

@@ -22,11 +22,11 @@ If you’re happy to go ahead, the team will assign you to the issue as a contri
 
 While you’re working on your contribution, the Design Operations team will arrange a weekly catch up to find out how you’re getting on and if you need any help.
 
-Find examples of the component or pattern already in use. The best way to do this is to ask the MoJ design community on the digital service designers mailing list or the [#design channel](https://mojdt.slack.com/messages/design) on MoJ Slack.
+Find examples of the component or pattern already in use. The best way to do this is to ask the MOJ design community on the digital service designers mailing list or the [#design channel](https://mojdt.slack.com/messages/design) on MOJ Slack.
 
-Examples and research from MoJ services are usually most relevant. But look at how other organisations solve the problem too.
+Examples and research from MOJ services are usually most relevant. But look at how other organisations solve the problem too.
 
-Involve people from the MoJ and [government design community](https://www.gov.uk/service-manual/communities/design-community) in any work you’re doing. This makes it less likely that you’ll spend time doing work or research that’s already been done.
+Involve people from the MOJ and [government design community](https://www.gov.uk/service-manual/communities/design-community) in any work you’re doing. This makes it less likely that you’ll spend time doing work or research that’s already been done.
 
 By finding people who are working on similar solutions, you can benefit from progress they’ve made and relevant research they’ve done.
 

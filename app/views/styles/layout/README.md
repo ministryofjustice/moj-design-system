@@ -1,4 +1,4 @@
-In addition to the [layout styles](https://design-system.service.gov.uk/styles/layout) in the GOV.UK Design System, the MoJ Design System provides a number of helpers.
+In addition to the [layout styles](https://design-system.service.gov.uk/styles/layout) in the GOV.UK Design System, the MOJ Design System provides a number of helpers.
 
 ## Page wrappers and component mixins
 
