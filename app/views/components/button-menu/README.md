@@ -1,4 +1,4 @@
-Use the Button Menu component to group buttons together in a row or collapsible menu.
+Use the button menu component to group buttons together in a row or collapsible menu.
 
 {{ dsExample({
   name: 'button-menu',
@@ -16,7 +16,7 @@ Don't use this component when a basic in-page form has multiple actions.
 
 ## How it works
 
-There are 2 ways to use the Button Menu component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the button menu component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 By default this component just groups buttons together to ensure they are spaced correctly. But can be turned into a toggle menu at a configurable screen width that:
 
@@ -45,7 +45,7 @@ Use the green colour when it's the main action the user needs to take.
 
 ## Research on this component
 
-We need more research. If you have used the Button Menu component, get in touch to share your research findings.
+We need more research. If you have used the button menu component, get in touch to share your research findings.
 
 ## Contribute to this component
 

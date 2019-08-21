@@ -1,4 +1,4 @@
-Use the Identity Bar component to give users context of where they are within a service such as viewing a case.
+Use the identity bar component to give users context of where they are within a service such as viewing a case.
 
 {{ dsExample({
   name: 'identity-bar',
@@ -16,7 +16,7 @@ Don't use this component if there's only one details page. For example, clicking
 
 ## How it works
 
-There are 2 ways to use the Identity Bar component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the identity bar component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 ### Action menu
 
@@ -50,7 +50,7 @@ This [menu](/components/button-menu) is made up of multiple menus. The first con
 
 ## Research on this component
 
-We need more research. If you have used the Identity Bar component, get in touch to share your research findings.
+We need more research. If you have used the identity bar component, get in touch to share your research findings.
 
 ## Contribute to this component
 

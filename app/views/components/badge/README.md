@@ -1,4 +1,4 @@
-Use the Badge component to highlight small details like an urgent case.
+Use the badge component to highlight small details like an urgent case.
 
 {{ dsExample({
   name: 'badge',
@@ -12,9 +12,9 @@ The badge is useful for drawing users attention to particular information. It sh
 
 ## How it works
 
-There are 2 ways to use the Badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
-The default, neutral badge is blue. [Alternative styles](/styles/badge/) are also available, for example, green and red.
+The default, neutral badge is blue. [Alternative styles](/styles/badge) are also available, for example, green and red.
 
 {{ dsExample({
   name: 'badge',
@@ -36,7 +36,7 @@ There are a number of additional colour styles that can be used:
 <thead class="govuk-table__head">
   <tr class="govuk-table__row">
     <th class="govuk-table__header" scope="col">Class name</th>
-    <th class="govuk-table__header" scope="col">Badge</th>
+    <th class="govuk-table__header" scope="col">badge</th>
   </tr>
 </thead>
 <tbody class="govuk-table__body">
@@ -113,7 +113,7 @@ There are a number of additional colour styles that can be used:
 <thead class="govuk-table__head">
   <tr class="govuk-table__row">
     <th class="govuk-table__header" scope="col">Class names</th>
-    <th class="govuk-table__header" scope="col">Badge</th>
+    <th class="govuk-table__header" scope="col">badge</th>
   </tr>
 </thead>
 <tbody class="govuk-table__body">
