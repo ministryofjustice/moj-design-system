@@ -1,4 +1,4 @@
-Use the Currency Input component to help users enter an amount of money in a specified currency.
+Use the currency input component to help users enter an amount of money in a specified currency.
 
 {{ dsExample({
   name: 'currency-input',
@@ -8,11 +8,11 @@ Use the Currency Input component to help users enter an amount of money in a spe
 
 ## When to use this component
 
-Use the Currency Input component when you need users to tell you an amount of money in a particular currency, for example pounds sterling, euros or dollars.
+Use the currency input component when you need users to tell you an amount of money in a particular currency, for example pounds sterling, euros or dollars.
 
 ## How it works
 
-There are 2 ways to use the Currency Input component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the currency input component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The component uses `type="text"` rather than `type="number"` to ensure that all users can enter the decimal symbol. The pattern attribute is used to trigger a numeric keypad on iOS devices.
 

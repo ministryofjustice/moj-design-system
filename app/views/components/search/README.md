@@ -1,4 +1,4 @@
-Use the Search component to let users search by word or phrase. This can be used within the [Primary Navigation](/components/primary-navigatio/) component.
+Use the search component to let users search by word or phrase. This can be used within the [Primary Navigation](/components/primary-navigatio/) component.
 
 {{ dsExample({
   name: 'search',
@@ -8,7 +8,7 @@ Use the Search component to let users search by word or phrase. This can be used
 
 ## How it works
 
-There are 2 ways to use the Search component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the search component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 You can configure the search form to be inversed on black and to hide and show labels and hints depending on your use case. You'll see examples of this on the [Primary Navigation](/components/primary-navigation) component page.
 

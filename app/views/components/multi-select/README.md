@@ -1,4 +1,4 @@
-Use the Multi Select component to let users select multiple items in a list.
+Use the multi select component to let users select multiple items in a list.
 
 {{ dsExample({
   name: 'multi-select',

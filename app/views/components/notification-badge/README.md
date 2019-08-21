@@ -1,4 +1,4 @@
-Use the Notification Badge component to notify users of something like an unread message.
+Use the notification badge component to notify users of something like an unread message.
 
 {{ dsExample({
   name: 'notification-badge',
@@ -18,7 +18,7 @@ Unless there is a strong user need, only use this component as a part of the nav
 
 ## How it works
 
-There are 2 ways to use the Notification Badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the notification badge component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 {{ dsExample({
   name: 'notification-badge',
@@ -28,7 +28,7 @@ There are 2 ways to use the Notification Badge component. You can use HTML or, i
 
 ## Research on this component
 
-We need more research. If you have used the Notification Badge component, get in touch to share your research findings.
+We need more research. If you have used the notification badge component, get in touch to share your research findings.
 
 ## Contribute to this component
 

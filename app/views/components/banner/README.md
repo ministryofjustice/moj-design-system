@@ -1,4 +1,4 @@
-Use the Banner component to display a prominent message and related actions to take.
+Use the banner component to display a prominent message and related actions to take.
 
 {{ dsExample({
   name: 'banner',
@@ -16,7 +16,7 @@ For rarely performed or important actions, you should use the [Confirmation Page
 
 ## How it works
 
-There are 2 ways to use the Banner component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the banner component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The banner should be displayed at the top of the page above the main heading and below the back link if there is one.
 
@@ -56,7 +56,7 @@ Use this variant when you want to tell users some information.
 
 This component is marked as experimental because it needs more research.
 
-If you have used the Banner component, get in touch to share your research findings.
+If you have used the banner component, get in touch to share your research findings.
 
 ## Contribute to this component
 

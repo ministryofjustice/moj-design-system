@@ -1,4 +1,4 @@
-Use the Header component for any service or system not on GOV.UK like internal staff.
+Use the header component for any service or system not on GOV.UK like internal staff.
 
 Do not use this for citizen-facing services.
 
@@ -10,13 +10,13 @@ Do not use this for citizen-facing services.
 
 ## How it works
 
-There are 2 ways to use the Header component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
+There are 2 ways to use the header component. You can use HTML or, if you are using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/), you can use the Nunjucks macro.
 
 The name of the organisation and service or system appears in the top left. You can also add global links in the top right. For example, "Profile" and "Sign out".
 
 ## Research on this component
 
-We need more research. If you have used the Header component, get in touch to share your research findings.
+We need more research. If you have used the header component, get in touch to share your research findings.
 
 ## Contribute to this component
 
