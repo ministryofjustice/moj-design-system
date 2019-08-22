@@ -83,7 +83,7 @@ exports.getJSCode = path => {
   let fileContents = this.getFileContents(path);
   let parsedFile = matter(fileContents);
   let content = parsedFile.content.replace(/<\/?script[^>]*>/gi, "");
-  
+
   return beautifyJS(content.trim(), {
     indent_size: 2,
     end_with_newline: true,
