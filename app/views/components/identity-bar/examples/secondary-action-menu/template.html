@@ -2,28 +2,21 @@
 
 {{ mojIdentityBar({
   title: {
-    html: "<b>Jane Wolenksy</b> and <b>Simon Wolensky</b>"
+    html: '<b>Jane Wolenksy</b> and <b>Simon Wolensky</b>'
   },
-  menus: [
-    {
-      items: [
-        {
-          text: "Primary action"
-        }
-      ]
-    },
-    {
-      items: [
-        {
-          text: "Second action",
-          href: "#",
-          classes: "govuk-button--secondary"
-        }, {
-          text: "Third action",
-          href: "#",
-          classes: "govuk-button--secondary"
-        }
-      ]
-    }
-  ]
+  menus: [{
+    items: [{
+      text: 'Primary action'
+    }]
+  }, {
+    items: [{
+      text: 'Secondary action',
+      classes: 'govuk-button--secondary',
+      href: "#"
+    }, {
+      text: 'Tertiary action',
+      classes: 'govuk-button--secondary',
+      href: "#"
+    }]
+  }]
 }) }}
