@@ -2,13 +2,11 @@ Anyone can choose to work on items marked ‘to do’ in the [community backlog]
 
 If you see something you would like to work on, email the Design System team at design-system@digital.justice.gov.uk.
 
-If you have an idea for a new component or pattern that’s not already on the backlog, [propose it](/community/propose-a-component-or-pattern).
+After you've emailed them, a member of the Design System team will get in touch to arrange a kick-off meeting. 
 
 ## Plan your work with the Design System team
 
-After you’ve emailed them, a member of the Design System team will get in touch to arrange a kick-off meeting.
-
-During the meeting, the team will help you to:
+During the kick-off meeting, the team will help you to:
 
 - agree the scope of your contribution
 - plan what design, content, code and guidance needs working on
@@ -24,7 +22,7 @@ While you’re working on your contribution, the Design System team will arrange
 
 Find examples of the component or pattern already in use. The best way to do this is to ask the MOJ design community on the digital service designers mailing list or the [#design channel](https://mojdt.slack.com/messages/design) on MOJ Slack.
 
-Examples and research from MOJ services are usually most relevant. But look at how other organisations solve the problem too.
+Examples and research from MOJ and other government services are usually most relevant. But look at how other organisations solve the problem too.
 
 Involve people from the MOJ and [government design community](https://www.gov.uk/service-manual/communities/design-community) in any work you’re doing. This makes it less likely that you’ll spend time doing work or research that’s already been done.
 
@@ -38,7 +36,7 @@ Once you have researched the component or pattern and shown it works for users, 
 
 ## Send your contribution for review
 
-All components and patterns must meet the contribution criteria before they can be published. The Design System working group will use the criteria to review your contribution.
+All components and patterns must meet the [contribution criteria](https://moj-design-system.herokuapp.com/community/contribution-criteria) before they can be published. The Design System working group will use the criteria to review your contribution.
 
 To arrange a review, tell the Design System team your contribution is ready. The team will check your work before letting the working group know it’s ready to review.
 
