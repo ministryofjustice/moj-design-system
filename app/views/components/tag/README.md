@@ -53,24 +53,12 @@ There are a number of additional colour styles that can be used:
         <tr class="govuk-table__row">
             <td class="govuk-table__cell">
                 <code>
-                    moj-tag--bright-red
-                </code>
-            </td>
-            <td class="govuk-table__cell">
-                <strong aria-label="Lorem ipsum 4" class="govuk-tag moj-tag--bright-red" title="Lorem ipsum 4">
-                    Lorem ipsum 4
-                </strong>
-            </td>
-        </tr>
-        <tr class="govuk-table__row">
-            <td class="govuk-table__cell">
-                <code>
                     moj-tag--green
                 </code>
             </td>
             <td class="govuk-table__cell">
-                <strong aria-label="Lorem ipsum 5" class="govuk-tag moj-tag--green" title="Lorem ipsum 5">
-                    Lorem ipsum 5
+                <strong aria-label="Lorem ipsum 4" class="govuk-tag moj-tag--green" title="Lorem ipsum 5">
+                    Lorem ipsum 4
                 </strong>
             </td>
         </tr>
@@ -81,8 +69,8 @@ There are a number of additional colour styles that can be used:
                 </code>
             </td>
             <td class="govuk-table__cell">
-                <strong aria-label="Lorem ipsum 6" class="govuk-tag moj-tag--blue" title="Lorem ipsum 6">
-                    Lorem ipsum 6
+                <strong aria-label="Lorem ipsum 5" class="govuk-tag moj-tag--blue" title="Lorem ipsum 6">
+                    Lorem ipsum 5
                 </strong>
             </td>
         </tr> -->
@@ -93,8 +81,8 @@ There are a number of additional colour styles that can be used:
                 </code>
             </td>
             <td class="govuk-table__cell">
-                <strong aria-label="Lorem ipsum 7" class="govuk-tag moj-tag--black" title="Lorem ipsum 7">
-                    Lorem ipsum 7
+                <strong aria-label="Lorem ipsum 6" class="govuk-tag moj-tag--black" title="Lorem ipsum 7">
+                    Lorem ipsum 6
                 </strong>
             </td>
         </tr>
@@ -105,8 +93,8 @@ There are a number of additional colour styles that can be used:
                 </code>
             </td>
             <td class="govuk-table__cell">
-                <strong aria-label="Lorem ipsum 8" class="govuk-tag moj-tag--grey" title="Lorem ipsum 8">
-                    Lorem ipsum 8
+                <strong aria-label="Lorem ipsum 7" class="govuk-tag moj-tag--grey" title="Lorem ipsum 8">
+                    Lorem ipsum 7
                 </strong>
             </td>
         </tr>
