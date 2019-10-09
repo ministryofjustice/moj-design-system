@@ -60,6 +60,29 @@ If users need the option to upload more than one file, include an additional scr
   id: '2'
 }) }}
 
+### Deleting a file
+
+What happens when a user deletes a file depends on whether the list contains 1 file or multiple.
+
+If there's multiple files in the list, display a success message at the top of the page.
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'delete-multiple',
+  section: 'patterns',
+  height: 1083,
+  id: '2'
+}) }}
+
+If there's 1 file in the list, take users to the upload screen with a success message at the top of the page.
+
+{{ dsExample({
+  name: 'upload-files',
+  example: 'delete-one',
+  section: 'patterns',
+  height: 783
+}) }}
+
 ### Let users upload multiple files at once
 
 When users need to upload multiple files, start by letting them upload one file at a time, as shown in the previous example.
