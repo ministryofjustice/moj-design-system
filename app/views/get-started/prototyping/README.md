@@ -14,7 +14,7 @@ The MOJ Design System uses MOJ Frontend. To install it, run these steps:
 
 ## Updating MOJ Frontend
 
-The current version of MOJ Frontend is **0.0.15-alpha**.
+The current version of MOJ Frontend is **0.0.16-alpha**.
 
 You can check which version your prototype is running by opening `package.json` in the root folder of your prototype. Look for `"@ministryofjustice/frontend"` under `"dependencies"`.
 
