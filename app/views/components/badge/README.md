@@ -66,18 +66,10 @@ There are a number of additional colour styles that can be used:
   </tr>
   <tr class="govuk-table__row">
     <td class="govuk-table__cell">
-      <code>moj-badge--bright-red</code>
-    </td>
-    <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--bright-red">Lorem ipsum 4</span>
-    </td>
-  </tr>
-  <tr class="govuk-table__row">
-    <td class="govuk-table__cell">
       <code>moj-badge--green</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--green">Lorem ipsum 5</span>
+      <span class="moj-badge moj-badge--green">Lorem ipsum 4</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -85,7 +77,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--blue</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--blue">Lorem ipsum 6</span>
+      <span class="moj-badge moj-badge--blue">Lorem ipsum 5</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -93,7 +85,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--black</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--black">Lorem ipsum 7</span>
+      <span class="moj-badge moj-badge--black">Lorem ipsum 6</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -101,7 +93,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--grey</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--grey">Lorem ipsum 8</span>
+      <span class="moj-badge moj-badge--grey">Lorem ipsum 7</span>
     </td>
   </tr>
 </tbody>
@@ -143,18 +135,10 @@ There are a number of additional colour styles that can be used:
   </tr>
   <tr class="govuk-table__row">
     <td class="govuk-table__cell">
-      <code>moj-badge--bright-red moj-badge--large</code>
-    </td>
-    <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--bright-red moj-badge--large">Lorem ipsum 4</span>
-    </td>
-  </tr>
-  <tr class="govuk-table__row">
-    <td class="govuk-table__cell">
       <code>moj-badge--green moj-badge--large</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--green moj-badge--large">Lorem ipsum 5</span>
+      <span class="moj-badge moj-badge--green moj-badge--large">Lorem ipsum 4</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -162,7 +146,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--blue moj-badge--large</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--blue moj-badge--large">Lorem ipsum 6</span>
+      <span class="moj-badge moj-badge--blue moj-badge--large">Lorem ipsum 5</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -170,7 +154,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--black moj-badge--large</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--black moj-badge--large">Lorem ipsum 7</span>
+      <span class="moj-badge moj-badge--black moj-badge--large">Lorem ipsum 6</span>
     </td>
   </tr>
   <tr class="govuk-table__row">
@@ -178,7 +162,7 @@ There are a number of additional colour styles that can be used:
       <code>moj-badge--grey moj-badge--large</code>
     </td>
     <td class="govuk-table__cell">
-      <span class="moj-badge moj-badge--grey moj-badge--large">Lorem ipsum 8</span>
+      <span class="moj-badge moj-badge--grey moj-badge--large">Lorem ipsum 7</span>
     </td>
   </tr>
 </tbody>
