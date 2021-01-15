@@ -17,7 +17,7 @@
 
 {% set codeHref = './app/views/' + section + params.name + '/examples/' + params.example + '/template.html' %}
 {#% set cssHref = './app/views/' + section + params.name + '/examples/' + params.example + '/styles.css' %#}
-{#% set jsHref = './app/views/' + section + params.name + '/examples/' + params.example + '/scripts.html' %#}
+{% set jsHref = './app/views/' + section + params.name + '/examples/' + params.example + '/scripts.html' %}
 
 {% set exampleHref = '/' + section + params.name + '/examples/' + params.example %}
 
@@ -37,6 +37,16 @@
 {% endcode %}
 {% endset -%}
 
+{% if getJsCode(jsHref) %}
+  {%- set jsCode %}
+  {% code %}js
+  {{ getJsCode(jsHref) | safe }}
+  {% endcode %}
+  {% endset -%}
+{% else %}
+  {%- set jsCode = '' -%}
+{% endif %}
+
 <div class="app-example">
 
   <span class="app-example__new-window">
@@ -52,6 +62,9 @@
   <ul class="app-tabs__list">
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example + '-' + id}}">HTML</a></li>
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example + '-' + id}}">Nunjucks</a></li>
+    {%- if jsCode.length %}
+      <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#js{{'-' + params.example + '-' + id}}">JavaScript</a></li>
+    {% endif -%}
   </ul>
 
   <div class="app-tabs__panel app-js-hidden" id="html{{ '-' + params.example + '-' + id}}" data-module="app-copy">
@@ -64,11 +77,11 @@
   </div>
   {% endif -%#}
 
-  {#%- if jsCode.length %}
-  <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example }}" data-module="app-copy">
+  {%- if jsCode.length %}
+  <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example + '-' + id}}" data-module="app-copy">
     {{ jsCode | indent(4) | safe }}
   </div>
-  {% endif -%#}
+  {% endif -%}
 
   <div class="app-tabs__panel app-js-hidden" id="nunjucks{{ '-' + params.example + '-' + id}}" data-module="app-copy">
     {{ nunjucksCode | indent(4) | safe }}
