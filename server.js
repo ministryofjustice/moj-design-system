@@ -128,6 +128,12 @@ nunjucksEnvironment.addGlobal('getCssCode', fileHelper.getCSSCode);
 nunjucksEnvironment.addGlobal('getJsCode', fileHelper.getJSCode);
 nunjucksEnvironment.addExtension('NunjucksCodeHighlight', highlight);
 
+nunjucksEnvironment.addFilter('highlight', (code, lang = '') => {
+  const highlighted = hljs.highlight(lang, code).value
+
+  return new nunjucks.runtime.SafeString('<pre>' + highlighted + '</pre>');
+})
+
 // Add filters from MOJ Frontend
 let mojFilters = require('./node_modules/@ministryofjustice/frontend/moj/filters/all')();
 mojFilters = Object.assign(mojFilters);

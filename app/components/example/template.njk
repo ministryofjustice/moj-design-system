@@ -37,15 +37,7 @@
 {% endcode %}
 {% endset -%}
 
-{% if getJsCode(jsHref) %}
-  {%- set jsCode %}
-  {% code %}js
-  {{ getJsCode(jsHref) | safe }}
-  {% endcode %}
-  {% endset -%}
-{% else %}
-  {%- set jsCode = '' -%}
-{% endif %}
+{%- set jsCode = getJsCode(jsHref) -%}
 
 <div class="app-example">
 
@@ -79,7 +71,7 @@
 
   {%- if jsCode.length %}
   <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example + '-' + id}}" data-module="app-copy">
-    {{ jsCode | indent(4) | safe }}
+    {{ jsCode | highlight('js') | indent(6) }}
   </div>
   {% endif -%}
 
