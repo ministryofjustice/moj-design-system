@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ministryofjustice/mojdt-design-system#readme",
   "dependencies": {
-    "@ministryofjustice/frontend": "0.0.17-alpha",
+    "@ministryofjustice/frontend": "^0.2.0",
     "basic-auth": "^2.0.0",
     "basic-auth-connect": "^1.0.0",
     "body-parser": "^1.19.0",
@@ -39,7 +39,7 @@
     "gray-matter": "^4.0.1",
     "gulp": "^4.0.0",
     "gulp-nodemon": "^2.4.2",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "highlight.js": "^9.14.2",
     "js-beautify": "^1.7.5",
