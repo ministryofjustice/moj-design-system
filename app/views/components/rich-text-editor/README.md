@@ -6,6 +6,16 @@ Use the rich text editor component to let users format their input in a textarea
   height: 300
 }) }}
 
+### Customise formatting options
+
+You can customise the formatting options shown in the toolbar with the `data-moj-rich-text-editor-toolbar` attribute.
+
+{{ dsExample({
+  name: 'rich-text-editor',
+  example: 'formatting',
+  height: 300
+}) }}
+
 ## When not to use this component
 
 Don't use this if the user only needs to send a short, simple message.
