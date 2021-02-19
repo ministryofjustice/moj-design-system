@@ -1,4 +1,4 @@
-Use the search component to let users search by word or phrase. This can be used within the [Primary Navigation](/components/primary-navigatio/) component.
+Use the search component to let users search by word or phrase. This can be used within the [Primary Navigation](/components/primary-navigation/) component.
 
 {{ dsExample({
   name: 'search',
