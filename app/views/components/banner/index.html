@@ -17,6 +17,19 @@
     text: 'experimental'
   }) }}
 
+  {% set html %}
+    <h3 class="govuk-notification-banner__heading">
+      The GOV.UK Design System has a similar component
+    </h3>
+    <p class="govuk-body">The <a href="https://design-system.service.gov.uk/components/notification-banner/">Notification banner component</a> in the GOV.UK Design System has a similar function and visual design to this component.</p>
+    <p class="govuk-body">You should consider using the GOV.UK version if it fits your needs.</p>
+  {% endset %}
+
+
+  {{ govukNotificationBanner({
+    html: html
+  }) }}
+
   <div class="app-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
