@@ -1,8 +1,20 @@
-This guide explains how to deploy prototypes to MOJ's Heroku account.
+This guide explains how to deploy prototypes to MOJ Cloud Platform or Heroku.
 
 After following this guide your prototype will automatically deploy any changes that you push to GitHub.
 
-## Before you start
+## Deploying to MOJ Cloud Platform
+
+If you work for the Ministry of Justice, we recommend using MOJ Cloud Platform to deploy your prototype.
+
+The [Cloud Platform guide](https://user-guide.cloud-platform.service.justice.gov.uk/documentation/getting-started/prototype-kit.html) shows you how to set up a GitHub repository with the prototype kit installed, along with a Cloud Platform hosting environment. Changes to your repository will automatically be deployed to Cloud Platform.
+
+If you have any further questions, ask in the [#ask-cloud-platform](https://mojdt.slack.com/messages/ask-cloud-platform) Slack channel.
+
+## Deploying to Heroku
+
+You can also use Heroku to host your prototypes. This is recommended for staff outside the Ministry of Justice or those supporting older prototypes which are already hosted on Heroku.
+
+### Before you start
 
 You'll need to be a member of the [moj-design](https://dashboard.heroku.com/teams/moj-design/apps) Heroku team and have your prototype in [MOJ's GitHub account](https://github.com/ministryofjustice).
 
@@ -10,7 +22,7 @@ If you don't have access to these, ask in the Slack channel [#moj-design-system-
 
 <!-- If you don't know how to setup GitHub read the [version your prototype](#) guide. -->
 
-## Setting up Heroku
+### Setting up Heroku
 
 We use pipelines in Heroku. Pipelines let you have multiple apps and keep things together in one place.
 
@@ -24,7 +36,7 @@ We use pipelines in Heroku. Pipelines let you have multiple apps and keep things
 
 If everything has worked you should be taken to the pipeline view. You then need to create an app to deploy your prototype to.
 
-## Creating an app
+### Creating an app
 
 From the pipeline view.
 
@@ -40,7 +52,7 @@ You can check that the app has been deployed by selecting 'Open app'.
 
 You should see a screen saying 'Error: Username or password not set. See guidance for setting these.' instead of your prototype. Now follow the guidance on setting a username and password for your app.
 
-## Setting a username and password
+### Setting a username and password
 
 Prototypes require a username and password when published online. This stops members of the public coming across your prototype by accident.
 
@@ -56,7 +68,7 @@ You can now navigate back to the pipeline and open the app in a browser to test 
 
 If this has worked you should see a modal dialogue asking for a username and password.
 
-## Deploying your prototype
+### Deploying your prototype
 
 1. from the pipeline view app in production click the small dropdown icon within the tile
 2. select 'Deploy a branch' the default branch is `master` you'll normally want to retain this default
@@ -64,7 +76,7 @@ If this has worked you should see a modal dialogue asking for a username and pas
 
 If everything is working you should see a 'building app' message.
 
-## Configure automatic deploys
+### Configure automatic deploys
 
 Automatic deploys mean that every push to the `master` branch will deploy a new version of this app.
 
@@ -73,7 +85,7 @@ Automatic deploys mean that every push to the `master` branch will deploy a new 
 3. you'll see a dialogue asking you to choose a branch to deploy the default branch is `master` you'll normally want to retain this default
 4. click the 'Enable Automatic Deploys' button
 
-## Enable review apps
+### Enable review apps
 
 Review apps make it easy for your team to collaborate on design work by easily deploying pull requests. Meaning that the entire team can comment and review design work before you add it to your main prototype.
 
