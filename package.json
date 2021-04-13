@@ -1,5 +1,5 @@
 {
-  "name": "mojdt-design-system",
+  "name": "moj-design-system",
   "version": "0.0.1-alpha",
   "description": "The MOJ Design System is one place for service teams to find styles, components and patterns for designing Ministry of Justice services.",
   "keywords": [
@@ -9,21 +9,21 @@
     "design",
     "patterns"
   ],
-  "website": "https://mojdt-design-system.herokuapp.com/",
+  "website": "https://moj-design-system.herokuapp.com/",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp generate-assets"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ministryofjustice/mojdt-design-system.git"
+    "url": "git+https://github.com/ministryofjustice/moj-design-system.git"
   },
-  "author": "Simon Whatley, Gavin Wye, Matthew Solle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ministryofjustice/mojdt-design-system/issues"
+    "url": "https://github.com/ministryofjustice/moj-design-system/issues"
   },
-  "homepage": "https://github.com/ministryofjustice/mojdt-design-system#readme",
+  "homepage": "https://github.com/ministryofjustice/moj-design-system#readme",
   "dependencies": {
     "@ministryofjustice/frontend": "^0.2.1",
     "basic-auth": "^2.0.0",
@@ -31,8 +31,8 @@
     "body-parser": "^1.19.0",
     "browser-sync": "^2.26.7",
     "clipboard": "^2.0.4",
-    "del": "^3.0.0",
-    "dotenv": "^6.0.0",
+    "del": "^6.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "express-session": "^1.16.2",
     "govuk-frontend": "^3.11.0",
@@ -40,11 +40,10 @@
     "gulp": "^4.0.0",
     "gulp-nodemon": "^2.4.2",
     "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "highlight.js": "^9.14.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "highlight.js": "^10.7.2",
     "js-beautify": "^1.7.5",
-    "markdown-it": "^8.4.1",
-    "marked": "^0.7.0",
+    "marked": "^2.0.3",
     "multer": "^1.4.2",
     "nunjucks": "^3.1.3",
     "nunjucks-highlight.js": "0.0.5",
