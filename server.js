@@ -128,8 +128,8 @@ nunjucksEnvironment.addGlobal('getCssCode', fileHelper.getCSSCode);
 nunjucksEnvironment.addGlobal('getJsCode', fileHelper.getJSCode);
 nunjucksEnvironment.addExtension('NunjucksCodeHighlight', highlight);
 
-nunjucksEnvironment.addFilter('highlight', (code, lang = '') => {
-  const highlighted = hljs.highlight(lang, code).value
+nunjucksEnvironment.addFilter('highlight', (code, language = '') => {
+  const highlighted = hljs.highlight(code, { language }).value
 
   return new nunjucks.runtime.SafeString('<pre>' + highlighted + '</pre>');
 })
