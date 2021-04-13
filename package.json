@@ -12,7 +12,8 @@
   "website": "https://moj-design-system.herokuapp.com/",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp generate-assets"
   },
   "repository": {
     "type": "git",
