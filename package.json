@@ -1,5 +1,5 @@
 {
-  "name": "mojdt-design-system",
+  "name": "moj-design-system",
   "version": "0.0.1-alpha",
   "description": "The MOJ Design System is one place for service teams to find styles, components and patterns for designing Ministry of Justice services.",
   "keywords": [
@@ -9,21 +9,20 @@
     "design",
     "patterns"
   ],
-  "website": "https://mojdt-design-system.herokuapp.com/",
+  "website": "https://moj-design-system.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ministryofjustice/mojdt-design-system.git"
+    "url": "git+https://github.com/ministryofjustice/moj-design-system.git"
   },
-  "author": "Simon Whatley, Gavin Wye, Matthew Solle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ministryofjustice/mojdt-design-system/issues"
+    "url": "https://github.com/ministryofjustice/moj-design-system/issues"
   },
-  "homepage": "https://github.com/ministryofjustice/mojdt-design-system#readme",
+  "homepage": "https://github.com/ministryofjustice/moj-design-system#readme",
   "dependencies": {
     "@ministryofjustice/frontend": "^0.2.1",
     "basic-auth": "^2.0.0",
