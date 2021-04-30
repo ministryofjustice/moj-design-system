@@ -4,8 +4,7 @@ The MOJ Design System is one place for service teams to find styles, components 
 
 ## Contact the team
 
-The MOJ Design System is maintained by a team at the Ministry of Justice. If you want to know more, please email the [Design System
-team](mailto:design-system@digital.justice.gov.uk).
+The MOJ Design System is maintained by a team at the Ministry of Justice. If you want to know more, please [contact the Design System team](https://moj-design-system.herokuapp.com/get-in-touch).
 
 ## Installing the design system
 
