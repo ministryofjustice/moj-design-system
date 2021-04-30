@@ -128,7 +128,7 @@ nunjucksEnvironment.addGlobal('getJsCode', fileHelper.getJSCode);
 nunjucksEnvironment.addFilter('highlight', (code, language = '') => {
   const highlighted = hljs.highlight(code, { language }).value
 
-  return new nunjucks.runtime.SafeString('<pre>' + highlighted + '</pre>');
+  return new nunjucks.runtime.SafeString(highlighted);
 })
 
 // Add filters from MOJ Frontend
