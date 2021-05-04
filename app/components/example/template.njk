@@ -26,18 +26,24 @@
 {% endif -%}
 
 {%- set nunjucksCode %}
-{% code %}js
-{{ getNunjucksCode(codeHref) | safe }}
-{% endcode %}
+<pre><code class="hljs jinja">
+{{- getNunjucksCode(codeHref) | highlight('jinja') -}}
+</code></pre>
 {% endset -%}
 
 {%- set htmlCode %}
-{% code %}html
-{{ getHtmlCode(codeHref) | safe }}
-{% endcode %}
+<pre><code class="hljs html">
+{{- getHtmlCode(codeHref) | highlight('html') -}}
+</code></pre>
 {% endset -%}
 
-{%- set jsCode = getJsCode(jsHref) -%}
+{%- set jsCode %}
+<pre><code class="hljs js">
+{{- getJsCode(jsHref) | highlight('js') -}}
+</code></pre>
+{% endset -%}
+
+{% set showJsCode = getJsCode(jsHref).length > 0 %}
 
 <div class="app-example">
 
@@ -54,13 +60,13 @@
   <ul class="app-tabs__list">
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example + '-' + id}}">HTML</a></li>
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example + '-' + id}}">Nunjucks</a></li>
-    {%- if jsCode.length %}
+    {%- if showJsCode %}
       <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#js{{'-' + params.example + '-' + id}}">JavaScript</a></li>
     {% endif -%}
   </ul>
 
   <div class="app-tabs__panel app-js-hidden" id="html{{ '-' + params.example + '-' + id}}" data-module="app-copy">
-    {{ htmlCode | indent(4) | safe }}
+    {{ htmlCode | indent(6) | safe }}
   </div>
 
   {#%- if cssCode.length %}
@@ -69,14 +75,14 @@
   </div>
   {% endif -%#}
 
-  {%- if jsCode.length %}
+  {%- if showJsCode %}
   <div class="app-tabs__panel app-js-hidden" id="js{{ '-' + params.example + '-' + id}}" data-module="app-copy">
-    {{ jsCode | highlight('js') | indent(6) }}
+    {{ jsCode | indent(6) | safe }}
   </div>
   {% endif -%}
 
   <div class="app-tabs__panel app-js-hidden" id="nunjucks{{ '-' + params.example + '-' + id}}" data-module="app-copy">
-    {{ nunjucksCode | indent(4) | safe }}
+    {{ nunjucksCode | indent(6) | safe }}
 
     {%- if argumentsHref %}
     You can configure this component using the [Nunjucks macro arguments]({{ argumentsHref }})

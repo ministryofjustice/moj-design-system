@@ -12,9 +12,7 @@ const sessionInMemory = require('express-session');
 const bodyParser = require('body-parser');
 const marked = require('marked');
 const fileHelper = require('./app/utils/file-helper');
-const NunjucksCodeHighlight = require('nunjucks-highlight.js');
 const hljs = require('highlight.js');
-const highlight = new NunjucksCodeHighlight(nunjucks, hljs);
 
 let sessionOptions = {
   secret: 'moj-frontend'
@@ -126,12 +124,11 @@ nunjucksEnvironment.addGlobal('getNunjucksCode', fileHelper.getNunjucksCode);
 nunjucksEnvironment.addGlobal('getHtmlCode', fileHelper.getHTMLCode);
 nunjucksEnvironment.addGlobal('getCssCode', fileHelper.getCSSCode);
 nunjucksEnvironment.addGlobal('getJsCode', fileHelper.getJSCode);
-nunjucksEnvironment.addExtension('NunjucksCodeHighlight', highlight);
 
 nunjucksEnvironment.addFilter('highlight', (code, language = '') => {
   const highlighted = hljs.highlight(code, { language }).value
 
-  return new nunjucks.runtime.SafeString('<pre>' + highlighted + '</pre>');
+  return new nunjucks.runtime.SafeString(highlighted);
 })
 
 // Add filters from MOJ Frontend
