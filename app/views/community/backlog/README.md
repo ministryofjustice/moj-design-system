@@ -8,7 +8,7 @@ The [community backlog](https://github.com/ministryofjustice/moj-design-system-b
 - **To do** – the proposed component or pattern has been agreed and is ready to work on
 - **In progress** – someone is actively working on the component or pattern
 
-You can discuss the existing styles, components and patterns in the Design System, or ones being developed, by commenting on issues in the [community backlog](https://github.com/ministryofjustice/mojdt-design-system-backlog/projects/1). 
+You can discuss the existing styles, components and patterns in the Design System, or ones being developed, by commenting on issues in the [community backlog](https://github.com/ministryofjustice/moj-design-system-backlog/projects/1).
 
 For example, you can:
 

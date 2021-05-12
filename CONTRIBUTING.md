@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-Please note we have a [code of conduct](https://github.com/ministryofjustice/mojdt-design-system/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://github.com/ministryofjustice/moj-design-system/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Contributing
 
@@ -23,7 +23,7 @@ When describing the bug, it's useful to follow the format:
 
 ## Suggesting features
 
-Please [raise feature requests as issues](https://github.com/ministryofjustice/mojdt-design-system/issues) before contributing any code.
+Please [raise feature requests as issues](https://github.com/ministryofjustice/moj-design-system/issues) before contributing any code.
 
 Raising an issue ensures they are openly discussed and before spending any time on them.
 
@@ -41,4 +41,4 @@ Change versions in a commit of their own, in a pull request of their own. This c
 - Use the imperative mood ("Move thing to..." not "Moves thing to...")
 - Limit the first line to 72 characters or less
 - Reference issues and pull requests liberally after the first line
-- Use a [pull request template](https://github.com/ministryofjustice/mojdt-design-system/blob/master/.github/PULL_REQUEST_TEMPLATE)
+- Use a [pull request template](https://github.com/ministryofjustice/moj-design-system/blob/main/.github/PULL_REQUEST_TEMPLATE)
