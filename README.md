@@ -82,9 +82,9 @@ Create a folder called `Projects` in your `Documents` folder.
 
 #### Unzip the design system and move it
 
-Unzip the design system you downloaded - you should end up with a folder called `mojdt-design-system-master`.
+Unzip the design system you downloaded - you should end up with a folder called `moj-design-system-main`.
 
-Rename the folder to something descriptive for your local version. For this guide, we’ll use `mojdt-design-system`.
+Rename the folder to something descriptive for your local version. For this guide, we’ll use `moj-design-system`.
 
 Move the folder into your `Projects` folder.
 
@@ -99,18 +99,18 @@ Learning a few basic terminal commands can make using the kit much easier.
 
 #### Navigating to your local instance
 
-You need to navigate to your local instance in the terminal. Most commands for the kit need to be run in the mojdt-design-system folder.
+You need to navigate to your local instance in the terminal. Most commands for the kit need to be run in the moj-design-system folder.
 
 **Mac users:**
 
 ```
-cd ~/Projects/mojdt-design-system
+cd ~/Projects/moj-design-system
 ```
 
 **Windows users:**
 
 ```
-cd ~/Documents/Projects/mojdt-design-system
+cd ~/Documents/Projects/moj-design-system
 ```
 
 ### Install the kit
@@ -147,14 +147,14 @@ _NB. if port 3000 is already in use, the design system will try and find the nex
 This repository is maintained by a team at the Ministry of Justice. If you’ve got a question or need support you can:
 
 - Email design-system@digital.justice.gov.uk.
-- [View known issues on GitHub](https://github.com/ministryofjustice/mojdt-design-system/issues).
+- [View known issues on GitHub](https://github.com/ministryofjustice/moj-design-system/issues).
 
 ## Contributing
 If you’ve got an idea or suggestion you can:
 
 - Email design-system@digital.justice.gov.uk.
-- [Create a GitHub issue](https://github.com/ministryofjustice/mojdt-design-system/issues).
+- [Create a GitHub issue](https://github.com/ministryofjustice/moj-design-system/issues).
 
 ## Licence
 
-Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/ministryofjustice/mojdt-design-system/blob/master/LICENSE). This covers both the codebase and any sample code in the documentation.
+Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/ministryofjustice/moj-design-system/blob/main/LICENSE). This covers both the codebase and any sample code in the documentation.

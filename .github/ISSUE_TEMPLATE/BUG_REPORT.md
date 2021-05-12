@@ -8,7 +8,7 @@ about: Report a bug to help us improve the project
 
 Have you read the Code of Conduct? By filing an Issue, you are expected to comply with it, including treating everyone with respect:
 
-https://github.com/ministryofjustice/moj-design-system/blob/master/CODE_OF_CONDUCT.md
+https://github.com/ministryofjustice/moj-design-system/blob/main/CODE_OF_CONDUCT.md
 
 Do you want to ask a question? Are you looking for support? You can [contact the Design System team](https://moj-design-system.herokuapp.com/get-in-touch).
 

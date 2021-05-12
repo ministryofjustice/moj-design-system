@@ -53,4 +53,4 @@ This component accepts the following arguments.
 
 ## Licence
 
-Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/ministryofjustice/mojdt-design-system/blob/master/LICENSE). This covers both the codebase and any sample code in the documentation.
+Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/ministryofjustice/moj-design-system/blob/main/LICENSE). This covers both the codebase and any sample code in the documentation.
