@@ -1,0 +1,16 @@
+{% set html %}
+  <h3 class="govuk-notification-banner__heading">
+    The MOJ Design System has moved
+  </h3>
+  <p class="govuk-body">You can now find the MOJ Pattern Library at <a href="https://design-patterns.service.justice.gov.uk">design-patterns.service.justice.gov.uk</a>.</p>
+
+  <p class="govuk-body">Use the MOJ Pattern Library for the latest documentation, or if you want to contribute research findings, designs or code.</p>
+
+  <p class="govuk-body">If you’re already using MOJ components and patterns in your project, you do not need to make any changes to your installation.</p>
+{% endset %}
+
+<div class="govuk-width-container govuk-!-margin-top-6 govuk-!-margin-bottom-6">
+  {{ govukNotificationBanner({
+    html: html
+  }) }}
+</div>
