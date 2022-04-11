@@ -1,3 +1,7 @@
+**This repository has been archived, please see [ministryofjustice/moj-frontend](https://github.com/ministryofjustice/moj-frontend) for all Pattern Library code, docs and conversation**
+
+---
+
 # MOJ Design System
 
 The MOJ Design System is one place for service teams to find styles, components and patterns for designing Ministry of Justice services.
