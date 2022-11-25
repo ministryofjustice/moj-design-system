@@ -1,0 +1,65 @@
+  {% extends "govuk/template.njk" %}
+
+    {%- from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner -%}
+    {%- from "moj/components/header/macro.njk" import mojHeader -%}
+    {%- from "moj/components/primary-navigation/macro.njk" import mojPrimaryNavigation -%}
+    {%- from "moj/components/sub-navigation/macro.njk" import mojSubNavigation -%}
+
+    {% block head %}
+      <!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+      <!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" /><!--<![endif]-->
+    {% endblock %}
+
+    {% block header %}
+      {{ mojHeader({
+        organisationLabel: {
+          text: 'HMPPS',
+          href: '#'
+        },
+        serviceLabel: {
+          text: 'Manage prisoner money',
+          href: '#'
+        },
+        navigation: {
+        label: 'Account navigation',
+        items: [{
+            text: 'Account',
+            href: '#'
+          }, {
+            text: 'Sign out',
+            href: '#'
+          }]
+        }
+      }) }}
+
+      <div class="moj-width-container">
+        {{ govukPhaseBanner({
+          classes: 'app-phase-banner',
+          tag: {
+            text: "alpha"
+          },
+          html: 'This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.'
+        }) }}
+      </div>
+
+      {{ mojPrimaryNavigation({
+        label: 'Primary navigation',
+        items: [{
+          text: 'Your applications',
+          href: '#1',
+          active: true
+        }, {
+          text: 'Your messages',
+          href: '#2'
+        }]
+      }) }}
+    {% endblock %}
+
+    {% block content %}
+      <h1 class="govuk-heading-xl">Your applications</h1>
+    {% endblock %}
+
+    {% block footer %}
+      {{ govukFooter({}) }}
+    {% endblock %}
+
